@@ -4,10 +4,10 @@
     "src/*.module.json"
   ],
   "plugins": [
-    "Sitecore.DevEx.Extensibility.Serialization@5.0.16",
-    "Sitecore.DevEx.Extensibility.Publishing@5.0.16",
-    "Sitecore.DevEx.Extensibility.Indexing@5.0.16",
-    "Sitecore.DevEx.Extensibility.ResourcePackage@5.0.16",
+    "Sitecore.DevEx.Extensibility.Serialization@5.1.25",
+    "Sitecore.DevEx.Extensibility.Publishing@5.1.25",
+    "Sitecore.DevEx.Extensibility.Indexing@5.1.25",
+    "Sitecore.DevEx.Extensibility.ResourcePackage@5.1.25",
     "Sitecore.DevEx.Extensibility.XMCloud@1.1.16"
   ],
   "serialization": {
