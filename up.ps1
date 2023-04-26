@@ -112,7 +112,7 @@ Write-Host "Pushing sitecore API key" -ForegroundColor Green
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
     
-    Start-Process https://merklestarter.xmcloudcm.localhost/sitecore/
+    Start-Process https://$xmCloudHost/sitecore/
 }
 
 Write-Host ""
