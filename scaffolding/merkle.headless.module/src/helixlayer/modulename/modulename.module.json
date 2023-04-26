@@ -1,0 +1,18 @@
+{
+  "namespace": "helixlayer.modulename",
+  "references": ["Foundation.BaseTemplates"],
+  "items": {
+    "includes": [
+	  {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/helixlayer/modulename",
+        "database": "master"
+      },
+	  {
+        "name": "Templates",
+        "path": "/sitecore/templates/helixlayer/modulename",
+        "database": "master"
+      }  
+	]
+  }
+}
