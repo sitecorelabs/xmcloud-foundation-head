@@ -4,20 +4,21 @@ Param (
         ParameterSetName = "env-init")]
     [switch]$InitEnv,
 
-    [Parameter(Mandatory = $true,
+    [Parameter(
         HelpMessage = "The path to a valid Sitecore license.xml file.",
         ParameterSetName = "env-init")]
-    [string]$LicenseXmlPath,
+    [string]$LicenseXmlPath = "c:\sitecore\license\license.xml",
 
     # We do not need to use [SecureString] here since the value will be stored unencrypted in .env,
     # and used only for transient local development environments.
-    [Parameter(Mandatory = $true,
+    [Parameter(
         HelpMessage = "Sets the sitecore\\admin password for this environment via environment variable.",
         ParameterSetName = "env-init")]
-    [string]$AdminPassword
+    [string]$AdminPassword = "Password1234!"
 )
 
 $ErrorActionPreference = "Stop";
+$Subdomain = "merklestarter";
 
 if ($InitEnv) {
     if (-not $LicenseXmlPath.EndsWith("license.xml")) {
@@ -77,8 +78,8 @@ try {
     }
     Write-Host "Generating Traefik TLS certificate..." -ForegroundColor Green
     & $mkcert -install
-    & $mkcert "*.merklestarter.localhost"
-    & $mkcert "merklestarter.xmcloudcm.localhost"
+    & $mkcert "*.$Subdomain.localhost"
+    & $mkcert "$Subdomain.xmcloudcm.localhost"
 
     # stash CAROOT path for messaging at the end of the script
     $caRoot = "$(& $mkcert -CAROOT)\rootCA.pem"
@@ -97,8 +98,8 @@ finally {
 
 Write-Host "Adding Windows hosts file entries..." -ForegroundColor Green
 
-Add-HostsEntry "merklestarter.xmcloudcm.localhost"
-Add-HostsEntry "www.merklestarter.localhost"
+Add-HostsEntry "$Subdomain.xmcloudcm.localhost"
+Add-HostsEntry "www.$Subdomain.localhost"
 
 ###############################
 # Generate scjssconfig
@@ -127,14 +128,20 @@ if ($InitEnv) {
 
     Write-Host "Populating required .env file values..." -ForegroundColor Green
 
+    # Compose Project Name
+    Set-EnvFileVariable "COMPOSE_PROJECT_NAME" -Value $Subdomain
+
     # HOST_LICENSE_FOLDER
     Set-EnvFileVariable "HOST_LICENSE_FOLDER" -Value $LicenseXmlPath
 
     # CM_HOST
-    Set-EnvFileVariable "CM_HOST" -Value "merklestarter.xmcloudcm.localhost"
+    Set-EnvFileVariable "CM_HOST" -Value "$Subdomain.xmcloudcm.localhost"
+
+    # Redirect Base Url
+    Set-EnvFileVariable "SITECORE_FedAuth_dot_Auth0_dot_RedirectBaseUrl" -Value "https://$Subdomain.xmcloudcm.localhost/"
 
     # RENDERING_HOST
-    Set-EnvFileVariable "RENDERING_HOST" -Value "www.merklestarter.localhost"
+    Set-EnvFileVariable "RENDERING_HOST" -Value "www.$Subdomain.localhost"
 
     # REPORTING_API_KEY = random 64-128 chars
     Set-EnvFileVariable "REPORTING_API_KEY" -Value (Get-SitecoreRandomString 128 -DisallowSpecial)

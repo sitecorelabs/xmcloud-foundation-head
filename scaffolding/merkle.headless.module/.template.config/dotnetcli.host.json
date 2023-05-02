@@ -1,0 +1,12 @@
+{
+  "symbolInfo": {
+    "CompanyName": {
+      "longName": "company-name",
+      "shortName": "cn"
+    },
+    "HelixLayer": {
+      "longName": "helix-layer",
+      "shortName": "hl"
+    }
+  }
+}

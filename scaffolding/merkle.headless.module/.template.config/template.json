@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Chet Potvin",
+  "classifications": [ "Sitecore", "Sitecore Content Serialization" ], 
+  "name": "Merkle Headless Module",
+  "identity": "Merkle.Headless.Module",         
+  "groupIdentity":"Merkle",
+  "shortName": "merkle.headless.module",
+  "tags": {
+    "language": "json",
+    "type":"project"
+  },
+  "preferNameDirectory": false,
+  "symbols":{
+    "CompanyName": {
+      "type": "parameter",
+      "defaultValue": "Merkle",
+      "replaces":"companyname",
+	  "fileRename": "companyname"
+    },
+    "HelixLayer": {
+      "type": "parameter",
+	  "datatype": "choice",
+      "defaultValue": "Feature",
+	  "choices": [
+	  {
+	    "choice":"Feature",
+	    "description":"Feature"
+	  },
+	  	  {
+	    "choice":"Project",
+	    "description":"Project"
+	  },
+	  {
+	    "choice":"Foundation",
+	    "description":"Foundation"
+	  }],
+      "replaces":"helixlayer",
+	  "fileRename":"helixlayer"
+    },
+	"ModuleRename": {
+	  "type": "derived",
+	  "valueSource": "name",
+	  "valueTransform": "first_uc",  
+	  "replaces": "modulename",
+	  "fileRename": "modulename"
+	}
+  },
+  "forms": {
+    "first_uc": {
+      "identifier": "firstUpperCase"
+    }
+  }
+}

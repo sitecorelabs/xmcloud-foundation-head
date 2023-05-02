@@ -40,7 +40,6 @@
             "docker/build/cm/templates/.sitecore/**",
             "docker/traefik/certs/*.pem",
             "src/Project/sxastarter/sxastarter/node_modules/**"
-            
           ]
         }
       ]
