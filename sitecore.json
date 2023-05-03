@@ -1,7 +1,8 @@
 {
   "$schema": "./.sitecore/schemas/RootConfigurationFile.schema.json",
   "modules": [
-    "src/**/*.module.json"
+    "src/**/*.module.json",
+    "scaffolding/merkle.feature*/**/*.module.json"
   ],
   "plugins": [
     "Sitecore.DevEx.Extensibility.Serialization@5.1.25",

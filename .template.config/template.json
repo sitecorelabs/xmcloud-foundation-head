@@ -24,7 +24,8 @@
         {
           "rename": {
             ".env-template": ".env",
-            "nuget.public.config": "nuget.config"
+            "nuget.public.config": "nuget.config",
+            "sitecore.json-template":"sitecore.json"
           },
           "exclude": [
             ".env-disabled",
@@ -39,7 +40,9 @@
             "docker/data/sql/*.ldf",
             "docker/build/cm/templates/.sitecore/**",
             "docker/traefik/certs/*.pem",
-            "src/Project/sxastarter/sxastarter/node_modules/**"
+            "src/Project/sxastarter/sxastarter/node_modules/**",
+            "sitecore.json",
+            "XmCloudSXAStarter.sln"
           ]
         }
       ]
@@ -116,8 +119,8 @@
       "type": "derived",
       "valueSource": "name",
       "valueTransform": "first_uc",
-      "fileRename": "XmCloudSXAStarter",
-      "replaces": "XmCloudSXAStarter",
+      "fileRename": "SolutionTemplate",
+      "replaces": "SolutionTemplate",
       "description": "Renames files in the solution to the name specified"
     }
   }
