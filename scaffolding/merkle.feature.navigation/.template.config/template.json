@@ -4,7 +4,7 @@
   "classifications": [ "Sitecore", "Sitecore Content Serialization" ], 
   "name": "Merkle Navigation Feature",
   "identity": "Merkle.Feature.Navigation",         
-  "groupIdentity":"Merkle",
+  "groupIdentity":"Merkle.Feature.Navigation",
   "shortName": "merkle.feature.navigation",
   "tags": {
     "language": "json",
