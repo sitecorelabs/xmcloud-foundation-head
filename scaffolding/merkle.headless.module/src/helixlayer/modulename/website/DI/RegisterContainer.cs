@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace merklestarter.helixlayer.modulename.DI
+namespace companyname.helixlayer.modulename.DI
 {
     public class RegisterContainer : IServicesConfigurator
     {

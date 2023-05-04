@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace merklestarter.Feature.Navigation.DI
+namespace companyname.Feature.Navigation.DI
 {
     public class RegisterContainer : IServicesConfigurator
     {
