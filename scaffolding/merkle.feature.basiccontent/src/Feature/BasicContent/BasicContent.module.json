@@ -5,12 +5,12 @@
     "includes": [
 	  {
         "name": "Renderings",
-        "path": "/sitecore/layout/Renderings/Feature/BasicContent",
+        "path": "/sitecore/layout/Renderings/Feature/Basic Content",
         "database": "master"
       },
 	  {
         "name": "Templates",
-        "path": "/sitecore/templates/Feature/BasicContent",
+        "path": "/sitecore/templates/Feature/Basic Content",
         "database": "master"
       }  
 	]

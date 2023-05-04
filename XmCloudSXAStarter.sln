@@ -34,8 +34,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.Navigation", "scaffolding\merkle.feature.navigation\src\Feature\Navigation\website\companyname.Feature.Navigation.csproj", "{2B79E964-3FE5-4662-8569-3775F4AE1A7B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicContent", "{043FCC90-29F9-40FA-B54C-4DEED6383F89}"
+	ProjectSection(SolutionItems) = preProject
+		scaffolding\merkle.feature.basiccontent\src\Feature\BasicContent\BasicContent.module.json = scaffolding\merkle.feature.basiccontent\src\Feature\BasicContent\BasicContent.module.json
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "companyname.Feature.BasicContent", "scaffolding\merkle.feature.BasicContent\src\Feature\BasicContent\website\companyname.Feature.BasicContent.csproj", "{76396855-98A6-4E2C-885B-6DB46584A65A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.BasicContent", "scaffolding\merkle.feature.BasicContent\src\Feature\BasicContent\website\companyname.Feature.BasicContent.csproj", "{76396855-98A6-4E2C-885B-6DB46584A65A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
