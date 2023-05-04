@@ -1,16 +1,16 @@
 {
-  "namespace": "helixlayer.modulename",
+  "namespace": "Feature.Navigation",
   "references": ["Foundation.BaseTemplates"],
   "items": {
     "includes": [
 	  {
         "name": "Renderings",
-        "path": "/sitecore/layout/Renderings/helixlayer/modulename",
+        "path": "/sitecore/layout/Renderings/Feature/Navigation",
         "database": "master"
       },
 	  {
         "name": "Templates",
-        "path": "/sitecore/templates/helixlayer/modulename",
+        "path": "/sitecore/templates/Feature/Navigation",
         "database": "master"
       }  
 	]
