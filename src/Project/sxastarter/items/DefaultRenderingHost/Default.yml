@@ -47,12 +47,6 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4270ae06-bd81-4e8a-898f-5e530cbb8544"
-    - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
-      Hint: ServerSideRenderingEngineApplicationUrl
-      Value: 
-    - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
-      Hint: ServerSideRenderingEngineEndpointUrl
-      Value: 
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
