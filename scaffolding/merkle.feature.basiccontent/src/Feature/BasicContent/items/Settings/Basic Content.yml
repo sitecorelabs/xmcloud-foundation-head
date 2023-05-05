@@ -1,8 +1,8 @@
 ﻿---
-ID: "3b359de3-8eb8-46fb-be26-d337b33cafaa"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/Basic Content
+ID: "c0866b3d-1638-4623-8a02-2f28cacecf37"
+Parent: "256655ec-8f3a-45b5-ad90-b63bc25b8067"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Feature/Basic Content
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230505T172327Z
+      Value: 20230505T172328Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\chet.potvin@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7579c89a-8ce8-42c2-9219-86bf0fab4c75"
+      Value: "a523abec-1704-452d-84e1-432cac36b16e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\chet.potvin@merkle.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230505T172327Z
+      Value: 20230505T172328Z

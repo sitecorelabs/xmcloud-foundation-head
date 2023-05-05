@@ -1,18 +1,33 @@
 {
   "namespace": "Feature.BasicContent",
-  "references": ["Foundation.BaseTemplates"],
+  "references": [ "Foundation.BaseTemplates" ],
   "items": {
     "includes": [
-	  {
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/Feature/Basic Content",
+        "database": "master"
+      },
+      {
         "name": "Renderings",
         "path": "/sitecore/layout/Renderings/Feature/Basic Content",
         "database": "master"
       },
-	  {
+      {
         "name": "Templates",
         "path": "/sitecore/templates/Feature/Basic Content",
         "database": "master"
-      }  
-	]
+      },
+      {
+        "name": "Branches",
+        "path": "/sitecore/templates/Branches/Feature/Basic Content",
+        "database": "master"
+      },
+      {
+        "name": "Media Library",
+        "path": "/sitecore/media library/Feature/Basic Content",
+        "database": "master"
+      }
+    ]
   }
 }

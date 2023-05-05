@@ -1,8 +1,8 @@
 ﻿---
-ID: "3b359de3-8eb8-46fb-be26-d337b33cafaa"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/Basic Content
+ID: "4cf94e83-50a6-4e64-8522-31d828d8267f"
+Parent: "ad71facc-3c23-4df8-a427-672020db5612"
+Template: "85adbf5b-e836-4932-a333-fe0f9fa1ed1e"
+Path: /sitecore/templates/Branches/Feature/Basic Content
 Languages:
 - Language: en
   Versions:
@@ -21,7 +21,7 @@ Languages:
         sitecore\chet.potvin@merkle.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7579c89a-8ce8-42c2-9219-86bf0fab4c75"
+      Value: "23e03a09-dc31-4038-b80d-135b4b8f58f9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
