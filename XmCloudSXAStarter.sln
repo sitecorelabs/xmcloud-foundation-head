@@ -11,9 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution 
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F950F2F9-A430-434C-8B15-9FCC9AE9AE9A}"
-	ProjectSection(SolutionItems) = preProject
-		src\Foundation\Base Templates\BaseTemplates.module.json = src\Foundation\Base Templates\BaseTemplates.module.json
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{66A25B28-E628-44DE-BBF4-1229526B2948}"
 EndProject
@@ -39,6 +36,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasicContent", "BasicConten
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "companyname.Feature.BasicContent", "scaffolding\merkle.feature.BasicContent\src\Feature\BasicContent\website\companyname.Feature.BasicContent.csproj", "{76396855-98A6-4E2C-885B-6DB46584A65A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base Templates", "Base Templates", "{5EAFA978-F710-4CFE-9F54-F60261A6BAF0}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Base Templates\BaseTemplates.module.json = src\Foundation\Base Templates\BaseTemplates.module.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,7 @@ Global
 		{2B79E964-3FE5-4662-8569-3775F4AE1A7B} = {55425CD0-9626-4209-BCDF-F2DD7C4FEEC1}
 		{043FCC90-29F9-40FA-B54C-4DEED6383F89} = {8E0E5C10-1888-4E73-96C3-598CA484AB64}
 		{76396855-98A6-4E2C-885B-6DB46584A65A} = {043FCC90-29F9-40FA-B54C-4DEED6383F89}
+		{5EAFA978-F710-4CFE-9F54-F60261A6BAF0} = {F950F2F9-A430-434C-8B15-9FCC9AE9AE9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
