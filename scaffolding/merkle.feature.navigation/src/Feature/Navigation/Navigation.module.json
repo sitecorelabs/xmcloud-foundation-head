@@ -3,16 +3,31 @@
   "references": ["Foundation.BaseTemplates"],
   "items": {
     "includes": [
-	  {
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/Feature/Navigation",
+        "database": "master"
+      },
+      {
         "name": "Renderings",
         "path": "/sitecore/layout/Renderings/Feature/Navigation",
         "database": "master"
       },
-	  {
+      {
         "name": "Templates",
         "path": "/sitecore/templates/Feature/Navigation",
         "database": "master"
-      }  
+      },
+      {
+        "name": "Branches",
+        "path": "/sitecore/templates/Branches/Feature/Navigation",
+        "database": "master"
+      },
+      {
+        "name": "Media Library",
+        "path": "/sitecore/media library/Feature/Navigation",
+        "database": "master"
+      }
 	]
   }
 }
