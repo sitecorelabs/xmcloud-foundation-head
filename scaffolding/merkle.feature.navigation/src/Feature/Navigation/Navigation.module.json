@@ -19,11 +19,6 @@
         "database": "master"
       },
       {
-        "name": "Branches",
-        "path": "/sitecore/templates/Branches/Feature/Navigation",
-        "database": "master"
-      },
-      {
         "name": "Media Library",
         "path": "/sitecore/media library/Feature/Navigation",
         "database": "master"
