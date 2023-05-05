@@ -4,7 +4,7 @@
   "classifications": [ "Sitecore", "Sitecore Content Serialization" ], 
   "name": "Merkle Headless Module",
   "identity": "Merkle.Headless.Module",         
-  "groupIdentity":"Merkle",
+  "groupIdentity":"Merkle.Headless.Module",
   "shortName": "merkle.headless.module",
   "tags": {
     "language": "json",
