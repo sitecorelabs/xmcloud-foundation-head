@@ -3,16 +3,31 @@
   "references": ["Foundation.BaseTemplates"],
   "items": {
     "includes": [
-	  {
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/helixlayer/modulename",
+        "database": "master"
+      },
+      {
         "name": "Renderings",
         "path": "/sitecore/layout/Renderings/helixlayer/modulename",
         "database": "master"
       },
-	  {
+      {
         "name": "Templates",
         "path": "/sitecore/templates/helixlayer/modulename",
         "database": "master"
-      }  
+      },
+      {
+        "name": "Branches",
+        "path": "/sitecore/templates/Branches/helixlayer/modulename",
+        "database": "master"
+      },
+      {
+        "name": "Media Library",
+        "path": "/sitecore/media library/helixlayer/modulename",
+        "database": "master"
+      }
 	]
   }
 }
