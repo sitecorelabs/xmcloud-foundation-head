@@ -1,0 +1,18 @@
+{
+  "namespace": "Feature.BasicContent",
+  "references": ["Foundation.BaseTemplates"],
+  "items": {
+    "includes": [
+	  {
+        "name": "Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Basic Content",
+        "database": "master"
+      },
+	  {
+        "name": "Templates",
+        "path": "/sitecore/templates/Feature/Basic Content",
+        "database": "master"
+      }  
+	]
+  }
+}

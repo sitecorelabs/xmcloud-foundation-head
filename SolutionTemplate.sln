@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 17.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{196B5D43-B228-4632-9BC3-EAAF79B4EDA5}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		README.md = README.md
+		sitecore.json = sitecore.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{F950F2F9-A430-434C-8B15-9FCC9AE9AE9A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Foundation\Base Templates\BaseTemplates.module.json = src\Foundation\Base Templates\BaseTemplates.module.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{66A25B28-E628-44DE-BBF4-1229526B2948}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{8E0E5C10-1888-4E73-96C3-598CA484AB64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sxastarter", "sxastarter", "{7AC51496-1AC7-4F13-A80F-8CBE7096164A}"
+	ProjectSection(SolutionItems) = preProject
+		src\Project\sxastarter\renderinghost.module.json = src\Project\sxastarter\renderinghost.module.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "src\Project\sxastarter\platform\Platform.csproj", "{816F099C-E14B-4468-9E34-87F993C6484D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816F099C-E14B-4468-9E34-87F993C6484D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816F099C-E14B-4468-9E34-87F993C6484D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AC51496-1AC7-4F13-A80F-8CBE7096164A} = {66A25B28-E628-44DE-BBF4-1229526B2948}
+		{816F099C-E14B-4468-9E34-87F993C6484D} = {7AC51496-1AC7-4F13-A80F-8CBE7096164A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7C4987-3A11-41A9-8915-5457EF7B5A6F}
+	EndGlobalSection
+EndGlobal
