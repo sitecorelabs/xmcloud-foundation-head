@@ -20,7 +20,7 @@ services:
     volumes:
       - .\src\nextjs:C:\app
     environment:
-      SITECORE_API_HOST: "https://xmcloudcm.localhost"
+      SITECORE_API_HOST: "http://cm"
       NEXTJS_DIST_DIR: ".next-container"
       PUBLIC_URL: "https://${RENDERING_HOST}"
       JSS_EDITING_SECRET: ${JSS_EDITING_SECRET}
