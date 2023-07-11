@@ -1,0 +1,26 @@
+﻿---
+ID: "0c8fbb8a-0524-4e75-8846-89d8095ba033"
+Parent: "1404a77a-d5fd-46b3-aa4c-200f3d519979"
+Template: "1404a77a-d5fd-46b3-aa4c-200f3d519979"
+Path: /sitecore/templates/System/Layout/Layout Service/Rendering Contents Resolvers Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {814C1DBB-B118-4511-BA2B-7288ED3D490B}
+    {1404A77A-D5FD-46B3-AA4C-200F3D519979}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171129T141330Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7cabe67d-55b2-4a8d-a230-2441b17932db"

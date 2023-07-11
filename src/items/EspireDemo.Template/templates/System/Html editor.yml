@@ -1,0 +1,13 @@
+﻿---
+ID: "2ffb6e47-f751-474d-b6bf-90aa17393d55"
+Parent: "4bf98ef5-1d09-4dd1-9afe-795f9829fd44"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/templates/System/Html editor
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "A61A0A11-04F7-4CAB-A23E-D1C4725298EA"

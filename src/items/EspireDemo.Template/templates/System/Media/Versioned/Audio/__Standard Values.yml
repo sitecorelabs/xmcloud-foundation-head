@@ -1,0 +1,28 @@
+﻿---
+ID: "fbb96fe9-fed5-4d08-bfa3-55ed04eaa552"
+Parent: "e19a2758-f802-4fdc-b497-5ff7b3bac54b"
+Template: "e19a2758-f802-4fdc-b497-5ff7b3bac54b"
+Path: /sitecore/templates/System/Media/Versioned/Audio/__Standard Values
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8EA15044-EE2C-41DB-81D6-0A9C42062814}" mediapath="/System/Template Thumbnails/audio" src="-/media/8EA15044EE2C41DB81D60A9C42062814.ashx" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121130T054000
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "851334af-2446-4532-a51d-fb11c5a0754b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20150515T072340:635672714203323234Z"

@@ -1,0 +1,36 @@
+{
+    "namespace": "EspireDemo.Library",
+
+    "items": {
+        "includes": [
+            {
+                "name": "EspireDemo.Media Library",
+                "path": "/sitecore/media library",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants",
+                "rules": [
+                    {
+                        "path": "/Feature",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/Project/EspireDemo",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Project",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "SingleItem"
+                    },
+                    {
+                        "path": "*",
+                        "scope": "ignored"
+                    }
+                ]
+            }
+          
+        ]
+    }
+}

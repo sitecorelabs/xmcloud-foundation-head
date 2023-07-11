@@ -1,0 +1,28 @@
+﻿---
+ID: "3f2bb9d9-0498-40f1-a21c-34dd19fe5f4a"
+Parent: "777f0c76-d712-46ea-9f40-371acda18a1c"
+Template: "777f0c76-d712-46ea-9f40-371acda18a1c"
+Path: /sitecore/templates/System/Media/Unversioned/Document/__Standard Values
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{710D2188-92FC-4AA4-9486-DBBD106ACE4D}" mediapath="/System/Template Thumbnails/document" src="-/media/710D218892FC4AA49486DBBD106ACE4D.ashx" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20121130T054200
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3ba4f273-7ca3-4e82-aec7-063a4df269de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20150515T071732:635672710523505289Z"

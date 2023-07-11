@@ -1,0 +1,38 @@
+﻿---
+ID: "92d995a3-27bb-4c1d-aea5-260f7c2b06f8"
+Parent: "06a09414-4e9a-42e0-b9ce-0e07eccc870d"
+Template: "06a09414-4e9a-42e0-b9ce-0e07eccc870d"
+Path: /sitecore/templates/System/Webhooks/Authorization/OAuth2ClientCredentialsGrant/__Standard Values
+SharedFields:
+- ID: "87b3b326-0759-402d-9e4e-19b4dadff11a"
+  Hint: Authority URL
+  Value: "https://"
+- ID: "daccec7a-7d59-41ed-99be-670e6c1e68fc"
+  Hint: Header Prefix
+  Value: Bearer
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211104T105111Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae837ec9-a9a6-4f6c-9abc-4737bb144c1b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211104T105242Z

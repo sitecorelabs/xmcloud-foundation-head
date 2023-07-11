@@ -1,0 +1,51 @@
+﻿---
+ID: "1f99046d-07af-4ed2-90ff-025d4009cbd0"
+Parent: "32b6bbe1-b860-49ff-9f72-9e11f702d0bd"
+Template: "32b6bbe1-b860-49ff-9f72-9e11f702d0bd"
+Path: /sitecore/templates/System/DataContextFiltering/TemplateFilter/__Standard Values
+SharedFields:
+- ID: "01e0b031-7a29-4253-9033-dfd90fb260d7"
+  Hint: Include templates
+  Value: |
+    {E3E2D58C-DF95-4230-ADC9-279924CECE84}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+    {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
+    {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+    {35E75C72-4985-4E09-88C3-0EAC6CD1E64F}
+    {85ADBF5B-E836-4932-A333-FE0F9FA1ED1E}
+- ID: "16b83312-5fee-4892-806a-254eba647d01"
+  Hint: Type
+  Value: Sitecore.Web.UI.HtmlControls.AddFromTemplateFilterResolver,Sitecore.Kernel
+- ID: "8fc7bd46-9ab0-44ca-8e2a-94dcd0300e18"
+  Hint: Exclude items
+  Value: __standard values
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T090837Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8d33757-49e6-4c62-93a3-2fc258cc8ce3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230601T135620Z

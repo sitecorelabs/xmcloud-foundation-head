@@ -1,0 +1,44 @@
+{
+    "namespace": "EspireDemo.Template",
+   
+    "items": {
+        "includes": [
+            {
+                "name": "EspireDemo.Template",
+                "path": "/sitecore/templates",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants",
+                "rules": [
+                    {
+                        "path": "/Feature/Experience Accelerator",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/Feature/JSS Experience Accelerator",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/Feature",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/System",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Project",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "*",
+                        "scope": "ignored"
+                    }
+                ]
+            }
+          
+        ]
+    }
+}

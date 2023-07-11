@@ -1,0 +1,50 @@
+﻿---
+ID: "acc44ed4-8dae-4bca-8798-16e30f4dcb80"
+Parent: "087dcaf1-4778-4849-99b4-599b901dbe09"
+Template: "087dcaf1-4778-4849-99b4-599b901dbe09"
+Path: /sitecore/templates/System/Item Buckets/Field Search Type/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/view.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "9d2e8c51-5921-498a-bff6-d6aa99d3eeee"
+  Hint: Control Type
+  Value: "{9DD8E89E-9ECF-4D3B-AC8C-A47B6A455001}"
+- ID: "a434e593-d2b2-4591-8916-74564962d6d5"
+  Hint: Icon
+  Value: /sitecore/shell/Applications/Buckets/images/text.png
+- ID: "d5ca4991-ea12-4fbd-b797-1de976a79540"
+  Hint: Client Side Hook
+  Value: normal
+- ID: "d94cdb6a-d0fd-42f2-8370-0346a17b3d5a"
+  Hint: Name
+  Value: $name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20111103T104900
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "940bbae1-9ee4-4245-832f-8036743fd765"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20131223T185118:635234214787123060"

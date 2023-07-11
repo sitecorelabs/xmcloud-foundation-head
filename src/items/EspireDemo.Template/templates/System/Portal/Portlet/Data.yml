@@ -1,0 +1,20 @@
+﻿---
+ID: "e3356d15-4bbd-4655-9851-9810d41cf7a6"
+Parent: "beebc988-14ce-441a-b9e2-2a38d6e4a87d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Portal/Portlet/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20050419T182258
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3621C65C-4DA0-422B-A5B1-72EAA46D8651"

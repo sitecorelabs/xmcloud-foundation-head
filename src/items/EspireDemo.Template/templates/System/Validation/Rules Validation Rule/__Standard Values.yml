@@ -1,0 +1,23 @@
+﻿---
+ID: "b4ae16a9-ea2f-4d5b-905e-7299975316a2"
+Parent: "403f5fe8-9bc4-4ff5-a092-e98e44f565af"
+Template: "403f5fe8-9bc4-4ff5-a092-e98e44f565af"
+Path: /sitecore/templates/System/Validation/Rules Validation Rule/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100307T110855
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd6ce710-fd9e-4e32-87b1-8b5877de6ac1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20100307T110855:634035569353810285"

@@ -1,0 +1,20 @@
+﻿---
+ID: "ad093202-68c9-439f-b0d0-040e5b311ac1"
+Parent: "73ab3d58-6bf7-4db5-bedd-5eb7072d11b7"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Html Editor Profiles/Html Editor Drop Down/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20060201T095348
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb0c014c-61a1-4f69-bc17-b36ebc6ef372"

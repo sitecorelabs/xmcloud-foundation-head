@@ -1,0 +1,41 @@
+﻿---
+ID: "cce3e71c-1984-47e2-b5b1-d07876b69cbf"
+Parent: "4aac0f8e-7079-41f8-ae69-1a23c827ccba"
+Template: "4aac0f8e-7079-41f8-ae69-1a23c827ccba"
+Path: /sitecore/templates/System/Layout/Preview Simulators/No Silverlight Support Trait/__Standard Values
+SharedFields:
+- ID: "c4b1296b-5716-42a4-8163-32510482ed9b"
+  Hint: Client Script
+  Value: /sitecore/shell/Applications/Preview/SimulatedDevicePreview/Scripts/ReplaceSilverlight.js
+- ID: "da75d6b8-d9dd-48d4-80f7-0c926ce5fff3"
+  Hint: Replacement Html
+  Value: |
+    <div class="scNoSilverlight"></div>
+- ID: "e1036f6b-0fd2-43b4-b4fd-00fb80243d08"
+  Hint: Use Alternate Content
+  Value: 1
+- ID: "fe5c1799-fa2a-4a5a-9c2b-d67bc1668d28"
+  Hint: Type
+  Value: Sitecore.Pipelines.ProcessSimulatorResponse.ReplaceHtml, Sitecore.Kernel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110721T145100
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9028b4c-56d3-4885-8f0a-420128621949"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20120321T161632:634679433922074119"

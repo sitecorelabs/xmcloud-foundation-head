@@ -1,0 +1,33 @@
+﻿---
+ID: "2b7452ce-14da-4c7f-b3e7-2d2c5ce13f82"
+Parent: "5cb2a2ea-d166-468c-b189-1fcdae2bb4b2"
+Template: "5cb2a2ea-d166-468c-b189-1fcdae2bb4b2"
+Path: /sitecore/templates/System/Services/Throttle/Sliding Window Strategy/__Standard Values
+SharedFields:
+- ID: "20b96495-300c-42c0-b148-4090514d3954"
+  Hint: Allowed Number of Requests
+  Value: 10
+- ID: "781e48d8-7028-4ed2-b721-9aee664e522a"
+  Hint: Type
+  Value: Sitecore.Services.Infrastructure.Throttle.Strategies.SlidingWindowThrottleStrategy, Sitecore.Services.Infrastructure
+- ID: "ddeb71eb-a34f-4b8f-8a9f-444f99602a4a"
+  Hint: Time Span
+  Value: 5000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171211T160034Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a3c1c92-e9c7-4841-83a4-6ac09c49fe8e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180108T205630Z

@@ -1,0 +1,13 @@
+﻿---
+ID: "0183133e-9e5d-47a4-8b50-8d0a3880f962"
+Parent: "4bf98ef5-1d09-4dd1-9afe-795f9829fd44"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/templates/System/Menus
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02A8B1B1-9E8D-47DC-A3AF-882B97A9BDDB"

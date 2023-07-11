@@ -1,0 +1,27 @@
+﻿---
+ID: "c926a692-2600-4fab-999c-ba92a81b8708"
+Parent: "9b71dba8-b317-45e9-ae63-19723c9407f5"
+Template: "9b71dba8-b317-45e9-ae63-19723c9407f5"
+Path: /sitecore/templates/System/Services/Throttle/Composite Strategy/__Standard Values
+SharedFields:
+- ID: "781e48d8-7028-4ed2-b721-9aee664e522a"
+  Hint: Type
+  Value: Sitecore.Services.Infrastructure.Throttle.Strategies.CompositeThrottleStrategy, Sitecore.Services.Infrastructure
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171211T155807Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c67db022-8cdf-4f66-badc-dcffd79c6e69"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180108T205650Z

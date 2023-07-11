@@ -1,0 +1,37 @@
+﻿---
+ID: "6b8519ad-cbae-4486-be54-d38e2ea2d6e5"
+Parent: "0a98e368-cdb9-4e1e-927c-8e0c24a003fb"
+Template: "0a98e368-cdb9-4e1e-927c-8e0c24a003fb"
+Path: /sitecore/templates/System/Layout/Renderings/Sublayout/__Standard Values
+SharedFields:
+- ID: "32cee5fb-efce-4ca6-b697-3b97900c40d3"
+  Hint: Placeholder
+  Value: content
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: 
+- ID: "e42081b6-8a95-4a11-89ce-df70ed502f57"
+  Hint: Path
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20061213T094719
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa609be4-291c-4853-95df-b19ed6797bf2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130910T121905:635144123450998483"
