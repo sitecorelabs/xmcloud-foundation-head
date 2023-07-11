@@ -1,0 +1,31 @@
+﻿---
+ID: "8531c52b-eb1f-48d4-a494-991ae50e219b"
+Parent: "77aa3cea-4ab8-4195-9417-1afb84f31515"
+Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
+Path: /sitecore/content/EspireDemo/Espire/Settings/Sitemap
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230707T145200Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d01dc331-9b8a-410d-85df-8906649db60b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230707T145200Z

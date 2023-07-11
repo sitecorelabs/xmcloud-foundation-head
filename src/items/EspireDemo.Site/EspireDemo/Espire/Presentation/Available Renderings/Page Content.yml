@@ -1,0 +1,43 @@
+﻿---
+ID: "c43e2622-0e52-46bc-b290-be3b3e0b73dc"
+Parent: "34af570e-55aa-4dc4-8c03-57bf0ba1448b"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Available Renderings/Page Content
+BranchID: "209f458a-5f7c-4024-9bbb-c78ad6d21abc"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C5F905F8-FD1F-444E-A9E5-AC6B774FF0DE}
+    {2492BAC4-DA07-4C86-87F0-9873D40E2276}
+    {9C6D53E3-FE57-4638-AF7B-6D68304C7A94}
+    {3836D951-BB14-43AC-9231-649B7F245DC5}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{EDD5B21F-2BD2-4290-81A2-68428363D312}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230707T145226Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee825de4-eba8-4142-aff1-969cf59932ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230707T145226Z

@@ -1,0 +1,16 @@
+{
+    "namespace": "EspireDemo.Site",
+    "references": ["EspireDemo.Template"],
+    "items": {
+        "includes": [
+            {
+                "name": "EspireDemo.Site",
+                "path": "/sitecore/content/EspireDemo",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants"
+
+            }
+          
+        ]
+    }
+}

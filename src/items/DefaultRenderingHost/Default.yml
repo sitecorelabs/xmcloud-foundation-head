@@ -3,7 +3,42 @@ ID: "dffee92b-0441-45a4-9207-67810b72bd46"
 Parent: "895e25c4-12b2-4b2c-8233-82f3b79eef53"
 Template: "bc71d442-3e4f-46ba-887c-746e54f9bb83"
 Path: /sitecore/system/Settings/Services/Rendering Hosts/Default
+SharedFields:
+- ID: "3121c257-53cf-464a-b736-98b418876057"
+  Hint: AppName
+  Value: espire
+- ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
+  Hint: ServerSideRenderingEngineApplicationUrl
+  Value: "http://rendering:3000"
+- ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
+  Hint: ServerSideRenderingEngineEndpointUrl
+  Value: "http://rendering:3000/api/editing/render"
 Languages:
+- Language: "de-DE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230711T101113Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f0c0281-cac8-4cab-8e55-e1bc7815d344"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230711T101113Z
 - Language: en
   Versions:
   - Version: 1
@@ -17,17 +52,61 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cc3a5834-6f8c-48b5-a0b7-c6d998b943a3"
+      Value: "94ca328d-aada-4f2a-92e2-fa792722d218"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\xmc-e2e-admin@sitecore.com
+        sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220628T155530Z
-    - ID: "e32c1801-79b3-4fc1-a9c4-3c6e6c2968ae"
-      Hint: ServerSideRenderingEngineApplicationUrl
-      Value: "http://rendering:3000"
-    - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
-      Hint: serverSideRenderingEngineEndpointUrl
-      Value: "http://rendering:3000/api/editing/render"
+      Value: 20230711T102927Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230711T101113Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d1314ee-bbe1-4adc-b763-26185632f61c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230711T101113Z
+- Language: "zh-CN"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230711T101113Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a80ea20-65c0-4840-a4ae-978a832c200c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230711T101113Z

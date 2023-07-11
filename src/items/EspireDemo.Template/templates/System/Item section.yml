@@ -1,0 +1,17 @@
+﻿---
+ID: "8961da70-f922-4917-8aae-695e621a6775"
+Parent: "4bf98ef5-1d09-4dd1-9afe-795f9829fd44"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Item section
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5B2A07C4-66A4-49AB-B778-C2E944F5D087"

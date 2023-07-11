@@ -1,0 +1,55 @@
+﻿---
+ID: "e441abe7-2ca3-4640-ae26-3789967925d7"
+Parent: "a1715151-f48e-4b22-be3a-babf4e18584f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/System/Layout/Sections/Rendering Options/Editor Options/Compatible Renderings
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "DataSource=/sitecore/Layout&ExcludeTemplatesForDisplay=Layout,Xml layout,Device&ExcludeTemplatesForSelection=Folder,Main section,Node,Rendering folder&ExcludeItemsForDisplay={1CE3B36C-9B0C-4EB5-A996-BFCB4EAA5287},{E18F4BC6-46A2-4842-898B-B6613733F06F},{75CC5CE4-8979-4008-9D3C-806477D57619},{39522E9A-9B6E-4CB4-850C-23D0D3ADFD0C}"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Treelist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
+  Hint: Shared
+  Value: 1
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\Sitecore Client Developing|pd|+field:write|pe|+field:write|ar|sitecore\Sitecore Client Maintaining|pd|+item:delete|+item:rename|+item:write|pe|+item:delete|+item:rename|+item:write|ar|sitecore\Everyone|pd|+field:read|+item:read|!*|pe|+field:read|+item:read|!*|
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Compatible Renderings
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Enables the Replace Rendering button in the Experience Editor
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100430T104900
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2764cc20-8ff1-4d3c-9266-0559a6339a28"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20150423T132634:635653923946672422Z"

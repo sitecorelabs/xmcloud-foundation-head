@@ -1,0 +1,33 @@
+﻿---
+ID: "80011bfc-8ece-4354-bbbe-f4f4f1d2b7ce"
+Parent: "6ef07334-7fba-4845-bf0a-cd5b2000c75a"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Templates/Sections/Lifetime/Lifetime
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/16x16/hourglass.png
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: <link/>
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 999999
+- ID: "e2e2b75d-a2f7-4075-bde2-d13306e9e350"
+  Hint: Collapsed by Default
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3044bf1-e443-4fca-a8f8-faebe2ac90ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20071203T125530

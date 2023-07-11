@@ -1,0 +1,41 @@
+﻿---
+ID: "f2d9de81-970e-4a79-ac30-e4fae8a81af3"
+Parent: "317ade1d-337a-464a-b7d0-06b4424fc0ea"
+Template: "317ade1d-337a-464a-b7d0-06b4424fc0ea"
+Path: /sitecore/templates/System/Layout/Preview Simulators/No Flash Support Trait/__Standard Values
+SharedFields:
+- ID: "c4b1296b-5716-42a4-8163-32510482ed9b"
+  Hint: Client Script
+  Value: /sitecore/shell/Applications/Preview/SimulatedDevicePreview/Scripts/ReplaceFlash.js
+- ID: "da75d6b8-d9dd-48d4-80f7-0c926ce5fff3"
+  Hint: Replacement Html
+  Value: |
+    <div class="scNoFlash"></div>
+- ID: "e1036f6b-0fd2-43b4-b4fd-00fb80243d08"
+  Hint: Use Alternate Content
+  Value: 1
+- ID: "fe5c1799-fa2a-4a5a-9c2b-d67bc1668d28"
+  Hint: Type
+  Value: Sitecore.Pipelines.ProcessSimulatorResponse.ReplaceHtml, Sitecore.Kernel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110721T145100
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7caf833c-dd6f-489b-9aee-ec481a3697fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20120321T161722:634679434420917211"

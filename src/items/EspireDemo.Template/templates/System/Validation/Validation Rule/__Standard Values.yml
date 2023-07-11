@@ -1,0 +1,44 @@
+﻿---
+ID: "86027fe2-a965-448d-be9b-7fc3f65039bb"
+Parent: "8f8e2549-c77f-4860-b83b-54fa31e2befa"
+Template: "8f8e2549-c77f-4860-b83b-54fa31e2befa"
+Path: /sitecore/templates/System/Validation/Validation Rule/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{998B965E-6AB8-4568-810F-8101D60D0CC3}"
+- ID: "57cbca4c-8c94-446c-b8ca-7d8dc54f4285"
+  Hint: __Validate Button Validation Rules
+  Value: "{B50CCF80-59D8-49D1-B021-B43F66191253}"
+- ID: "b7e5b151-b145-4ced-85c5-fbdb566dfa4d"
+  Hint: __Validator Bar Validation Rules
+  Value: "{B50CCF80-59D8-49D1-B021-B43F66191253}"
+- ID: "c2f5b2b5-71c1-431e-bf7f-dbdc1e5a2f83"
+  Hint: __Quick Action Bar Validation Rules
+  Value: "{B50CCF80-59D8-49D1-B021-B43F66191253}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100304T085900
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27d908d3-71fc-406e-b809-959375841beb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20100304T095031:634032930316176545"

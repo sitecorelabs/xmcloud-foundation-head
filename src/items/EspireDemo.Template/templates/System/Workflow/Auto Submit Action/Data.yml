@@ -1,0 +1,23 @@
+﻿---
+ID: "33349890-1010-4794-9c65-07bba0a59519"
+Parent: "26c54307-6d31-46cf-a96b-70678c4fef7d"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Workflow/Auto Submit Action/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080313T152521
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff1ed6b8-7425-4345-a30a-eabe322e6628"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20080313T153434:633410192744957691"

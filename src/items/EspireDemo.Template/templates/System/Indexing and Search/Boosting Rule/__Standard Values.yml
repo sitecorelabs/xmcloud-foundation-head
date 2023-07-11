@@ -1,0 +1,34 @@
+﻿---
+ID: "0ca0e16b-2e9a-4860-affb-90d00d92a2b4"
+Parent: "7b8cc824-2e4b-4a00-85f5-cccc3354db15"
+Template: "7b8cc824-2e4b-4a00-85f5-cccc3354db15"
+Path: /sitecore/templates/System/Indexing and Search/Boosting Rule/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090818T190507
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "69a0209b-5702-465e-91a1-a525728f57da"
+      Hint: Name
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78565ddc-9642-4a06-98c6-931ef4490a39"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130124T142626:634946343864857011"

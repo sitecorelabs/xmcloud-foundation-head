@@ -1,0 +1,41 @@
+﻿---
+ID: "afc92c98-3bc9-48e9-816e-828eaf7dc750"
+Parent: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Template: "f05212ce-30a7-4733-a7f4-ed6e13f26692"
+Path: /sitecore/templates/System/Webhooks/Webhook Event Handler/__Standard Values
+SharedFields:
+- ID: "70bcf39c-e567-4bc5-9dfa-3503810ef820"
+  Hint: Enabled
+  Value: 
+- ID: "9a9f209c-eac3-4fd0-ade1-7760c4e7b8ff"
+  Hint: Serialization Type
+  Value: "{9844BCA0-5FA6-48C8-B4A3-171A2BE6E5C2}"
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "https://"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210908T094652Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "832c86fa-06a2-4a3b-807d-7215e828d347"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210930T084527Z

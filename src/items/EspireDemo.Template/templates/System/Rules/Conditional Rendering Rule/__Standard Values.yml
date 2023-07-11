@@ -1,0 +1,38 @@
+﻿---
+ID: "a971acea-98d5-499d-9cd1-2716818da34f"
+Parent: "550b5cef-242c-463f-8ed5-983922a39863"
+Template: "550b5cef-242c-463f-8ed5-983922a39863"
+Path: /sitecore/templates/System/Rules/Conditional Rendering Rule/__Standard Values
+SharedFields:
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: "{2AAC7D9C-AE30-4C6E-A1F6-AF1FB4E1CE17}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "062041c0-682e-4bd3-a778-85451ea11956"
+      Hint: Name
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20090818T160438Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e114bd9c-5979-41dc-8791-d2867ba5cf1c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160316T104706Z

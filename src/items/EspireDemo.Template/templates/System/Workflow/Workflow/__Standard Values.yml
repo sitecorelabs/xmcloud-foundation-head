@@ -1,0 +1,41 @@
+﻿---
+ID: "755e7e66-1e2c-48c7-9083-66ba8312794f"
+Parent: "1c0acc50-37be-4742-b43c-96a07a7410a5"
+Template: "1c0acc50-37be-4742-b43c-96a07a7410a5"
+Path: /sitecore/templates/System/Workflow/Workflow/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4B7E2DA9-DE43-4C83-88C3-02F042031D04}"
+- ID: "2a59c3dc-e9ab-4108-beb2-1ca9aee56a33"
+  Hint: Default Comment Template
+  Value: "{414AAF16-ACB7-43A9-A72E-C8C192154F78}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140202T234746Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "591f16da-4020-4ffd-9560-ef4996fc2a61"
+      Hint: Default Comment Dialog Height
+      Value: 250
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b9d2e86-4836-4063-b333-bc45464395b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20141112T014025:635513532250808368Z"

@@ -1,0 +1,35 @@
+﻿---
+ID: "dc3317d0-5edf-4bc2-824f-821a469a1a23"
+Parent: "68ba23fd-8270-4675-97ea-4fafc7cf3ab9"
+Template: "68ba23fd-8270-4675-97ea-4fafc7cf3ab9"
+Path: /sitecore/templates/System/Item Buckets/Tag/__Standard Values
+SharedFields:
+- ID: "c9283d9e-7c29-4419-9c28-5a5c8ff53e84"
+  Hint: __Bucketable
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130109T215200
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6041b05c-20f5-4168-b73d-d30f1369cdae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130109T215235:634933651556703209"

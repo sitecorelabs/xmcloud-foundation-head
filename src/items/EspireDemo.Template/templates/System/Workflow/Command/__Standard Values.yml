@@ -1,0 +1,41 @@
+﻿---
+ID: "9455b378-b97b-4400-ae0e-c90ce5d40b38"
+Parent: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Template: "cb01f9fc-c187-46b3-ab0b-97a8468d8303"
+Path: /sitecore/templates/System/Workflow/Command/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {66882E97-C8AA-4E37-8901-7A8AA35ED2ED}
+    {639F03FA-BCB5-4007-86A2-213BC77D6DA0}
+    {45B5D66A-5929-471B-8A08-24C3D77C2392}
+- ID: "f1090046-2f13-4f19-bb41-c75df4f89516"
+  Hint: Comment Template
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20140123T114343
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8b0ab279-ad2d-402d-85c1-b0fa763281b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211115T092027Z

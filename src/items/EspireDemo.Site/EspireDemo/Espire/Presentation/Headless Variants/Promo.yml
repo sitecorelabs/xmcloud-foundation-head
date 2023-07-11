@@ -1,0 +1,39 @@
+﻿---
+ID: "59408294-a0b9-4df4-b0e2-cee64c5b4b57"
+Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Promo
+BranchID: "37229eac-e94c-4507-b543-6cb1f31294e4"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/window_dialog.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{63F9B1F7-5D78-4053-8480-70874BAF0DC4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230707T145229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3e0d91c-e41b-440e-8463-f2439c53cc36"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230707T145229Z

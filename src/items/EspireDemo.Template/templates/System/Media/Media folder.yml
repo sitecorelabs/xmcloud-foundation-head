@@ -1,0 +1,36 @@
+﻿---
+ID: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Parent: "d150df1b-01ba-45b7-aeb1-4ca5c2f20a64"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Media/Media folder
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/folder.png
+- ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
+  Hint: __Ribbon
+  Value: 
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "d85db4ec-ff89-4f9c-9e7c-a9e0654797fc"
+  Hint: __Editor
+  Value: 
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{08907CF7-3C99-44BC-AE5B-71270D4CB624}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0536f929-3f8c-4efa-98e4-028f48008d72"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20070913T192848

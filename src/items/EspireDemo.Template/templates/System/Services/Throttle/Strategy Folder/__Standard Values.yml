@@ -1,0 +1,38 @@
+﻿---
+ID: "3e258dde-8d70-48e9-92a5-73ee408167ce"
+Parent: "5f2d933c-962e-42df-9a9e-0a735fb77d46"
+Template: "5f2d933c-962e-42df-9a9e-0a735fb77d46"
+Path: /sitecore/templates/System/Services/Throttle/Strategy Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5F2D933C-962E-42DF-9A9E-0A735FB77D46}
+    {5CB2A2EA-D166-468C-B189-1FCDAE2BB4B2}
+    {9B71DBA8-B317-45E9-AE63-19723C9407F5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171206T143520Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "151acc0f-d316-4348-83c4-39c5586de401"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171206T143711Z

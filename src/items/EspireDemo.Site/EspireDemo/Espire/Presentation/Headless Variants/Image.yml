@@ -1,0 +1,39 @@
+﻿---
+ID: "bcc5389e-3d9e-4f20-9b59-c7cbfd5b0268"
+Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Image
+BranchID: "ae87ba03-4197-4107-82d5-f8b1cafe3bff"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/photo_landscape.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{22E4CE0C-BBBC-46EC-8F36-773779104491}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230707T145221Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "040d415c-703e-44f9-aa32-0fb3af91d752"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230707T145221Z

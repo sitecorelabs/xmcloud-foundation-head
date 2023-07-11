@@ -1,0 +1,57 @@
+﻿---
+ID: "53eb68b6-0dd6-4892-888b-6c1bafa0772e"
+Parent: "932f9d2b-52e1-4cf5-a097-3bcb59d85791"
+Template: "4fed1cb4-7f95-4447-8b18-fe75a054c85a"
+Path: /sitecore/content/EspireDemo/Espire
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
+  Hint: Modules
+  Value: |
+    {5A2F6A6F-3028-4210-AAD3-82C1365C4802}
+    {9F10010E-49E2-4DCD-A5A1-4DA752ADED2A}
+    {050A15BD-04E5-43F2-AC99-F0A4DF725793}
+    {4342A029-0186-4B0D-8959-FFEF4FD998C2}
+    {AE5D1384-BB75-4C6B-A8B5-4B008C2AC5DA}
+    {C4658673-5D70-44ED-9004-D66EAC1DC718}
+    {CA502DCF-20D2-4618-A735-E4FCB6D5E114}
+    {E2AF1A41-799E-481B-8FDC-B2D33FB729A1}
+    {D7EEAF4D-2B58-4029-B141-844221565EF0}
+    {66B9C663-2602-42B1-A5A2-3D04DB6C506A}
+    {1FD78E81-59A6-4513-90F1-165A95D4B16B}
+    {BEBF4026-24A3-4EA6-986A-518B76DBD71A}
+    {385F31BE-FF0C-4D84-A627-9ECD21295AFD}
+    {F0EA389E-F78D-440B-9429-F04FE735344A}
+    {AC1A27CA-6BF3-4D23-915E-668326D52CF1}
+- ID: "33d9005e-1f71-415f-b107-53b965c3b037"
+  Hint: SiteMediaLibrary
+  Value: "{C70E849A-4C93-4806-92D9-93110B598848}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{A0EECF65-09AD-4A10-AE46-7DF70106CFE6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230707T145156Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0dedc8c-fc51-467c-a5a4-74b9633fa504"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230707T145234Z

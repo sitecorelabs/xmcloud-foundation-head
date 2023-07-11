@@ -1,0 +1,49 @@
+﻿---
+ID: "0603f166-35b8-469f-8123-e8d87bedc171"
+Parent: "00373f71-5d08-4e9a-840f-9bb3c8193518"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Media/Unversioned/Pdf
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: WordProcessing/32x32/imp_exp_pdf.png
+- ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
+  Hint: __Ribbon
+  Value: "{F3231D61-7204-4CA2-B7FF-534B9EF63B87}"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{777F0C76-D712-46EA-9F40-371ACDA18A1C}"
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: |
+    {CFABCE9D-D34A-4990-8113-FCCF583A16C4}
+    {30723E7D-918F-48D9-8A29-97CBE9951B4B}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{710D2188-92FC-4AA4-9486-DBBD106ACE4D}" mediapath="/System/Template Thumbnails/document" src="-/media/710D218892FC4AA49486DBBD106ACE4D.ashx" />
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20060823T123400
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49fdff85-b8d7-4df0-abe9-9820a9b6f0ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20150515T072311:635672713913214226Z"

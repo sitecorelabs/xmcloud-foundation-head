@@ -1,0 +1,20 @@
+﻿---
+ID: "93b36b23-4b04-44a0-af37-5fcded572d02"
+Parent: "4bf98ef5-1d09-4dd1-9afe-795f9829fd44"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/templates/System/Dictionary
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20050401T000000
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "825E69DB-1F64-43F7-9B84-C7680B170CC0"

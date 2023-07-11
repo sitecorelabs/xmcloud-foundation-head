@@ -3,7 +3,7 @@
       "xmcloudpreview": {
         "path": "./src/sxastarter",
         "nodeVersion": "16.15.1",
-        "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
+        "jssDeploymentSecret": "xwf748xgtgko88jj7ls7pp6q2rr2bem6fmvmlipjcg",
         "enabled": true,
         "type": "sxa",
         "lintCommand": "lint",

@@ -1,0 +1,55 @@
+﻿---
+ID: "1930bbeb-7805-471a-a3be-4858ac7cf696"
+Parent: "633549d3-4b7d-40eb-b58f-eda50ba5f7f0"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Templates/Standard template
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {646F4B34-708C-41C2-9F4B-2661849777F3}
+    {F5BC7AE4-F62D-47CD-9AFB-2C9F85D8313B}
+    {18420296-D8FC-4D93-A79E-2A2B0367A92C}
+    {4D30906D-0B49-4FA7-969D-BF90157357EA}
+    {6EF07334-7FBA-4845-BF0A-CD5B2000C75A}
+    {38A2F441-DB17-4039-90E2-6A32F7A81706}
+    {823ECF5F-AE72-40B5-BC87-CB425FE7E5F6}
+    {AF530C7B-8B87-458B-80CE-239D1E1B9E60}
+    {6495CF23-DE9C-48B7-9D3C-05E2418B3CAE}
+    {AB811AF4-393C-4A46-ACD7-81D30917E7F4}
+    {1597272C-C823-4AAC-86F8-CA9CC4D573B5}
+    {0AA6D3F8-C9D0-401F-83AA-A41433C24767}
+    {93F3A8FA-9E5A-4848-A5AD-42AAD11A4871}
+    {2491819E-0C61-4F5A-903C-E10FCD9D302A}
+    {06F366E6-A7E6-470B-9EC9-CD29A4F6C8E8}
+    {4070EF7F-793D-42AE-AA66-E5820C608343}
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{781247D2-9785-400F-8935-C818EC757967}"
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: |
+    {CFABCE9D-D34A-4990-8113-FCCF583A16C4}
+    {30723E7D-918F-48D9-8A29-97CBE9951B4B}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20110221T110100
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f1b6d53b-df77-4a21-b2c6-3879592e1aae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210830T143452Z

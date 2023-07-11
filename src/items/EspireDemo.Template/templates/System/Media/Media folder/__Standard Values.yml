@@ -1,0 +1,58 @@
+﻿---
+ID: "08907cf7-3c99-44bc-ae5b-71270d4cb624"
+Parent: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/templates/System/Media/Media folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {0FBEBDBC-55B4-4883-90DF-29906DB4EB47}
+    {FE5DD826-48C6-436D-B87A-7C4210C7413B}
+- ID: "3607f9c7-dda3-43c3-9720-39a7a5b3a4c3"
+  Hint: __Default View
+  Value: 
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: "{C4AAC4DF-6D8E-4D6D-9A25-D97E398ACAD1}"
+- ID: "c0e276bb-8807-40aa-8138-e5c38b0c5dab"
+  Hint: __Quick Actions
+  Value: |
+    {2B3E7BD2-B46D-4B64-86E4-3D42FA4F8EAA}
+    {9400691E-6518-4073-BB0D-409BFCED1558}
+    {4ECDC734-42BF-4CC3-849F-8BAC2B8F310D}
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7992E405-A9BA-49E0-8C87-C88060756731}" mediapath="/System/Template Thumbnails/leopard-folder-big" src="-/media/7992E405A9BA49E08C87C88060756731.ashx" />
+- ID: "f2db8ba1-e477-41f5-8ef5-22eefa8d2f6e"
+  Hint: __Enabled Views
+  Value: |
+    {F50CD144-013F-4AD8-90BD-F01816E40CCC}
+    {4ADCA61B-10A6-4AAA-94FD-72DB877813D0}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20061127T093900
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9323dec0-9b37-4fae-b87c-2dc12cbea0f2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20150515T071352:635672708329435904Z"

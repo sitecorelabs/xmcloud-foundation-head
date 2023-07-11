@@ -1,0 +1,38 @@
+﻿---
+ID: "304ec5a7-afbf-487a-8b9e-fb5eb6d4ad63"
+Parent: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/templates/System/Layout/Placeholder/__Standard Values
+SharedFields:
+- ID: "14d0728a-82f9-4b01-ab16-1fe1577cede2"
+  Hint: Editable
+  Value: 1
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: $name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20100105T174500
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38169865-247f-4ec3-9b7b-8ce8a107d798"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130814T103859:635120735398627930"

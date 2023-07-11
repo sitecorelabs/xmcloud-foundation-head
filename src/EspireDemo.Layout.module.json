@@ -1,0 +1,77 @@
+{
+    "namespace": "EspireDemo.Layout",
+ 
+    "items": {
+        "includes": [
+            {
+                "name": "EspireDemo.Layout",
+                "path": "/sitecore/layout",
+                "allowedPushOperations": "createUpdateAndDelete",
+                "scope": "itemAndDescendants",
+                "rules": [
+
+                    {
+                        "path": "/Layouts/Project",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Layouts",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "SingleItem"
+                    },
+                    {
+                        "path": "/Placeholder Settings/Project",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+
+                    {
+                        "path": "/Placeholder Settings/Feature/Page Content",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Placeholder Settings/Feature",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "SingleItem"
+                    },
+                    {
+                        "path": "/Placeholder Settings",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "SingleItem"
+                    },
+                    {
+                        "path": "/Renderings/Feature/JSS Experience Accelerator",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/Renderings/Feature/Experience Accelerator",
+                        "scope": "ignored"
+                    },
+                    {
+                        "path": "/Renderings/Feature",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+
+                    {
+                        "path": "/Renderings/Project",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "itemAndDescendants"
+                    },
+                    {
+                        "path": "/Renderings",
+                        "allowedPushOperations": "createUpdateAndDelete",
+                        "scope": "SingleItem"
+                    },
+                    {
+                        "path": "*",
+                        "scope": "ignored"
+                    }
+                ]
+            }
+          
+        ]
+    }
+}

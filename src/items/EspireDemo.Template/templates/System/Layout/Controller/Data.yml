@@ -1,0 +1,20 @@
+﻿---
+ID: "6ffe630a-29c4-4de7-aca8-ddc9cdf856a6"
+Parent: "473f22c2-3c94-4d1d-b9ae-3d1fc3d3d3f2"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Layout/Controller/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20050429T074956
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc456190-66e7-48a3-9b6c-961c8bac296a"

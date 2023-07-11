@@ -1,0 +1,20 @@
+﻿---
+ID: "1163da83-b2ef-4381-bf09-b2ff714b1b3f"
+Parent: "fb6b721e-d64d-4392-a1f0-a15194cbfad9"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Layout/Xml layout
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/text_rich_marked.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24E5634F-A46A-4B29-B808-3D3A5D2A21E6"

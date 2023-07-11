@@ -1,0 +1,30 @@
+﻿---
+ID: "eb3fb96c-d56b-4ac9-97f8-f07b24bb9bf7"
+Parent: "cc68cd9b-28e4-4143-ba18-88863a6b917b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/System/Media/Versioned/Jpeg
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/photo_scenery.png
+- ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
+  Hint: __Ribbon
+  Value: "{EDEA2EB7-2AE7-4989-A798-D5169D3845DE}"
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{C97BA923-8009-4858-BDD5-D8BE5FCCECF7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58f30908-c280-4cf3-ae41-9760327023a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20060905T101000

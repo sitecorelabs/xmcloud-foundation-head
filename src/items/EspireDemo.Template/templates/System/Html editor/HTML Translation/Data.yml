@@ -1,0 +1,23 @@
+﻿---
+ID: "f06fa7f2-f012-4d4d-95da-a2ac8e6ea5c4"
+Parent: "b5a33a4a-7a5d-4d83-bbd3-af9ca4582827"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Html editor/HTML Translation/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130301T153227
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3B6BD188-3C70-4DD4-97F3-084376D660A4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20130301T153227

@@ -1,0 +1,30 @@
+﻿---
+ID: "4331fa5b-f639-440c-96a2-5902ddc481c0"
+Parent: "93f3a8fa-9e5a-4848-a5ad-42aad11a4871"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/System/Templates/Sections/Tasks/Tasks
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "business/16x16/date-time_preferences.png"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 999999
+- ID: "e2e2b75d-a2f7-4075-bde2-d13306e9e350"
+  Hint: Collapsed by Default
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd4acb15-107a-4182-8ee7-91fa5011f605"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20071203T125620
