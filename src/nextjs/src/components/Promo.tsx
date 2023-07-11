@@ -35,7 +35,6 @@ export const Default = (props: PromoProps): JSX.Element => {
       <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
         <div className="component-content">
           <div className="field-promoicon">
-          This is espire app are you ready ?
             <JssImage field={props.fields.PromoIcon} />
           </div>
           <div className="promo-text">
