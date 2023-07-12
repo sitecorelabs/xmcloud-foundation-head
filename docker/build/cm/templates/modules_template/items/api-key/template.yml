@@ -1,8 +1,8 @@
 ﻿---
-ID: "804a2f62-4a78-4eed-96f5-2d5f4b0bb522"
+ID: "<SITECORE-API-KEY>"
 Parent: "59b41b5f-e22e-460b-941e-fb64fe8da8fc"
 Template: "a6868d65-d612-401f-a40a-cd5ba0857b81"
-Path: /sitecore/system/Settings/Services/API Keys/xmcloudpreview
+Path: /sitecore/system/Settings/Services/API Keys/<SITENAME>
 SharedFields:
 - ID: "780c8e48-fe03-4a73-90dc-9bb5296b95d7"
   Hint: CORS Origins
