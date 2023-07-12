@@ -1,0 +1,48 @@
+﻿---
+ID: "6fa5e211-d441-47d0-a5b8-b8969614e4db"
+Parent: "7a3ae2e0-6b73-48e3-98be-6a718a42a054"
+Template: "7a59538f-43bb-41a8-88f8-3a9adc3d1b80"
+Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner/Data/Home Page Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c617420-bd69-4bf8-8777-0dc380756ea1"
+      Hint: Image
+      Value: |
+        <image mediaid="{32956CDE-9FB9-419D-88E1-D25FE2DC4D49}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230712T075121Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "53746aec-9ce4-46a2-b2ab-1f0dd1594f8c"
+      Hint: Link
+      Value: |
+        <link linktype="internal" text="See More" querystring="" target="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57e25d54-2e39-4e5e-949c-c58bfdfc1f74"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230712T161849Z
+    - ID: "e276cdf5-5ab3-4cda-9872-1eb17f6eabfc"
+      Hint: Description
+      Value: Serving Maricopa County and the Phoenix Metropolitan community through justice and integrity.
+    - ID: "fb48c50d-64f8-4e39-a74b-9fdcc3e125d5"
+      Hint: Title
+      Value: The Judicial Branch of Arizona

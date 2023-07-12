@@ -1,0 +1,42 @@
+@mixin primary-btn() {
+    border: solid 1px $brand-color;
+    background-color: $brand-color;
+    border-radius: $sm-border-radius;
+    padding: 0.8rem 2rem;
+    font-size: $md-font-primary;
+    text-transform: capitalize;
+    font-weight: $regular;
+    font-family: $myriad-regular-font;
+    color: $white;
+    text-align: center;
+    display: inline-block;
+
+    &:hover {
+        background-color: transparent;
+        color: $brand-color;
+    }
+}
+
+
+@mixin imgTitle($bgTitle: $title-bg, $fontTitle: $sm-font){
+    background-color: $bgTitle;
+    font-weight: $bold;
+    font-size: $fontTitle;
+    color: $white;
+    font-family: $myriad-bold-font;
+    text-transform: capitalize;
+}
+
+@mixin transformContainer($transformVal){
+    transform: $transformVal;
+    -webkit-transform: $transformVal;
+    -moz-transform: $transformVal;
+    -ms-transform: $transformVal;
+}
+
+@mixin animateEase($transitionVal){
+    transition: $transitionVal;
+    -webkit-transition: $transitionVal;
+    -moz-transition: $transitionVal;
+    -ms-transition: $transitionVal;
+}

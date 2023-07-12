@@ -10,26 +10,17 @@ import {
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 export const Banner = (props: BannerTemplateProps): JSX.Element => {
-  console.log(props);
-  const id = props.params.RenderingIdentifier;
   return (
-    <div
-      className={`component banner banner--homepage ${props.params.styles}`}
-      id={id ? id : undefined}
-    >
-      <div className="component-content">
-        <section className="banner">
-          <JssImage field={props.fields.Image} />
-          <div className="container">
-            <div className="banner-content">
-              <Text tag="h1" field={props?.fields?.Title} />
-              <JssRichText field={props.fields.Description} />
-              <JssLink field={props.fields.Link} />
-            </div>
-          </div>
-        </section>
+    <section className="banner banner-with-cta">
+      <JssImage field={props.fields.Image} />
+      <div className="container">
+        <div className="banner-content">
+          <Text tag="h1" field={props?.fields?.Title} />
+          <JssRichText field={props.fields.Description} tag="p" />
+          <JssLink field={props.fields.Link} className="primary-btn" />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

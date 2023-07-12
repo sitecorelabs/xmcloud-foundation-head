@@ -1,8 +1,8 @@
 ﻿---
-ID: "6fa5e211-d441-47d0-a5b8-b8969614e4db"
-Parent: "7a3ae2e0-6b73-48e3-98be-6a718a42a054"
-Template: "7a59538f-43bb-41a8-88f8-3a9adc3d1b80"
-Path: /sitecore/content/EspireDemo/Espire/Test Pages/HomePage Banner/Data/Home Page Banner
+ID: "ec6bfad3-59d2-4ff5-97ca-97ab3041b778"
+Parent: "c70e849a-4c93-4806-92d9-93110b598848"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/EspireDemo/Espire/Thumbnail
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T075121Z
+      Value: 20230712T131215Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e1a965ef-2f8f-4662-bb91-5b04fb577e5b"
+      Value: "6528659c-6e1a-4dfa-a857-6c0797f150db"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230712T075121Z
+      Value: 20230712T131215Z

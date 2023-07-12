@@ -1,1 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+
+
+/** junge fonts start here **/
+
+@font-face {
+    font-family: 'jungeregular';
+    src: url('../../../fonts/junge-regular-webfont.woff2') format('woff2');
+   
+    font-weight: normal;
+    font-style: normal;
+}
+
+/** junge fonts end here **/
+
+/** myriad fonts start here **/
+
+@font-face {
+    font-family: 'myriad_prolight';
+    src: url('../../../fonts/myriadpro-light-webfont.woff2') format('woff2'),
+         url('../../../fonts/myriadpro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'myriad_proregular';
+    src: url('../../../fonts/myriadpro-regular-webfont.woff2') format('woff2'),
+         url('../../../fonts/myriadpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'myriad_probold';
+    src: url('../../../fonts/myriadpro-bold-webfont.woff2') format('woff2'),
+         url('../../../fonts/myriadpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/** myriad fonts end here **/
