@@ -35,16 +35,7 @@
                         "allowedPushOperations": "createUpdateAndDelete",
                         "scope": "SingleItem"
                     },
-                    {
-                        "path": "/Settings/Services/API Keys",
-                        "allowedPushOperations": "createUpdateAndDelete",
-                        "scope": "itemAndDescendants"
-                    },
-                    {
-                        "path": "/Settings/Services",
-                        "allowedPushOperations": "createUpdateAndDelete",
-                        "scope": "SingleItem"
-                    },
+                    
                     {
                         "path": "/Settings",
                         "allowedPushOperations": "createUpdateAndDelete",

@@ -22,7 +22,7 @@ SharedFields:
   Value: "{4FED1CB4-7F95-4447-8B18-FE75A054C85A}"
 - ID: "3e4f559f-8e59-4405-b50d-619811371f6c"
   Hint: Name
-  Value: espire
+  Value: sxastarter
 - ID: "5764d2d4-724d-4313-a81b-9246c911faff"
   Hint: AppDatasourcesPath
   Value: "{50B61E13-9847-4F8F-AAAD-0D1F042504FC}"
@@ -77,11 +77,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ba4590d0-7f20-4115-8504-8eb8356bf64a"
+      Value: "09939180-d194-45c4-a64f-65017392b813"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manoj.chopkar@espire.com
+        sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230711T072608Z
+      Value: 20230712T063320Z
