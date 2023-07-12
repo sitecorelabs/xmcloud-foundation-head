@@ -1,0 +1,23 @@
+﻿---
+ID: "9eec4f7a-e7a6-49ee-ab94-48294a69c571"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "e22aa818-7c05-4461-ad16-6e655eef3a34"
+Path: /sitecore/content/EspireDemo/Espire/Data/Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230712T073654Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0588b4bc-f01f-40a5-a862-f22c64613b47"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230712T073654Z

@@ -1,10 +1,10 @@
 {
-  "name": "sxastarter",
+  "name": "espire",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
   "version": "21.2.0",
   "private": true,
   "config": {
-    "appName": "sxastarter",
+    "appName": "espire",
     "rootPlaceholders": [
       "jss-main"
     ],
