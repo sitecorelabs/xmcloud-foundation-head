@@ -1,0 +1,42 @@
+@include respond-to(mobile-to-tablet){
+    h1 {
+        font-size: $md-font-tertiary;
+      }
+      p {
+        font-size: $sm-font;
+      }
+      .container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+      }
+}
+
+@include respond-to(tablet-to-laptop){
+    h1 {
+        font-size: $lg-font;
+      }
+    
+}
+
+@include respond-to(laptop-to-desktop){
+  h1 {
+    font-size: $xl-font;
+  }
+}
+
+@include respond-to(desktop-and-above){
+  .container {
+    max-width: 1230px;
+  }
+}
+
+
+h1 {
+  font-weight: $regular;
+  font-family: $secondary-font;
+}
+
+
+a{
+  text-decoration: none;
+}

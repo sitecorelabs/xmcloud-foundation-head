@@ -2,7 +2,7 @@
 ID: "cd55f461-4149-4230-9d22-8088a313f03e"
 Parent: "322cb48a-bb71-473f-b841-eb45cc72c049"
 Template: "3e3501a0-6929-40e9-bcbd-81e042aea7c1"
-Path: /sitecore/content/EspireDemo/Espire/Test Pages/HomePage Banner
+Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner
 SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail

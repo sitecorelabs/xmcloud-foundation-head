@@ -1,8 +1,25 @@
 ﻿---
-ID: "addacbe2-217b-4e9d-b5bb-f6ea8aadf425"
+ID: "9238df1f-68a3-4b83-8e8f-828ca2d5b9f2"
 Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
-Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
 Path: /sitecore/layout/Renderings/Project/EspireDemo/Banner
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Banner
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/32x32/pictures.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/EspireDemo/Banner
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/EspireDemo/Espire/Data/Banner
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{8ABF6F04-0295-4CEA-ABDF-02733DFE78DE}" />
 Languages:
 - Language: en
   Versions:
@@ -10,7 +27,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T073806Z
+      Value: 20230712T073820Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +38,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1d3e280-2bc6-44c0-b780-69ed40ab5db4"
+      Value: "aeebc41b-d484-4374-8fd4-9cf2ed8f9e5d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230712T073806Z
+      Value: 20230712T131847Z
