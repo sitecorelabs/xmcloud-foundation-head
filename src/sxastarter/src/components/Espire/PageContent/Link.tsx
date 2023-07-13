@@ -7,6 +7,7 @@ export const Link = (props: LinkTemplateProps): JSX.Element => {
   return <JssLink field={props.fields.Link} />;
 };
 
+// This is rendering variant of link
 export const SkipToMainContent = (props: LinkTemplateProps): JSX.Element => {
   const isEditMode = EditMode();
   return isEditMode ? (

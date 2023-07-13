@@ -4,10 +4,10 @@ const LanguageSelector = (): JSX.Element => {
     <div className="header">
       <div className="language-selector">
         <Form.Select aria-label="Default select example">
-          <option>Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option>Select Language</option>
+          <option value="1">English</option>
+          <option value="2">French</option>
+          <option value="3">German</option>
         </Form.Select>
       </div>
     </div>
