@@ -48,7 +48,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   if (splitStyles && splitStyles.includes('container')) {
     return (
-      <div className=" defaulter container-wrapper">
+      <div className="container-wrapper">
         <DefaultContainer {...props} />
       </div>
     );
