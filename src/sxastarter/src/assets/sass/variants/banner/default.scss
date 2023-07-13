@@ -1,4 +1,3 @@
-// @import "../../abstracts/vars/espire-color.scss";
 @import "../../abstracts/espire-mixin";
 .banner {
     &.banner-with-cta {
@@ -82,5 +81,9 @@
               }
         }
        
+    }
+
+    &.scEnabledChrome{
+        width: 100%;
     }
 }
