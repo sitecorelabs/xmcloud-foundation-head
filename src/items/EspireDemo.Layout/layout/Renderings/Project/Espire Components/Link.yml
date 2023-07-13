@@ -1,33 +1,27 @@
 ﻿---
-ID: "9238df1f-68a3-4b83-8e8f-828ca2d5b9f2"
+ID: "1167ce9e-6ffe-4739-95bb-8ea99d322cbb"
 Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Espire Components/Banner
+Path: /sitecore/layout/Renderings/Project/Espire Components/Link
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Banner
+  Value: Link
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/pictures.png
+  Value: Imaging/32x32/line_bezier_red_h.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Banner
-- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
-  Hint: Open Properties after Add
-  Value: 0
+  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Link
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{0C9EB3F7-47D1-4CC3-B8AB-9011CB5A473F}"
+  Value: "{E451DDDC-2724-406F-BD7B-E33399C9D7C4}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/EspireDemo/Espire/Data/Banner
-- ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
-  Hint: AddFieldEditorButton
-  Value: 1
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: 
+  Value: /sitecore/content/EspireDemo/Espire/Data/Link
+- ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
+  Hint: OtherProperties
+  Value: isAutoDataSourceRendering =true
 Languages:
 - Language: en
   Versions:
@@ -35,7 +29,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T073820Z
+      Value: 20230713T111632Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -46,11 +40,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6d169ac-640d-48ae-8679-b85cd0daa04d"
+      Value: "6515197e-bb2e-46e7-8364-94337753e020"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T144454Z
+      Value: 20230713T151827Z

@@ -1,0 +1,57 @@
+﻿---
+ID: "d32e6199-0b52-4713-8f7e-c89f27ef99e3"
+Parent: "ec6bfad3-59d2-4ff5-97ca-97ab3041b778"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: /sitecore/media library/Project/EspireDemo/Espire/Thumbnail/Skip to main content
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/D32E61990B5247138F7EC89F27EF99E3.ashx?h=16&thn=1&w=16"
+- ID: "22eac599-f13b-4607-a89d-c091763a467d"
+  Hint: Width
+  Value: 191
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "eb7635a1-35ad-482c-9a33-4ba7a0be2c91"
+  Value: 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
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 2047
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/png
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: png
+- ID: "cb09946f-3218-4823-87d2-d5007c199a96"
+  Hint: Dimensions
+  Value: 191 x 71
+- ID: "de2ca9e4-c117-4c8a-a139-1ff4b199d15a"
+  Hint: Height
+  Value: 71
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230713T115233Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af5b70be-c604-47c1-b940-c1a24bba491b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230713T115233Z

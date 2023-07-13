@@ -48,7 +48,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   if (splitStyles && splitStyles.includes('container')) {
     return (
-      <div className="container-wrapper">
+      <div className=" defaulter container-wrapper">
         <DefaultContainer {...props} />
       </div>
     );
@@ -56,3 +56,11 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   return <DefaultContainer {...props} />;
 };
+
+//Espire Component Container
+
+export const Container = (props: ComponentProps): JSX.Element => (
+  <div className="conatiner container-wrapper">
+    <DefaultContainer {...props} />
+  </div>
+);
