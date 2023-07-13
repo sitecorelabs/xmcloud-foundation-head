@@ -1,15 +1,15 @@
 ﻿---
-ID: "d4038bc4-9a40-48bd-8607-a9b68fc617b0"
-Parent: "34af570e-55aa-4dc4-8c03-57bf0ba1448b"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Available Renderings/Espire
+ID: "41408534-4a68-4a61-a657-d99bd6c6ddaa"
+Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/Espire Components/LanguageSelector
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {9238DF1F-68A3-4B83-8E8F-828CA2D5B9F2}
-    {41408534-4A68-4A61-A657-D99BD6C6DDAA}
-    {77080CC3-29BF-440B-B693-CAF9A4F3E508}
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: LanguageSelector
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/serialize_domain.png
 Languages:
 - Language: en
   Versions:
@@ -17,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T074008Z
+      Value: 20230713T080904Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +28,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2996826a-8e0b-4325-9189-4deb17a1f8c7"
+      Value: "31eeb68c-feb6-4e2a-909c-6d52d55ec489"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T095605Z
+      Value: 20230713T081311Z
