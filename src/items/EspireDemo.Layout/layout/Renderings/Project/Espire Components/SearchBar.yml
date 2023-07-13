@@ -1,33 +1,18 @@
 ﻿---
-ID: "9238df1f-68a3-4b83-8e8f-828ca2d5b9f2"
+ID: "77080cc3-29bf-440b-b693-caf9a4f3e508"
 Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Espire Components/Banner
+Path: /sitecore/layout/Renderings/Project/Espire Components/SearchBar
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: Banner
+  Value: SearchBar
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: apps/32x32/pictures.png
-- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
-  Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Banner
-- ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
-  Hint: Open Properties after Add
-  Value: 0
+  Value: Applications/32x32/view.png
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{0C9EB3F7-47D1-4CC3-B8AB-9011CB5A473F}"
-- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
-  Hint: Datasource Location
-  Value: /sitecore/content/EspireDemo/Espire/Data/Banner
-- ID: "c39a90ce-0035-41bb-90f6-3c8a6ea87797"
-  Hint: AddFieldEditorButton
-  Value: 1
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: 
+  Value: "{CF39D129-D1C7-49CC-A450-968D85A7FB1F}"
 Languages:
 - Language: en
   Versions:
@@ -35,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T073820Z
+      Value: 20230713T095454Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -46,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f6d169ac-640d-48ae-8679-b85cd0daa04d"
+      Value: "1cf6a0d8-2c33-489f-989b-56f0fd64b119"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T144454Z
+      Value: 20230713T152301Z

@@ -2,6 +2,7 @@ import {
   ComponentParams,
   ComponentRendering,
   SitecoreContextValue,
+  useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 
 /**
@@ -20,4 +21,9 @@ export type ComponentProps = {
  */
 export type ComponentWithContextProps = ComponentProps & {
   sitecoreContext: SitecoreContextValue;
+};
+
+export const EditMode = () => {
+  const { sitecoreContext } = useSitecoreContext();
+  return sitecoreContext?.pageEditing;
 };

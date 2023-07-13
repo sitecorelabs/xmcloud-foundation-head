@@ -56,3 +56,11 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
   return <DefaultContainer {...props} />;
 };
+
+//Espire Component Container
+
+export const Container = (props: ComponentProps): JSX.Element => (
+  <div className="conatiner container-wrapper">
+    <DefaultContainer {...props} />
+  </div>
+);

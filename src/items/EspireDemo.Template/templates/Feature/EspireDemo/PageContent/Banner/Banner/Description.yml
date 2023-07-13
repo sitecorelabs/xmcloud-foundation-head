@@ -1,16 +1,18 @@
 ﻿---
-ID: "d4038bc4-9a40-48bd-8607-a9b68fc617b0"
-Parent: "34af570e-55aa-4dc4-8c03-57bf0ba1448b"
-Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Available Renderings/Espire
+ID: "e276cdf5-5ab3-4cda-9872-1eb17f6eabfc"
+Parent: "a4d1d246-1365-4589-b349-1fac84f63ed8"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/EspireDemo/PageContent/Banner/Banner/Description
 SharedFields:
-- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
-  Hint: Renderings
-  Value: |
-    {9238DF1F-68A3-4B83-8E8F-828CA2D5B9F2}
-    {41408534-4A68-4A61-A657-D99BD6C6DDAA}
-    {77080CC3-29BF-440B-B693-CAF9A4F3E508}
-    {1167CE9E-6FFE-4739-95BB-8EA99D322CBB}
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "query:$xaRichTextProfile"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -18,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230712T074008Z
+      Value: 20230712T072013Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -29,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b977e79b-c359-4976-95a4-8538fc5b858d"
+      Value: "ffb7ff54-cbae-46a9-b54c-14f5b5528fc3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T114223Z
+      Value: 20230712T072814Z
