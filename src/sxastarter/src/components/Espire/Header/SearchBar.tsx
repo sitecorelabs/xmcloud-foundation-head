@@ -5,7 +5,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 const SearchBar = (props: ComponentProps): JSX.Element => {
   return (
-    <div className={`${props.params.styles}`}>
+    <div className={`search-bar-default ${props.params.styles}`}>
       <div className="search-bar">
         <InputGroup className="mb-3">
           <Button variant="outline-secondary" id="search-btn">
