@@ -1,7 +1,9 @@
+import { ComponentProps } from 'lib/component-props';
 import Form from 'react-bootstrap/Form';
-const LanguageSelector = (): JSX.Element => {
+
+const LanguageSelector = (props: ComponentProps): JSX.Element => {
   return (
-    <div className="header">
+    <div className={`${props.params.styles}`}>
       <div className="language-selector">
         <Form.Select aria-label="Default select example">
           <option>Select Language</option>

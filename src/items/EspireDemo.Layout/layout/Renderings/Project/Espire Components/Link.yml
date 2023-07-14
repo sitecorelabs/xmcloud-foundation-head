@@ -21,7 +21,7 @@ SharedFields:
   Value: /sitecore/content/EspireDemo/Espire/Data/Link
 - ID: "e829c217-5e94-4306-9c48-2634b094fdc2"
   Hint: OtherProperties
-  Value: isAutoDataSourceRendering =true
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -40,11 +40,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6515197e-bb2e-46e7-8364-94337753e020"
+      Value: "00533c83-e4cd-4227-a263-ba9891d6b492"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T151827Z
+      Value: 20230714T061046Z

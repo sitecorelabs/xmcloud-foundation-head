@@ -1,3 +1,88 @@
+html {
+  font-size: 62.5%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 0px;
+  height: auto !important;
+}
+
+body {
+  @include opensans-font-stack();
+  position: relative;
+  overflow: auto;
+  color: $text-basic;
+  font-size: 18px;
+  line-height: 1.5;
+  background: $page-bg;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  height: auto !important;
+  &.on-page-editor {
+    background: $page-bg-editor !important;
+  }
+}
+
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: $myriad-regular-font;
+  font-weight: $regular;
+  font-size: $sm-font;
+  color: $brand-color;
+}
+
+
+
+h1 {
+  font-weight: $regular;
+  font-size: $xl-font;
+  font-family: $secondary-font;
+}
+
+h2 {
+  font-size: $lg-font;
+  font-family: $secondary-font;
+  font-weight: $regular;
+  color: $brand-color;
+  margin-bottom: 3rem;
+  filter: contrast(1);
+}
+
+h3 {
+  font-size: $md-font-tertiary;
+  font-family: $secondary-font;
+  font-weight: $regular;
+  margin-bottom: 1.5rem;
+  color: $brand-color;
+}
+
+h4 {
+  font-size: $md-font-primary;
+  color: $brand-color;
+  font-family: $myriad-regular-font;
+  font-weight: $semi-bold;
+}
+
+ul,
+li {
+  font-family: $myriad-regular-font;
+  font-weight: $medium;
+}
+
+
 @include respond-to(mobile-to-tablet){
     h1 {
         font-size: $md-font-tertiary;
@@ -15,6 +100,7 @@
     h1 {
         font-size: $lg-font;
       }
+      
     
 }
 
@@ -28,6 +114,9 @@
   .container {
     max-width: 1230px;
   }
+  h1 {
+    font-size: $xl-font;
+  }
 }
 
 
@@ -40,3 +129,4 @@ h1 {
 a{
   text-decoration: none;
 }
+

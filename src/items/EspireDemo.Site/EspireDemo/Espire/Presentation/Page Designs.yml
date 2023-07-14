@@ -5,6 +5,9 @@ Template: "245f3d90-5f18-4a3e-932f-841941daf646"
 Path: /sitecore/content/EspireDemo/Espire/Presentation/Page Designs
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b3E3501A0-6929-40E9-BCBD-81E042AEA7C1%7d%3d%257B6365C2B2-4D60-41F6-9CBE-EE576AD67DCD%257D"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -26,11 +29,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "46a4707a-01d1-4a9d-8105-e6810e747b54"
+      Value: "8d6b5fba-3050-4452-8b82-e3b7f2f8b5cd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\manoj.chopkar@espire.com
+        sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230707T145158Z
+      Value: 20230714T091220Z

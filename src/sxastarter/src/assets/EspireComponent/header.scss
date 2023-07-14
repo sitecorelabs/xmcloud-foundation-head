@@ -1,0 +1,55 @@
+#header {
+  color: $white;
+  > .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  a {
+    color: $white;
+  }
+  .link {
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .link-list {
+    > .component-content {
+      li {
+        a {
+          &::before {
+            content: '';
+          }
+        }
+      }
+    }
+    ul {
+      li {
+        display: inline-block;
+        padding-left: 2.5rem;
+      }
+    }
+  }
+
+  .language-selector {
+   
+  }
+  select,
+  option {
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    
+  }
+  img {
+    max-width: 90px;
+  }
+
+  .navigation.navigation-main .rel-level1.submenu > .navigation-title{
+    a{
+      &::after{
+        content: "";
+      }
+    }
+  }
+}
