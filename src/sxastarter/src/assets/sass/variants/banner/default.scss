@@ -1,6 +1,6 @@
 @import "../../abstracts/espire-mixin";
 .banner {
-    &.banner-with-cta {
+    &.default {
         position: relative;
 
         &:before {
@@ -85,5 +85,13 @@
 
     &.scEnabledChrome{
         width: 100%;
+    }
+}
+
+//for edit mode
+.editing-mode{
+    .banner{
+        width: 100%;
+        text-align: left;
     }
 }
