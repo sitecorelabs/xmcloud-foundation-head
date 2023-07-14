@@ -1,8 +1,12 @@
 ﻿---
-ID: "ed4f97cb-f491-443d-a943-46e81e0239c6"
-Parent: "3c093657-8397-4707-a7b2-31b5fd0ff7a4"
-Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Styles/Banner
+ID: "1470051e-887c-446e-8bd2-bb9746f9bca5"
+Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/SearchBar
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/view.png
 Languages:
 - Language: en
   Versions:
@@ -10,7 +14,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230713T133808Z
+      Value: 20230714T042602Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +25,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be0b6933-c6fd-4067-92d7-52fc937f41bd"
+      Value: "17ff0e85-fe60-4c77-ab2a-a141fc64e429"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T133808Z
+      Value: 20230714T042629Z

@@ -13,7 +13,8 @@ Languages:
       Value: <r />
     - ID: "1c617420-bd69-4bf8-8777-0dc380756ea1"
       Hint: Image
-      Value: 
+      Value: |
+        <image mediaid="{32956CDE-9FB9-419D-88E1-D25FE2DC4D49}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230712T075121Z
@@ -31,14 +32,14 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5d41595f-da3f-48bf-9ad7-c182c85eef62"
+      Value: "5e5eecb7-b6ab-499b-8dc8-a35f92528193"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T063039Z
+      Value: 20230714T042430Z
     - ID: "e276cdf5-5ab3-4cda-9872-1eb17f6eabfc"
       Hint: Description
       Value: Serving Maricopa County and the Phoenix Metropolitan community through justice and integrity.

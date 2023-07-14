@@ -31,7 +31,7 @@ Languages:
               p:before="*"
               s:ds="local:/Data/b"
               s:id="{9238DF1F-68A3-4B83-8E8F-828CA2D5B9F2}"
-              s:par="CacheClearingBehavior=Clear on publish&amp;CSSStyles"
+              s:par="CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles&amp;FieldNames=%7BE7124B53-0FC6-4D05-935B-947D97A9852A%7D"
               s:ph="/headless-header/container-1" />
             <r
               uid="{BFEB1E82-9E24-434C-9D91-3AD2853B53D6}"
@@ -57,11 +57,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad39a713-9ee1-4fb6-aa87-6707e04e4dc6"
+      Value: "7cccf757-1293-4c30-9b2c-c781f4f7a7c8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T134005Z
+      Value: 20230713T153328Z

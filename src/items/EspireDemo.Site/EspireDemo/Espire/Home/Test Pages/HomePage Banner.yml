@@ -34,11 +34,17 @@ Languages:
               s:par="CacheClearingBehavior=Clear+on+publish&amp;CSSStyles&amp;FieldNames=%7bE7124B53-0FC6-4D05-935B-947D97A9852A%7d"
               s:ph="headless-main" />
             <r
+              uid="{8B85D16E-6524-45D6-9959-583D03782B3B}"
+              p:after="r[@uid='{FED48EFD-D739-4C7C-9739-D7B68B6F24CE}']"
+              s:id="{41408534-4A68-4A61-A657-D99BD6C6DDAA}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B85882EC9-318A-4148-99F7-21EDDFE74C93%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+            <r
               uid="{BAF426AF-9623-4667-9AE0-93B61C1701E8}"
               p:after="*[1=2]"
               s:ds="local:/Data/Home Page Banner"
               s:id="{9238DF1F-68A3-4B83-8E8F-828CA2D5B9F2}"
-              s:par="CacheClearingBehavior=Clear+on+publish&amp;CSSStyles&amp;FieldNames=%7bD7079C28-9B51-473D-B5D9-48A11F98177B%7d"
+              s:par="CacheClearingBehavior=Clear%20on%20publish&amp;CSSStyles&amp;FieldNames=%7BE7124B53-0FC6-4D05-935B-947D97A9852A%7D"
               s:ph="headless-main" />
           </d>
         </r>
@@ -58,11 +64,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "99cbc1bc-de20-46ca-a06a-60d114e74494"
+      Value: "dfbffeb8-a465-47ce-8e77-4309b41ce491"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T103457Z
+      Value: 20230714T043055Z

@@ -6,12 +6,12 @@ const SearchBar = (): JSX.Element => {
   return (
     <div className="search-bar">
       <InputGroup className="mb-3">
-        <Button variant="outline-secondary" id="button-addon1">
+        <Button variant="outline-secondary" id="search-btn">
           <i className="fa fa-search"></i>
         </Button>
         <Form.Control
           aria-label="search bar"
-          aria-describedby="basic-addon1"
+          aria-describedby="seacrh-bar"
           placeholder="Search by case and more"
         />
       </InputGroup>
