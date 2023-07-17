@@ -1,0 +1,41 @@
+﻿---
+ID: "ca87ab2c-b3c5-437e-a8a6-ccf3521dcabe"
+Parent: "83681fd1-d9ed-4155-be36-bae883dae3cc"
+Template: "fce0c0a1-0453-43de-a82f-9655b1aa06c6"
+Path: /sitecore/content/EspireDemo/Espire/Data/Plain HTML Resuable/Contact Address
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T124706Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82ffe7ef-42b8-4840-a6a4-df9f451728b4"
+    - ID: "9eb973fa-f24f-4e56-82ef-5d7fbf2e1290"
+      Hint: PlainHTML
+      Value: |
+        <address>
+                        <div class="branch-info">Central Court Building</div>
+                        <span>201 W. Jefferson Street</span>
+                      </address>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230717T124904Z

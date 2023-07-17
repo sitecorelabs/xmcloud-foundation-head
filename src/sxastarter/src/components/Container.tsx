@@ -33,7 +33,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
   }
 
   return (
-    <div className={`component container-default ${styles}`} id={id ? id : undefined}>
+    <div className={`component container container-default ${styles}`} id={id ? id : undefined}>
       <div className="component-content" style={backgroundStyle}>
         <div className="row">
           <Placeholder name={phKey} rendering={props.rendering} />
@@ -59,8 +59,4 @@ export const Default = (props: ComponentProps): JSX.Element => {
 
 //Espire Component Container
 
-export const Container = (props: ComponentProps): JSX.Element => (
-  <div className="container container-wrapper">
-    <DefaultContainer {...props} />
-  </div>
-);
+export const Container = (props: ComponentProps): JSX.Element => <DefaultContainer {...props} />;

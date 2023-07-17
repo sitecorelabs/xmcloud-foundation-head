@@ -1,8 +1,8 @@
 ﻿---
-ID: "c867f30a-ab06-45c2-b2a8-809b410ed0a8"
-Parent: "3c093657-8397-4707-a7b2-31b5fd0ff7a4"
-Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Styles/Header
+ID: "300eecf0-485a-4c8c-a105-3a239e8ed5fc"
+Parent: "c5f01237-fb7e-4ace-8022-cdc6cd78be82"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: /sitecore/content/EspireDemo/Espire/Data/Link Lists/footer navigation list/Information
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230714T102552Z
+      Value: 20230717T121451Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -19,13 +19,17 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\raman.gupta@espire.com
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link text="Information" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1a580224-1bbe-4905-95bd-d46b22e4ecd1"
+      Value: "5511ef10-eb9e-4822-bb9e-513fc9a8e380"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230714T102552Z
+      Value: 20230717T121512Z

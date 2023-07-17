@@ -29,10 +29,11 @@ Languages:
             <r
               uid="{AFD241FE-41BF-424E-B9CE-64B7348A4EBE}"
               p:before="*"
-              s:ds="local:/Data/Image 1"
+              s:ds="{F2C7107C-A3AE-4C62-B2E3-2008F4FA932D}"
               s:id="{AB2EDBA0-3960-4F12-B765-579DC231894A}"
-              s:par="GridParameters=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames=%7B700FD891-58CD-479E-836C-AE18DD405443%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
-              s:ph="/headless-header/container-1/container-12" />
+              s:par="GridParameters=%7B824C8D0B-5538-4E25-BAF2-82CF5E7D94FF%7D%7C%7B31A49E90-E4B4-4F04-A3C7-E15B6835990F%7D&amp;FieldNames=%7B700FD891-58CD-479E-836C-AE18DD405443%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
+              s:ph="/headless-header/container-1/container-12"
+              s:ccb="Clear on publish" />
             <r
               uid="{9D2815E1-019F-4DBB-961C-B453BC85380F}"
               p:after="r[@uid='{AFD241FE-41BF-424E-B9CE-64B7348A4EBE}']"
@@ -111,11 +112,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "60dbca01-b9c4-4c0e-86ad-1fd0ab03a035"
+      Value: "e06e8661-c1ab-4cf7-b8c0-ad30fcf321df"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T054850Z
+      Value: 20230717T114858Z

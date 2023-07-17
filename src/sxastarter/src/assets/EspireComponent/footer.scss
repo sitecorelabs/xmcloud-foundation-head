@@ -1,0 +1,15 @@
+#footer {
+    >.container {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+    .editing-mode {
+        #footer {
+            .link-list {
+                h3 {
+                    display: none;
+                }
+            }
+        }
+    }

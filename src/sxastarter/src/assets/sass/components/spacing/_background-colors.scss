@@ -15,4 +15,7 @@
 
 .primary-color{
   background: $brand-color;
+  *{
+    color:$white;
+  }
 }

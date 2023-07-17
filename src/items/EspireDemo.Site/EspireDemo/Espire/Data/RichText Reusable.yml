@@ -1,0 +1,27 @@
+﻿---
+ID: "bab34d9a-f5f3-4194-ba2a-d2eccf7d4e08"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "8bdb88ac-86d6-4a89-9520-7547c56210a7"
+Path: /sitecore/content/EspireDemo/Espire/Data/RichText Reusable
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/16x16/notebook.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T085455Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ff1a238f-941c-415f-b795-1ffd18503675"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230717T085512Z
