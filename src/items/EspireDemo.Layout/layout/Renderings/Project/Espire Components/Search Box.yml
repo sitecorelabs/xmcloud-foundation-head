@@ -2,11 +2,11 @@
 ID: "77080cc3-29bf-440b-b693-caf9a4f3e508"
 Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Espire Components/SearchBar
+Path: /sitecore/layout/Renderings/Project/Espire Components/Search Box
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SearchBar
+  Value: SearchBox
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: Applications/32x32/view.png
@@ -31,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1cf6a0d8-2c33-489f-989b-56f0fd64b119"
+      Value: "15fda43f-6093-4f71-b453-b9c0cd7d4a3e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T152301Z
+      Value: 20230717T052532Z

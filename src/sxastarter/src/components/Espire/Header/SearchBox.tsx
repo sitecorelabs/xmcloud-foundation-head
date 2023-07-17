@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-const SearchBar = (props: ComponentProps): JSX.Element => {
+const SearchBox = (props: ComponentProps): JSX.Element => {
   return (
     <div className={`search-bar-default ${props.params.styles}`}>
       <div className="search-bar">
@@ -22,4 +22,4 @@ const SearchBar = (props: ComponentProps): JSX.Element => {
   );
 };
 
-export default SearchBar;
+export default SearchBox;
