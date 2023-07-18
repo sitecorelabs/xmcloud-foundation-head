@@ -1,0 +1,27 @@
+﻿---
+ID: "83681fd1-d9ed-4155-be36-bae883dae3cc"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "0fb17ab6-d336-4840-9a73-eb7fe7352893"
+Path: /sitecore/content/EspireDemo/Espire/Data/Plain HTML Resuable
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/html_tag.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230717T093523Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95703ccd-ceb9-42be-af3f-0cf293c06e60"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230717T093533Z

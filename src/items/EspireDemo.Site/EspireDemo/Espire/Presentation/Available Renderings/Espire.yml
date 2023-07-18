@@ -11,6 +11,8 @@ SharedFields:
     {41408534-4A68-4A61-A657-D99BD6C6DDAA}
     {77080CC3-29BF-440B-B693-CAF9A4F3E508}
     {1167CE9E-6FFE-4739-95BB-8EA99D322CBB}
+    {13B26AA9-81B3-4CA3-8CCA-40BB55C2F676}
+    {87C1022B-4648-4A43-8C34-C9C34FCA5506}
 Languages:
 - Language: en
   Versions:
@@ -29,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b977e79b-c359-4976-95a4-8538fc5b858d"
+      Value: "05620533-8c43-42b4-9f30-aaed02c0da0f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230713T114223Z
+      Value: 20230717T093634Z

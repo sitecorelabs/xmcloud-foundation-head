@@ -1,16 +1,18 @@
 ﻿---
-ID: "6365c2b2-4d60-41f6-9cbe-ee576ad67dcd"
-Parent: "0938bc2e-5e39-472e-bcb5-a337c70b4e14"
-Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Page Designs/Base Page
+ID: "0fb17ab6-d336-4840-9a73-eb7fe7352893"
+Parent: "1a06ed5d-ea8b-44fd-af0f-b666e7e97f24"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/EspireDemo/PageContent/Plain HTML Resuable Folder
 SharedFields:
-- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
-  Hint: PartialDesigns
-  Value: "{0926BC06-3231-49A3-8F40-F667838E9815}|{7307516D-D692-4948-9615-31CDDBC4ECE0}"
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: |
-    <image mediaid="{C81900A1-26F6-43E0-909D-BB1E30105C58}" />
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: applications/32x32/folder_add.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{10745B24-E14E-47CF-B6AE-15D26E1891A9}"
 Languages:
 - Language: en
   Versions:
@@ -18,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230714T091145Z
+      Value: 20230717T092812Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -29,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7a13c108-0ebb-4da3-a9ed-2bdb07760141"
+      Value: "dc8de563-63af-4691-84f1-40455e2166a8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T135143Z
+      Value: 20230717T092831Z

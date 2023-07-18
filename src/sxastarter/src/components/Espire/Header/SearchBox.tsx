@@ -22,4 +22,18 @@ const SearchBox = (props: ComponentProps): JSX.Element => {
   );
 };
 
+export const SearchIcon = (props: ComponentProps): JSX.Element => {
+  return (
+    <div className={`footer-search-bar ${props.params.styles}`}>
+      <div className="search-bar">
+        <InputGroup>
+          <Button variant="outline-secondary" id="search-btn">
+            <i className="fa fa-search"></i>
+          </Button>
+        </InputGroup>
+      </div>
+    </div>
+  );
+};
+
 export default SearchBox;
