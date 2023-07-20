@@ -29,6 +29,20 @@ SharedFields:
 - ID: "5ca117eb-8782-4a4f-9f2f-30de31fc2e34"
   Hint: PlaceholdersPath
   Value: "{FEFA5907-B027-479E-AB45-18C2096349C1}"
+- ID: "64971fa7-f8ac-4c88-9bb2-2949f2a28670"
+  Hint: RobotsContent
+  Value: |
+    User-agent: *
+    Disallow: /aspnet_client/
+    Disallow: /bin/
+    Disallow: /config/
+    Disallow: /data/
+    Disallow: /install/
+    Disallow: /masterpages/
+    Disallow: /python/
+    Disallow: /sitecore/
+    Disallow: /sitecore/login/
+    Disallow: /xsl/
 - ID: "72e83c8d-3578-4e50-b4c0-93a78a1729f2"
   Hint: FilesystemPath
   Value: /dist/Espire
@@ -77,11 +91,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "09939180-d194-45c4-a64f-65017392b813"
+      Value: "3c224c2e-cae4-4703-837f-456a01fb989c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230712T063320Z
+      Value: 20230720T100633Z

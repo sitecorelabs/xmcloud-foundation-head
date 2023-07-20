@@ -3,6 +3,10 @@ ID: "0201f7ec-18b9-470e-8a27-d8cb7870354e"
 Parent: "7a3ae2e0-6b73-48e3-98be-6a718a42a054"
 Template: "a5799ad0-26d8-4788-911c-4c3348994b54"
 Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner/Data/RTE
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -27,11 +31,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3776f840-c358-47d2-bf94-e3363be021ed"
+      Value: "260732c9-1494-464f-8528-262c9c1013bb"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T091322Z
+      Value: 20230719T151118Z

@@ -12,7 +12,7 @@ SharedFields:
   Value: applications/16x16/notebook.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/PageContent/RichText Reusable
+  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Components/RichText Reusable/RichText Reusable
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 
@@ -40,11 +40,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1acf46df-be83-4a71-91a6-83bcde862e11"
+      Value: "43ad795a-881c-415c-8351-579c41b76add"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T091248Z
+      Value: 20230718T113105Z
