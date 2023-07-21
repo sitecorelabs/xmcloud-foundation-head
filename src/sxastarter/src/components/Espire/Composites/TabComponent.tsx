@@ -1,10 +1,8 @@
 import {
-  Text,
   Field,
   withDatasourceCheck,
   Placeholder,
   RichText,
-  EditFrame,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import Col from 'react-bootstrap/Col';
@@ -12,6 +10,7 @@ import Nav from 'react-bootstrap/Nav';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import { EditMode } from 'lib/component-props';
+import React from 'react';
 
 type TabsProps = ComponentProps & {
   fields: {
@@ -27,10 +26,9 @@ type data = {
   };
 };
 const TabComponent = (props: TabsProps): JSX.Element => {
-  console.log(props);
   const isEdit = EditMode();
   return (
-    <>
+    <div className={`tabs`}>
       {isEdit ? (
         props?.fields?.items?.map((item, index) => {
           return (
@@ -40,13 +38,17 @@ const TabComponent = (props: TabsProps): JSX.Element => {
               </div>
               <div className="content">
                 <RichText field={item?.fields?.Content} />
-                <Placeholder key={index} name="tabcontainer" rendering={props?.rendering} />
+                <Placeholder
+                  key={index}
+                  name={`tabcontainer-${index + 1}`}
+                  rendering={props?.rendering}
+                />
               </div>
             </div>
           );
         })
       ) : (
-        <Tab.Container id="left-tabs-example" defaultActiveKey="1">
+        <Tab.Container id="left-tabs-example" defaultActiveKey="0">
           <Row>
             <Col sm={12}>
               <Nav variant="tabs" className="">
@@ -68,7 +70,11 @@ const TabComponent = (props: TabsProps): JSX.Element => {
                   return (
                     <Tab.Pane eventKey={index} key={index}>
                       <RichText field={item?.fields?.Content} />
-                      <Placeholder name="tabcontainer" rendering={props?.rendering} />
+                      <Placeholder
+                        key={index}
+                        name={`tabcontainer-${index + 1}`}
+                        rendering={props?.rendering}
+                      />
                     </Tab.Pane>
                   );
                 })}
@@ -77,7 +83,7 @@ const TabComponent = (props: TabsProps): JSX.Element => {
           </Row>
         </Tab.Container>
       )}
-    </>
+    </div>
   );
 };
 

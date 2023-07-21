@@ -15,7 +15,6 @@ const publicUrl = getPublicUrl();
 interface LayoutProps {
   layoutData: LayoutServiceData;
   headLinks: HTMLLink[];
- 
 }
 
 interface RouteFields {
@@ -31,7 +30,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
   const { asPath } = useRouter();
-  console.log(fields);
   return (
     <>
       <Scripts />

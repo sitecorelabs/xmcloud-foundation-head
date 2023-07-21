@@ -11,7 +11,8 @@ SharedFields:
   Hint: Placeholders
   Value: |
     {D6375E1D-0EAC-4AE6-B280-62AAE80EA291}
-    {284D388A-9D4E-4742-A298-EC6871592D4B}
+    {49BF9D60-B1B4-4AFC-82E0-6522849D022D}
+    {ABF4BE6C-179B-473E-BD73-E947091DFE7F}
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: office/32x32/windows.png
@@ -58,11 +59,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7aa3dc17-22b4-4917-8b49-352bc4c43c7e"
+      Value: "5b74b2ad-146d-43bf-a3df-3e4faefe2321"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230720T060842Z
+      Value: 20230721T074557Z
