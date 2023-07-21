@@ -67,20 +67,6 @@ Languages:
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7124B53-0FC6-4D05-935B-947D97A9852A%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=11"
               s:ph="/headless-main/container-7/tabcontainer-0-10" />
             <r
-              uid="{78625E76-3F36-4FE8-A4DD-8C4CD3FCA95C}"
-              p:after="r[@uid='{2E3BD51F-993B-46CB-9544-46CB94CCBAD3}']"
-              s:ds="local:/Data/demmo"
-              s:id="{9238DF1F-68A3-4B83-8E8F-828CA2D5B9F2}"
-              s:par="FieldNames=%7BE7124B53-0FC6-4D05-935B-947D97A9852A%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
-              s:ph="headless-main" />
-            <r
-              uid="{DCB97118-CF21-4134-B0B8-8396D8E9DDFB}"
-              p:after="r[@uid='{78625E76-3F36-4FE8-A4DD-8C4CD3FCA95C}']"
-              s:ds="{A2F49C90-535F-43CF-ABD1-E1A9C754C207}"
-              s:id="{3BF40154-F6E5-4D84-9FFD-758F0D984C59}"
-              s:par="Reset Caching Options&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;Styles&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=8"
-              s:ph="headless-main" />
-            <r
               uid="{51FFF9DC-CD5C-4566-9C13-7BC5E4D40BA7}"
               p:after="*[1=2]"
               s:ds=""
@@ -109,7 +95,7 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e9fc6235-26ae-46ae-ab4c-3286552a5c25"
+      Value: "bf517d96-09fe-4ea6-8d84-c950c4baa47b"
     - ID: "a9484400-817a-4d23-bbfd-de1ace5fcd1c"
       Hint: MetaKeywords
       Value: 
@@ -119,4 +105,4 @@ Languages:
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230721T090338Z
+      Value: 20230721T113555Z

@@ -26,16 +26,16 @@ Languages:
       Hint: Text
       Value: |
         <div class="footer-logo-content mt-3 mt-md-0">
-        <div class="branch-info">The Judicial Branch of Arizona</div>
-        <span>Maricopa County</span>
+        <div class="branch-info">Bacon ipsum dolor amet short</div>
+        <span>Zombie ipsum</span>
         </div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e8688fbf-d7ec-4829-929b-e1ea5ba38bed"
+      Value: "e5278224-4006-4d84-a62a-5ac368feea0f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T134829Z
+      Value: 20230721T124853Z

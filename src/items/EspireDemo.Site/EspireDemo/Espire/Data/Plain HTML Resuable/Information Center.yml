@@ -24,18 +24,18 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "89c02770-9437-4d66-bab0-0ab932fc04b7"
+      Value: "d8123f39-a2d2-41f2-9341-80127058eaa5"
     - ID: "9eb973fa-f24f-4e56-82ef-5d7fbf2e1290"
       Hint: PlainHTML
       Value: |
         <div class="contact-number">
-                        <div class="branch-info">Information Center</div>
-                        <a href="tel:602-506-3024">602-506-3024</a>
+                        <div class="branch-info">Lorem Ipsum Center</div>
+                        <a href="tel:111-111-1111">111-111-1111</a>
                       </div>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T124558Z
+      Value: 20230721T125336Z

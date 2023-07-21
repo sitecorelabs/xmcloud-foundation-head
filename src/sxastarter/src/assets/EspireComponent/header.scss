@@ -49,7 +49,12 @@
     }
   }
   .navigation{
-    margin: auto;
+    nav{
+      > ul{
+        float: right;
+      }
+    }
+    margin: auto 0 auto auto;
   }
 
   .search-bar-default{
