@@ -1,0 +1,138 @@
+.tabs {
+    margin: 8rem 0;
+    .nav-tabs {
+        .nav-item {
+            position: relative;
+            border: solid 4px #fff;
+            border-bottom: none;
+            border-right: none;
+            border-radius: 20px 20px 0 0;
+            padding: 1rem 2.5rem;
+            border-left: none;
+            z-index: 1;
+
+            &:first-child {
+                border-left: solid 4px #fff;
+                background-color: rgba(255, 255, 255, 0.4);
+
+                &:has(.active) {
+                    background-color: transparent;
+                }
+
+                .nav-link {
+                    &:after {
+                        content: "";
+                        background-color: transparent;
+                        position: absolute;
+                        right: -48px;
+                        bottom: 0;
+                        left: auto;
+                        top: auto;
+                        width: 0;
+                        height: 0;
+                        border-top: 0px solid transparent;
+                        border-bottom: 50px solid transparent;
+                        border-right: 48px solid rgba(255, 255, 255, 0.4);
+                        border-radius: 0;
+                        @include transformContainer(rotate(180deg));
+                    }
+
+                    &.active {
+                        &:after {
+                            left: 0;
+                            width: calc(100% + 51px);
+                        }
+                    }
+                }
+            }
+
+            & + .nav-item {
+                margin-left: 2.2rem;
+                padding-left: 5rem;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 30px;
+                    height: 45px;
+                    left: -4px;
+                    border-radius: 20px 0 0 30px;
+                    top: -3px;
+                    border-left: solid 4px #fff;
+                    @include transformContainer(rotate(11deg));
+                }
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: -22px;
+                top: -15px;
+                border-right: solid 4px #fff;
+                display: block;
+                height: 92px;
+                border-radius: 20px;
+                @include transformContainer(rotate(-45deg));
+            }
+
+            .nav-link {
+                background-color: transparent;
+                border: none;
+                font-weight: $regular;
+                font-size: calc($md-font - 0.1rem);
+                font-family: $myriad-regular-font;
+                color: $brand-color;
+                text-transform: capitalize;
+                padding: 0;
+
+                &.active {
+                    font-family: $secondary-font;
+                    font-size: $md-font-tertiary;
+
+                    &:before {
+                        display: none;
+                    }
+
+                    &:after {
+                        left: 31px;
+                        background-color: $light-color;
+                        width: calc(100% + 20px);
+                        height: 5px;
+                        bottom: -4px;
+                        top: auto;
+                        transform: none;
+                        border: none;
+                        border-radius: 0;
+                    }
+                }
+
+                &:after {
+                    @include transformContainer(skew(43deg));
+                    content: "";
+                    background-color: rgba($white, 0.4);
+                    position: absolute;
+                    top: 0;
+                    width: calc(100% + 18px);
+                    height: 100%;
+                    z-index: -1;
+                    left: 0;
+                    border-radius: 48px 0 0 0;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        padding: 4rem 2.5rem;
+        border: solid 4px $white;
+        border-radius: 0 $lg-border-radius $lg-border-radius $lg-border-radius;
+        margin: -1px 0 0 0;
+
+        .tab-pane {
+            > p {
+                color: $black-color;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+}

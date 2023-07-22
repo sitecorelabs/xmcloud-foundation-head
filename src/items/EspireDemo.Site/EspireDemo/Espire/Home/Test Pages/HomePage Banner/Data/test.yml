@@ -3,6 +3,10 @@ ID: "86a4de0b-e7cf-4e1d-b739-ef763b61d589"
 Parent: "7a3ae2e0-6b73-48e3-98be-6a718a42a054"
 Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
 Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner/Data/test
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
 Languages:
 - Language: en
   Versions:
@@ -16,14 +20,14 @@ Languages:
       Value: 20230714T070450Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c23fc7ae-fe4e-45cd-8103-4b45970b6153"
+      Value: "72f54819-b7d0-4e8d-b5ce-a0fadce56fce"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230714T071133Z
+      Value: 20230719T151119Z
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |

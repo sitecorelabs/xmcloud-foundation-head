@@ -30,14 +30,14 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" text="Employment opportunities" querystring="" target="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
+        <link text="Opportunities" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bc377796-b5d1-4b7d-a548-8f260bdde1e7"
+      Value: "aae21254-ccc0-4f28-b5f7-b9735645f7f2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T130131Z
+      Value: 20230721T124955Z

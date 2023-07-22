@@ -12,7 +12,7 @@ SharedFields:
   Value: office/32x32/html_tag.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Plain HTML Resuable
+  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Components/Plain HTML Reusable/Plain HTML Reusable
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
   Value: "{174EC1C6-32D3-4A1D-9230-D1160D0C62A6}"
@@ -37,11 +37,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f50abde-a432-4b77-b026-1759573e375e"
+      Value: "147740cc-ea07-441a-99e7-b03db271bd15"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T094713Z
+      Value: 20230718T113050Z

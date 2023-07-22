@@ -1,0 +1,28 @@
+﻿---
+ID: "c0ff837d-e268-4435-b597-1c883e4664d1"
+Parent: "50c50a2f-fe66-4fa6-85c7-572590bdeed0"
+Template: "204d8962-1bd1-4327-99eb-e2b9cc01d32f"
+Path: /sitecore/content/EspireDemo/Espire/Data/Tabs/Tabs Root
+BranchID: "5a2f3ab7-303e-431d-8cbd-335d46e2bc5c"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2F1EC8D7-31F8-4035-BB99-3D77CDBDD895}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230720T071405Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddc5a956-b932-4930-8c91-e6dba0d4f1ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T071405Z

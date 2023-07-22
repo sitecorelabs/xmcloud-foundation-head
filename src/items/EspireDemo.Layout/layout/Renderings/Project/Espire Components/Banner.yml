@@ -12,7 +12,7 @@ SharedFields:
   Value: apps/32x32/pictures.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Banner
+  Value: /sitecore/templates/Feature/EspireDemo/PageContent/Components/Banner/Banner
 - ID: "7d8ae35f-9ed1-43b5-96a2-0a5f040d4e4e"
   Hint: Open Properties after Add
   Value: 
@@ -46,11 +46,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "68b26a13-7226-4cbc-86ae-d62e4beb5a06"
+      Value: "c888eac3-dad7-4fa8-b981-82e9cbe438f2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T091303Z
+      Value: 20230718T113027Z

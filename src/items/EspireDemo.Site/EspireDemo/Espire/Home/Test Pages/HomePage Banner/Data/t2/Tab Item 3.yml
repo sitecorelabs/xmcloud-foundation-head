@@ -1,0 +1,37 @@
+﻿---
+ID: "4adbfbab-ca55-4215-aa6e-456995c44193"
+Parent: "6ab4f8db-696d-41e8-8399-fd1d337fe1e2"
+Template: "df44c08a-73b1-4074-99cd-c6783e33c8bc"
+Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner/Data/t2/Tab Item 3
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230719T085618Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1154b4d8-1b7a-45b5-99eb-25a39904abb8"
+    - ID: "a7a57bcf-a47d-4cd6-9b0b-0a72987b146d"
+      Hint: Heading
+      Value: <p>Tab 3</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230719T095227Z

@@ -21,7 +21,7 @@ Languages:
       Value: 20230714T085530Z
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
-      Value: About
+      Value: Lorem Ipsum
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -32,11 +32,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "83145356-6ad8-4f5e-9fdf-e88d36e636e8"
+      Value: "28b36abb-303d-4890-8674-22d690967ad7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230714T092013Z
+      Value: 20230721T112207Z

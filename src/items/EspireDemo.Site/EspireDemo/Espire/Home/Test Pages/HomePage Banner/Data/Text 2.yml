@@ -1,0 +1,65 @@
+﻿---
+ID: "1cc81183-8b66-48e8-856f-8abee7cacbe5"
+Parent: "7a3ae2e0-6b73-48e3-98be-6a718a42a054"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/HomePage Banner/Data/Text 2
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230721T083943Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <p style="color: #000000;margin-bottom: 3rem;">
+        <div class="gr" style="color: #000000; background-color: #556271; width: 1285px;">
+        <div class="page-section__header g12-xs g9-xl" style="width: 963.75px; margin-top: 9.75em; padding-right: 1rem; padding-left: 1rem;">
+        <h2 class="f1 cl-gray-1" style="color: #7b8898; margin: 0px; letter-spacing: 0.025em; line-height: 1.125;"><a href="https://loremipsum.io/#origins-and-discovery" style="color: inherit; background-color: transparent;">Origins and Discovery</a></h2>
+        <p class="f1 cl-white m0" style="color: #ffffff; margin-top: 0px; margin-right: 0px; margin-left: 0px; letter-spacing: 0.025em; line-height: 1.125;"><em>Lorem ipsum</em>&nbsp;began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text&nbsp;<em>De Finibus Bonorum et Malorum</em>.</p>
+        </div>
+        </div>
+        <div class="gr" style="color: #000000; background-color: #556271; width: 1285px;"><figure class="page-section__image g12-xs g3-md" style="width: 321.25px; margin: 8rem 0px 0px; padding: 0px 1rem;"><img src="https://loremipsum.io/assets/images/lorem-ipsum-generator-cicero-engraving.png" alt="Engraving of Marcus Tullius Cicero" style="width: calc(66.6667% - 1em); margin-top: -2.5em; margin-left: calc(33.3333% - 1em); border-style: none;" /><figcaption>
+        <div class="page-section__squiggle" style="height: 32px; width: 64px;">
+        <div class="page-section__squiggle-one" style="background: radial-gradient(12px, transparent, transparent 2px, #d3dbe4 2px, #d3dbe4 5px, transparent 5px) 0% 0% / 14px 32px; height: 16px; width: 64px;">&nbsp;</div>
+        <div class="page-section__squiggle-two" style="background: radial-gradient(12px, transparent, transparent 2px, #d3dbe4 2px, #d3dbe4 5px, transparent 5px) 0px -16px / 14px 32px; height: 16px; width: 64px;">&nbsp;</div>
+        </div>
+        <h4 class="page-section__caption f5 cl-gray-1" style="color: #7b8898; width: calc(33.3333% - 1em); margin: 0px; letter-spacing: 0.075em; line-height: 1.28571;">CICERO</h4>
+        </figcaption></figure>
+        <div class="page-section__block g12-xs g9-md g6-xl" style="width: 642.5px; margin-top: 8rem; padding-right: 1rem; padding-left: 1rem;">
+        <h3 class="f5 cl-orange mb16" style="color: #ff6a67; margin: 0px 0px 1em; letter-spacing: 0.075em; line-height: 1.28571;">HEDONIST ROOTS</h3>
+        <p class="f4 cl-white mt0 mb16" style="color: #ffffff; margin-top: 0px; margin-bottom: 1em; line-height: 1.5;">Until recently, the prevailing view assumed&nbsp;<em>lorem ipsum</em>&nbsp;was born as a nonsense text. &ldquo;It's not Latin, though it looks like it, and it actually says nothing,&rdquo;&nbsp;<em>Before &amp; After</em>&nbsp;magazine&nbsp;<a href="https://www.straightdope.com/columns/read/2290/what-does-the-filler-text-lorem-ipsum-mean/" target="_blank" rel="noopener noreferrer" title="Straight Dope – What Does the Filler Text Lorem Ipsum Mean?" style="color: inherit; background-color: transparent; border-bottom: 1px solid #d3dbe4;">answered a curious reader</a>, &ldquo;Its &lsquo;words&rsquo; loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.&rdquo;</p>
+        <p class="f4 cl-white mv16" style="color: #ffffff; margin-top: 1em; margin-bottom: 1em; line-height: 1.5;">As Cicero would put it, &ldquo;Um, not so fast.&rdquo;</p>
+        <p class="f4 cl-white mv16" style="color: #ffffff; margin-top: 1em; margin-bottom: 1em; line-height: 1.5;">The placeholder text, beginning with the line&nbsp;<em>&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit&rdquo;</em>, looks like Latin because in its youth, centuries ago, it was Latin.</p>
+        <p class="f4 cl-white mv16" style="color: #ffffff; margin-top: 1em; margin-bottom: 1em; line-height: 1.5;">Richard McClintock, a Latin scholar from Hampden-Sydney College, is&nbsp;<a href="https://en.wikipedia.org/wiki/Lorem_ipsum" target="_blank" rel="noopener noreferrer" title="Wikipedia – Lorem Ipsum" style="color: inherit; background-color: transparent; border-bottom: 1px solid #d3dbe4;">credited</a>&nbsp;with discovering the source behind the ubiquitous filler text. In seeing a sample of&nbsp;<em>lorem ipsum</em>, his interest was piqued by&nbsp;<em>consectetur</em>&mdash;a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from&nbsp;<em>De Finibus Bonorum et Malorum</em>&nbsp;(&ldquo;On the Extremes of Good and Evil&rdquo;), a first-century B.C. text from the Roman philosopher Cicero.</p>
+        <p class="f4 cl-white mv16" style="color: #ffffff; margin-top: 1em; margin-bottom: 1em; line-height: 1.5;">In particular, the garbled words of&nbsp;<em>lorem ipsum</em>&nbsp;bear an unmistakable resemblance to sections 1.10.32&ndash;33 of Cicero's work, with the most notable passage excerpted below:</p>
+        <blockquote class="page-section__blockquote" style="color: #d3dbe4; margin-right: 0px; margin-left: -1rem; padding-left: 1.375em; border-left: 0.375em solid #7b8898; line-height: 1.5;">&ldquo;Neque porro quisquam est, qui&nbsp;<em>dolorem ipsum</em>&nbsp;quia&nbsp;<em>dolor sit amet, consectetur, adipisci velit, sed</em>&nbsp;quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&rdquo;</blockquote>
+        <p class="f4 cl-white mv16" style="color: #ffffff; margin-top: 1em; margin-bottom: 1em; line-height: 1.5;">A 1914 English translation by&nbsp;<a href="https://en.wikipedia.org/wiki/Lorem_ipsum#English_translation" target="_blank" rel="noopener noreferrer" title="Wikipedia – Lorem Ipsum English Translation" style="color: inherit; background-color: transparent; border-bottom: 1px solid #d3dbe4;">Harris Rackham</a>&nbsp;reads:</p>
+        <blockquote class="page-section__blockquote" style="color: #d3dbe4; margin-right: 0px; margin-left: -1rem; padding-left: 1.375em; border-left: 0.375em solid #7b8898; line-height: 1.5;">&ldquo;Nor is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure him some great pleasure.&rdquo;</blockquote>
+        <p class="f4 cl-white mt16 mb0" style="color: #ffffff; margin-top: 1em; line-height: 1.5;">McClintock's eye for detail certainly helped narrow the whereabouts of&nbsp;<em>lorem ipsum's</em>&nbsp;origin, however, the &ldquo;how and when&rdquo; still remain something of a mystery, with competing theories and timelines.</p>
+        </div>
+        </div>
+        </p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c38bf25-13d3-4feb-9c13-9c25cfd4f549"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230721T114642Z

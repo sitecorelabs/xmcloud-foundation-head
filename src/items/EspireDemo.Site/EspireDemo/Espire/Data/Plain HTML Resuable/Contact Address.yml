@@ -24,18 +24,18 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "82ffe7ef-42b8-4840-a6a4-df9f451728b4"
+      Value: "2c5caeae-9e53-4f52-8c1e-98bcf428fb45"
     - ID: "9eb973fa-f24f-4e56-82ef-5d7fbf2e1290"
       Hint: PlainHTML
       Value: |
         <address>
-                        <div class="branch-info">Central Court Building</div>
-                        <span>201 W. Jefferson Street</span>
+                        <div class="branch-info">Lorem Central Building</div>
+                        <span>201 W. Lorem Street</span>
                       </address>
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T124904Z
+      Value: 20230721T125252Z

@@ -28,7 +28,7 @@ const DefaultContainer = (props: ComponentProps): JSX.Element => {
     const prefix = `${sitecoreContext.pageState !== 'normal' ? '/sitecore/shell' : ''}/-/media/`;
     backgroundImage = `${backgroundImage?.match(BACKGROUND_REG_EXP)?.pop()?.replace(/-/gi, '')}`;
     backgroundStyle = {
-      backgroundImage: `url('${prefix}${backgroundImage}')`,
+      background: `url('${prefix}${backgroundImage}') right top no-repeat`,
     };
   }
 

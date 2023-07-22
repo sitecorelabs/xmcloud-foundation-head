@@ -1,0 +1,27 @@
+﻿---
+ID: "50c50a2f-fe66-4fa6-85c7-572590bdeed0"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "7336532b-1b6b-4a98-a08d-d3d29a7b4a23"
+Path: /sitecore/content/EspireDemo/Espire/Data/Tabs
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/32x32/windows.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230718T120221Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "76240904-ab59-4d48-833d-264f5ab439ad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\raman.gupta@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230718T120231Z

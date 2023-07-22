@@ -1,0 +1,42 @@
+﻿---
+ID: "8c5454ce-5837-46c0-926c-e0e0f2c73a5b"
+Parent: "efba56f5-5835-4772-892a-1d32fabfa551"
+Template: "3e3501a0-6929-40e9-bcbd-81e042aea7c1"
+Path: /sitecore/content/EspireDemo/Espire/Home/About/Civil/Civil/Test 1
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C7EA4C0B-D854-4912-B63B-EA59B3E144AE}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02bafb11-c9a9-49c7-a935-2ae623161ef3"
+      Hint: Title
+      Value: Test 1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230720T091252Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Test 1
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dcbaf004-5a2d-4d42-855d-0c6e9a3b3988"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T091255Z

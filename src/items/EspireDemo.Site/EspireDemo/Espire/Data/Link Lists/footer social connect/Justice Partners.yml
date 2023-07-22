@@ -22,14 +22,14 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link text="Justice Partners" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
+        <link text="Partners" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{77C2C39D-8D7A-45F7-936D-F4F74273942B}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1fc5bb05-e427-4801-8c01-c810f97df670"
+      Value: "d5dc5d27-58d7-4251-952b-0602d399210f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230717T130919Z
+      Value: 20230721T125018Z

@@ -21,18 +21,18 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{8E2255AC-BF17-490C-934C-F63478A8B80F}" />
+        <image mediaid="{52DDC5B1-026A-4F97-99D0-DCD7380C2205}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ae1d5c64-d6a4-4d5c-9bb1-746043ecc29e"
+      Value: "2fba8f5e-0be1-475e-ab73-6e993462170f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230714T091040Z
+      Value: 20230721T105056Z
