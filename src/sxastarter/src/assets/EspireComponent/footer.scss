@@ -30,11 +30,23 @@
         li{
             padding: 2.8rem 1rem 3rem 1rem;
             border-radius: 10px 10px 0 0;
+            @include respond-to(laptop-to-desktop) {
+                padding-left: 0;
+                a{
+                    font-size: 1.2rem;
+                }
+            }
+           
         }
         .btn {
             border: 0;
             font-size: 1.8rem;
         }
+        @include respond-to(laptop-to-desktop) {
+            ul{
+                float: right;
+            }
+            }
     }
 
     #contact-section {
@@ -73,4 +85,5 @@
             }
         }
     }
+   
 }

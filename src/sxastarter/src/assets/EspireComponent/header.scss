@@ -1,3 +1,4 @@
+// @import "/public/spriteuse.svg";
 #header {
   color: $white;
   > .container {
@@ -6,11 +7,20 @@
   }
   a {
     color: $white;
+    &::before{
+      content: url("/public/spriteuse.svg#language") !important;
+      display: block;
+    }
   }
   .link {
     padding: 10px;
     text-align: center;
     margin-top: 20px;
+    &.skip-to-content {
+      margin-top: 0;
+      padding-top: 0;
+      padding-left: 0;
+    }
   }
 
   .link-list {
@@ -24,6 +34,9 @@
       }
     }
     ul {
+      @include respond-to(desktop-and-above) {
+        float: right;
+      }
       li {
         display: inline-block;
         padding-left: 2.5rem;
@@ -33,31 +46,82 @@
   select,
   option {
     font-size: 1.2rem;
-    background-color: transparent;
-    color: white;
-    
+    background-color: #0c1f31;
+    color: $white;
   }
   img {
     max-width: 90px;
   }
 
-  .navigation.navigation-main .rel-level1.submenu > .navigation-title{
-    a{
-      &::after{
-        content: "";
+  .navigation.navigation-main .rel-level1.submenu > .navigation-title {
+    a {
+      &::after {
+        content: '';
       }
     }
   }
-  .navigation{
-    nav{
-      > ul{
+  .navigation {
+    &.navigation-main {
+      .rel-level1 {
+        &:hover {
+          .rel-level2 {
+            background: white;
+            .navigation-title {
+              span {
+                color: black;
+              }
+            }
+          }
+        }
+        &.last {
+          a{
+            
+          padding-right: 0;
+          }
+        }
+      }
+      .component-content {
+        > nav {
+          position: static;
+        }
+      }
+    }
+    nav {
+      > ul {
         float: right;
+        ul {
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
       }
     }
     margin: auto 0 auto auto;
   }
 
-  .search-bar-default{
+  .search-bar-default {
     margin: auto;
+  }
+
+  @include respond-to(laptop-to-desktop) {
+    .container {
+      .row > * {
+        max-width: 960px;
+      }
+    }
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
+.editing-mode {
+  #header {
+    .link-list {
+      h3 {
+        display: none;
+      }
+    }
   }
 }

@@ -21,18 +21,22 @@ Languages:
     - ID: "57caf172-ce57-4e48-b3a1-46f8aea71c08"
       Hint: Image
       Value: |
-        <image mediaid="{52DDC5B1-026A-4F97-99D0-DCD7380C2205}" />
+        <image mediaid="{E4BF029C-3DE6-4CC1-84A1-DC4C9A0FD660}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\raman.gupta@espire.com
+    - ID: "75fbf1b1-e7c5-494b-9633-693909f79425"
+      Hint: TargetUrl
+      Value: |
+        <link linktype="external" url="https://www.espire.com/" anchor="" target="" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2fba8f5e-0be1-475e-ab73-6e993462170f"
+      Value: "6398ce03-2af8-4783-bf8e-3122fde700e0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230721T105056Z
+      Value: 20230724T091851Z
