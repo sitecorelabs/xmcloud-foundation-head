@@ -15,7 +15,7 @@ export const Link = (props: LinkTemplateProps): JSX.Element => {
 export const SkipToMainContent = (props: LinkTemplateProps): JSX.Element => {
   const isEdit = EditMode();
   return (
-    <div className={`link ${props.params.styles}`}>
+    <div className={`link ${props.params.styles} skip-to-content`}>
       {isEdit ? (
         <JssLink field={props?.fields?.Link} className="skip-content" />
       ) : (

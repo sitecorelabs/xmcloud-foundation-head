@@ -14,7 +14,7 @@ Languages:
     - ID: "2593d71e-efaa-4bf7-84c6-0da6c67deaa8"
       Hint: Link
       Value: |
-        <link linktype="anchor" text="Skip to Main contnet" url="main" anchor="main" />
+        <link linktype="anchor" text="Skip to Main content" url="main" anchor="main" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230714T061214Z
@@ -28,11 +28,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f887ad29-5564-4b0e-9718-171284f0c4ae"
+      Value: "1143a527-3933-4a2e-8597-73c9cf1b2604"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230714T061234Z
+      Value: 20230724T101541Z

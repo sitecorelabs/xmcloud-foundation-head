@@ -105,6 +105,16 @@ $desktop : 1200px;
             @content;
         }
     }
+    @else if $media==laptop-and-above {
+        @media only screen and (min-width: $laptop) {
+            @content;
+        }
+    }
+    @else if $media==mobile-and-above {
+        @media only screen and (min-width: $mobile) {
+            @content;
+        }
+    }
     @else if $media==below-laptop {
         @media only screen and (max-width: 991.98px) {
             @content;

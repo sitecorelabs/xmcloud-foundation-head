@@ -86,10 +86,13 @@ li {
       p {
         font-size: $sm-font;
       }
-      .container {
-        padding-left: 3rem;
-        padding-right: 3rem;
+      .container-default {
+        &.container {
+          padding-left: 3rem;
+          padding-right: 3rem;
+        }
       }
+    
 }
 
 @include respond-to(tablet-to-laptop){
@@ -102,12 +105,20 @@ li {
   h1 {
     font-size: $xl-font;
   }
+  .container {
+    .row > * {
+      max-width: 960px;
+    }
+  }
 }
 
 @include respond-to(desktop-and-above){
-  .container {
-    max-width: 1230px;
+  .container-default {
+    &.container {
+      max-width: 1230px;
+    }
   }
+
   h1 {
     font-size: $xl-font;
   }
@@ -124,4 +135,3 @@ a{
   text-decoration: none;
   font-size: 1.6rem;
 }
-
