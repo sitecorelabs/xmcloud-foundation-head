@@ -7,8 +7,6 @@ import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/s
 import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Scripts from 'src/Scripts';
 import { useRouter } from 'next/router';
-import '../public/spriteuse.svg';
-import Script from 'next/script';
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = getPublicUrl();
@@ -60,7 +58,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
-        <link rel="text/html" href={`${publicUrl}/spriteuse.svg`} />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
@@ -75,7 +72,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
       </div>
-      {/* <Script src="../public/spriteuse.svg" type="text/html" strategy="afterInteractive" /> */}
     </>
   );
 };

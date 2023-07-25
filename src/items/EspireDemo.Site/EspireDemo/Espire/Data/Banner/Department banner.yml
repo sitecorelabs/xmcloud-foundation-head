@@ -1,0 +1,44 @@
+﻿---
+ID: "704f2701-085d-449a-ab61-7e0f3f919db8"
+Parent: "9eec4f7a-e7a6-49ee-ab94-48294a69c571"
+Template: "7a59538f-43bb-41a8-88f8-3a9adc3d1b80"
+Path: /sitecore/content/EspireDemo/Espire/Data/Banner/Department banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c617420-bd69-4bf8-8777-0dc380756ea1"
+      Hint: Image
+      Value: |
+        <image mediaid="{182EF464-9B08-49AD-825C-617A02734153}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230724T134429Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "53746aec-9ce4-46a2-b2ab-1f0dd1594f8c"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16c4c12d-e144-4783-82ca-0e5ca2fb4e43"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230724T135226Z
+    - ID: "fb48c50d-64f8-4e39-a74b-9fdcc3e125d5"
+      Hint: Title
+      Value: Default Hero Title

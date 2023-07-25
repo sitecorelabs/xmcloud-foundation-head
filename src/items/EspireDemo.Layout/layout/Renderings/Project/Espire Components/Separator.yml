@@ -1,12 +1,15 @@
 ﻿---
-ID: "fa20d607-ea5b-459d-891e-0da5ea8b615c"
-Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
-Template: "49c111d0-6867-4798-a724-1f103166e6e9"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Tabs
+ID: "63a14bec-7488-4e9b-b3ed-951301ccce78"
+Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: /sitecore/layout/Renderings/Project/Espire Components/Separator
 SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: Separator
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: Office/32x32/windows.png
+  Value: Office/32x32/navigate_minus.png
 Languages:
 - Language: en
   Versions:
@@ -14,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230718T120436Z
+      Value: 20230725T032035Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e2e99869-287b-42eb-96a9-fc66839d0bd4"
+      Value: "2cd31b0e-4d3c-4316-b305-f15eda02e969"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T033025Z
+      Value: 20230725T032619Z
