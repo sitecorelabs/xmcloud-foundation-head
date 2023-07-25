@@ -4,8 +4,7 @@
     @include respond-to(mobile-to-tablet) {
         overflow: hidden;
     }
-    .default {
-        
+    .banner-default {
         text-align: left;
         &:before {
             content: "";

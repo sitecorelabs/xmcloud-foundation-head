@@ -14,7 +14,7 @@ export const Banner = (props: BannerTemplateProps): JSX.Element => {
   const isEditMode = EditMode();
   return (
     <div className={`banner ${props.params.styles}`}>
-      <section className={`default`}>
+      <section className={`banner-default`}>
         <JssImage field={props?.fields?.Image} />
         <div className="container">
           <div className="banner-content">
