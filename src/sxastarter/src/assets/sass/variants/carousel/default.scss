@@ -1,0 +1,23 @@
+.carousel {
+  .slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+  }
+
+  .slick-prev {
+    left: 5rem;
+    &:before {
+      font-size: 50px;
+      color: red;
+    }
+  }
+
+  .slick-next {
+    right: 5rem;
+    &:before {
+      font-size: 50px;
+      color: red;
+    }
+  }
+}

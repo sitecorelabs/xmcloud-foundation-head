@@ -1,12 +1,8 @@
 ﻿---
-ID: "fa20d607-ea5b-459d-891e-0da5ea8b615c"
-Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
-Template: "49c111d0-6867-4798-a724-1f103166e6e9"
-Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Tabs
-SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Office/32x32/windows.png
+ID: "0b8d8c4a-8729-4fdb-972c-eba3c38a372d"
+Parent: "ebdd134f-3ba2-404b-b4f6-5aed3a97b879"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Carousel/Default
 Languages:
 - Language: en
   Versions:
@@ -14,22 +10,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230718T120436Z
+      Value: 20230725T043548Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\raman.gupta@espire.com
+        sitecore\b6hiKrOdCH
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e2e99869-287b-42eb-96a9-fc66839d0bd4"
+      Value: "5551dece-32e2-44e9-8aff-79fe79c0248e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230725T033025Z
+      Value: 20230725T043548Z
