@@ -47,8 +47,10 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-slick": "^0.29.0",
     "sass": "^1.52.3",
-    "sass-alias": "^1.0.5"
+    "sass-alias": "^1.0.5",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.21.8",
@@ -64,6 +66,7 @@
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "@types/react-slick": "^0.23.10",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
     "chalk": "~4.1.2",

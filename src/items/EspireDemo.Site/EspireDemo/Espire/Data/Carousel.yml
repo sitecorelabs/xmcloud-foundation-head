@@ -1,0 +1,27 @@
+﻿---
+ID: "7538b931-2105-4c8e-aefa-03142b487045"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "695d478b-660f-4d61-a682-3fbdc9e56115"
+Path: /sitecore/content/EspireDemo/Espire/Data/Carousel
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/apps/32x32/Carousel.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230725T043205Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4dd0d8e5-a5ac-4ca6-9cfe-63d5daa617a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230725T043219Z
