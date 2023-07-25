@@ -2,7 +2,7 @@ import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Field, Text, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps, EditMode } from 'lib/component-props';
+import { ComponentProps } from 'lib/component-props';
 import Slider from 'react-slick';
 
 type CarouselProps = ComponentProps & {
