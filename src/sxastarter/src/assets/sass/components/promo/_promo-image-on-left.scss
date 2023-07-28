@@ -1,0 +1,10 @@
+.image-left {
+  @include respond-to(mobile-to-tablet) {
+    .text-section {
+      flex-direction: column-reverse;
+    }
+  }
+  .text-section {
+    flex-direction: row-reverse;
+  }
+}

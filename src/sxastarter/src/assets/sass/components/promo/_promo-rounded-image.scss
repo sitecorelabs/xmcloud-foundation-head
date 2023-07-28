@@ -1,0 +1,27 @@
+.rounded-image {
+  .image-section {
+    border-radius: 50%;
+    border: 0.5px solid $primary-color;
+    max-width: 365px;
+    min-width: 365px;
+    max-height: 365px;
+    min-height: 365px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  img {
+    border-radius: 50%;
+  }
+
+  @include respond-to(tablet-and-above) {
+    .row-cols-1 > * {
+      flex: 1;
+    }
+    .row-cols-md-2 > * {
+        flex: 1;
+      }
+  }
+}

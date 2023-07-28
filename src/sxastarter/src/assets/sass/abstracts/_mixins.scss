@@ -110,6 +110,11 @@ $desktop : 1200px;
             @content;
         }
     }
+    @else if $media==tablet-and-above {
+        @media only screen and (min-width: $tablet) {
+            @content;
+        }
+    }
     @else if $media==mobile-and-above {
         @media only screen and (min-width: $mobile) {
             @content;

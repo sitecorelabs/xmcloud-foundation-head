@@ -1,0 +1,54 @@
+﻿---
+ID: "6a1a8076-0915-4262-bb3f-b3cb9165e7f2"
+Parent: "b2c0b1d2-4504-493f-babf-aece5821f178"
+Template: "dfed4457-d760-457a-bec1-c0dccdc44381"
+Path: /sitecore/content/EspireDemo/Espire/Home/Test Pages/Promo RV/Data/p1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1f66862d-a5e3-405f-8e3e-b787b4c39b12"
+      Hint: PromoText2
+      Value: |
+        The Maricopa County Superior Court is the fourth largest trial court
+        system in the United States, with 98 judges appointed through the
+        merit selection process and supported by more than 3,000
+        professional staff members. The court is nationally recognized for
+        its innovative and progressive programs, such as Drug Court and
+        Veterans Court. There are also more than 60 commissioners hired by
+        the court to serve as judicial officers. Additionally, court is held
+        around the clock for certain types of hearings and a Maricopa County
+        judicial officer is always available to provide support for specific
+        requests requiring judicial approval from across Arizona.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230727T143053Z
+    - ID: "28079f3a-896b-4273-be5f-59d0ebb7cd7d"
+      Hint: PromoText
+      Value: Get to Know Us
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "55b09f12-2a74-4ec8-8ee1-664a551fe2af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\b6hiKrOdCH
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230727T144722Z
+    - ID: "f94b9858-c439-4291-863b-757b536c8b65"
+      Hint: PromoIcon
+      Value: |
+        <image mediaid="{C2E4FB4B-B63D-405A-AC8D-379211976863}" />
