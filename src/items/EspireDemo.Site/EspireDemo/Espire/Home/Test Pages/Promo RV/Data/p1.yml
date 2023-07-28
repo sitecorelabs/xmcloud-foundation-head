@@ -40,15 +40,15 @@ Languages:
         sitecore\b6hiKrOdCH
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "55b09f12-2a74-4ec8-8ee1-664a551fe2af"
+      Value: "3f25cd83-a14d-4f19-a94a-86d9731d0348"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230727T144722Z
+      Value: 20230728T140753Z
     - ID: "f94b9858-c439-4291-863b-757b536c8b65"
       Hint: PromoIcon
       Value: |
-        <image mediaid="{C2E4FB4B-B63D-405A-AC8D-379211976863}" />
+        <image mediaid="{42735AE5-3B9E-4B60-B93F-9952654B60EA}" />
