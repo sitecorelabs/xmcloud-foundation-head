@@ -10,11 +10,13 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    img {
+      border-radius: 50%;
+      object-fit: unset;
+    }
   }
 
-  img {
-    border-radius: 50%;
-  }
+  
 
   @include respond-to(tablet-and-above) {
     .row-cols-1 > * {
