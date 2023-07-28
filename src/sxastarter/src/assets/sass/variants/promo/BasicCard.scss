@@ -1,21 +1,21 @@
-@import "../../abstracts/_mixins.scss" ;
+@import "../../abstracts/_mixins.scss";
 
 .basic-cards {
-    .card-details {
-        font-size: 1.6rem;
+  .card-details {
+    font-size: 1.6rem;
+  }
+  &.promo {
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .ps-md-5 {
+    @include respond-to(tablet-and-above) {
+      padding-left: 0 !important;
+      padding-right: 3rem !important ;
     }
-    &.promo {
-        padding: 0;
-    }
-   
-    img {
-        width: 100%;
-        object-fit: contain;
-    }
-    .ps-md-5 {
-        @include respond-to(tablet-and-above) {
-            padding-left: 0 !important;
-            padding-right: 3rem !important ;
-        }
-    }
+  }
 }
