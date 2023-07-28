@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
+   
   }
 
   img {
@@ -23,5 +24,22 @@
     .row-cols-md-2 > * {
         flex: 1;
       }
+      .image-section{
+        &.ps-md-5{
+            padding-left: 3rem !important;
+               }
+      }
   }
+
+  .text-section{
+    margin: 0;
+    .card-details{
+        text-align: left;
+    }
+  }
+
+  .section-inner-space{
+padding: 0;
+  }
+
 }
