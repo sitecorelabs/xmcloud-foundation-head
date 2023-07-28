@@ -2,7 +2,7 @@
   .image-section {
     border-radius: 50%;
     border: 0.5px solid $primary-color;
-    max-width: 365px;
+    max-width: 365px !important;
     min-width: 365px;
     max-height: 365px;
     min-height: 365px;
@@ -10,7 +10,6 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-   
   }
 
   img {
@@ -21,25 +20,27 @@
     .row-cols-1 > * {
       flex: 1;
     }
-    .row-cols-md-2 > * {
-        flex: 1;
-      }
-      .image-section{
-        &.ps-md-5{
-            padding-left: 3rem !important;
-               }
-      }
-  }
 
-  .text-section{
-    margin: 0;
-    .card-details{
-        text-align: left;
+    .row-cols-md-2 > * {
+      flex: 1;
+    }
+
+    .image-section {
+      &.ps-md-5 {
+        padding-left: 3rem !important;
+      }
     }
   }
 
-  .section-inner-space{
-padding: 0;
+  .text-section {
+    margin: 0;
+
+    .card-details {
+      text-align: left;
+    }
   }
 
+  .section-inner-space {
+    padding: 0;
+  }
 }

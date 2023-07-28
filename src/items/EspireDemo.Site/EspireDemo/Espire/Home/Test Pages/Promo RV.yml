@@ -31,7 +31,7 @@ Languages:
               p:before="*"
               s:ds="local:/Data/p1"
               s:id="{2492BAC4-DA07-4C86-87F0-9873D40E2276}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5E4BDD0C-3503-404F-BA13-47FCD781A86E%7D&amp;Styles=%7B36BDFA18-E306-4277-9D8C-4533E9E11D8C%7D%7C%7B99954B73-FFEE-4A8B-8745-332117C09037%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B5E4BDD0C-3503-404F-BA13-47FCD781A86E%7D&amp;Styles=%7B91EB26FB-7B1E-48C3-933C-355CCE822E70%7D%7C%7B99954B73-FFEE-4A8B-8745-332117C09037%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
               s:ph="/headless-main/container-2" />
             <r
               uid="{BC5F2BA8-4A05-4CDA-A205-341A1CD31732}"
@@ -57,11 +57,11 @@ Languages:
         sitecore\b6hiKrOdCH
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "33723c7e-de74-4116-a354-e41a8ed20e3f"
+      Value: "eb11c8f0-c02a-40f2-8a4f-649845471678"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230728T063153Z
+      Value: 20230728T095813Z
