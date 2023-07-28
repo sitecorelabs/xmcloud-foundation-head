@@ -92,6 +92,11 @@ li {
           padding-right: 3rem;
         }
       }
+      .section-inner-space {
+        padding-top: $md-space;
+        padding-bottom: $md-space;
+      }
+    
     
 }
 
@@ -122,6 +127,10 @@ li {
   h1 {
     font-size: $xl-font;
   }
+
+  .text-align-justify {
+    text-align: justify;
+  }
 }
 
 
@@ -134,4 +143,22 @@ h1 {
 a{
   text-decoration: none;
   font-size: 1.6rem;
+}
+
+
+.section-inner-space {
+  padding-top: $lg-space;
+  padding-bottom: $lg-space;
+}
+
+.section-marigin-top-space{
+  margin-top: $lg-space;
+}
+
+.section-padding-top-space{
+  padding-top: $lg-space;
+}
+
+.section-content-padding {
+  padding-right: 20rem;
 }

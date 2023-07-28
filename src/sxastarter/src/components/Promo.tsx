@@ -85,24 +85,28 @@ export const WithText = (props: PromoProps): JSX.Element => {
 };
 
 //Promo RV
-export const GetToKnow = (props: PromoProps): JSX.Element => {
+export const BasicCard = (props: PromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   if (props.fields) {
     return (
-      <div className={`component promo ${props.params.styles}`} id={id ? id : undefined}>
-        <div className="component-content">
-          <section className="container section-inner-space">
-            <div className="row align-items-center row-cols-1 row-cols-md-2 gx-5 text-center text-md-start">
-              <div className="col">
-                <RichText className="mb-4" field={props?.fields?.PromoText} tag="h2" />
-                <RichText className="text-align-justify" field={props?.fields?.PromoText2} />
-              </div>
-              <div className="col ps-md-5">
-                <JssImage field={props.fields.PromoIcon} />
-              </div>
+      <div
+        className={`component promo basic-cards ${props.params.styles}`}
+        id={id ? id : undefined}
+      >
+        <section className="section-inner-space">
+          <div className="row align-items-center row-cols-1 row-cols-md-2 gx-5 text-center text-md-start text-section">
+            <div className="col">
+              <RichText className="mb-4" field={props?.fields?.PromoText} tag="h2" />
+              <RichText
+                className="text-align-justify card-details"
+                field={props?.fields?.PromoText2}
+              />
             </div>
-          </section>
-        </div>
+            <div className="col ps-md-5 image-section">
+              <JssImage field={props.fields.PromoIcon} />
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
