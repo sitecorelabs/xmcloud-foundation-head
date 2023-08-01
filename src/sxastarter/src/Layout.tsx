@@ -58,6 +58,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
+        <link rel="icon" href={`${publicUrl}/spriteuse.svg`} />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
