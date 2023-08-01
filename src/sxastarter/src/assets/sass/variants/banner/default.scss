@@ -103,6 +103,9 @@
 
     .container {
       margin: 0 0 0 2rem;
+      @include respond-to(laptop-and-above){
+        max-width: 720px;
+      }
     }
   }
 }
