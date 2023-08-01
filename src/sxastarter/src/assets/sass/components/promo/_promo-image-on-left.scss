@@ -1,10 +1,24 @@
 .image-left {
+
+  .card-wrapper {
+    flex-direction: row-reverse;
+  }
   @include respond-to(mobile-to-tablet) {
-    .text-section {
+    .card-wrapper {
       flex-direction: column-reverse;
     }
   }
-  .text-section {
-    flex-direction: row-reverse;
+  
+  &.rounded-image {
+    @include respond-to(tablet-and-above){
+    .image-section {
+      margin-right: 3rem;
+      margin-left: 0;
+    }
+    .text-section {
+      padding-left: 3rem;
+      padding-right: 0;
+    }
+  }
   }
 }

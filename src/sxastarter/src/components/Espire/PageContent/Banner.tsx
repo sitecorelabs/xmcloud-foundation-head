@@ -15,7 +15,7 @@ export const Banner = (props: BannerTemplateProps): JSX.Element => {
   return (
     <div className={`banner ${props.params.styles}`}>
       <section className={`banner-default`}>
-        <JssImage field={props?.fields?.Image} />
+        <JssImage field={props?.fields?.Image} width={''} height={''} />
         <div className="container">
           <div className="banner-content">
             <Text tag="h1" field={props?.fields?.Title} />

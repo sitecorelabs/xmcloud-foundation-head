@@ -9,13 +9,15 @@
   }
 
   img {
-    width: 100%;
-    object-fit: contain;
+    max-width: 100%;
   }
-  .ps-md-5 {
-    @include respond-to(tablet-and-above) {
-      padding-left: 0 !important;
-      padding-right: 3rem !important ;
+
+  .card-wrapper {
+    margin: 0;
+  }
+  .card-details {
+    @include respond-to(mobile-to-tablet) {
+      padding-bottom: 10px;
     }
   }
 }
