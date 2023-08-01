@@ -1,6 +1,12 @@
-.container{
-    &.container-full-width{
-        width: 100%;
-        max-width: 100%;
+.container {
+    &.container-default {
+        &.container-full-width {
+            width: 100%;
+            max-width: 100%;
+            @include respond-to(mobile-to-tablet) {
+                padding: 0;
+            }
+        }
     }
+
 }

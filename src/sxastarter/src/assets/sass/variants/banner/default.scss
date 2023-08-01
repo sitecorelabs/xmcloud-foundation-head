@@ -18,6 +18,9 @@
       );
       width: 100%;
       height: 100%;
+      @include respond-to(mobile-to-tablet){
+        z-index: 1;
+      }
     }
 
     > img {
@@ -34,6 +37,9 @@
       display: flex;
       align-items: center;
       color: $white;
+      @include respond-to(mobile-to-tablet){
+        z-index: 2;
+      }
     }
 
     p {
