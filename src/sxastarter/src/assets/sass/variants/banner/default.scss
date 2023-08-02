@@ -39,6 +39,7 @@
       color: $white;
       @include respond-to(mobile-to-tablet){
         z-index: 2;
+        padding:  0 3rem;
       }
     }
 

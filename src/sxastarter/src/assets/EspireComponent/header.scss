@@ -3,6 +3,9 @@
   > .container {
     width: 100%;
     max-width: 100%;
+    @include respond-to(tablet-to-laptop){
+      padding: 0 3rem;
+    }
   }
   a {
     color: $white;
@@ -49,6 +52,9 @@
   }
   img {
     max-width: 90px;
+    @include respond-to(below-laptop){
+      max-width: 60px;
+    }
   }
 
   .navigation.navigation-main .rel-level1.submenu > .navigation-title {
@@ -108,6 +114,9 @@
 
   .search-bar-default {
     margin: auto;
+    @include respond-to(below-laptop){
+      padding: 0 3rem 0 2rem
+    }
   }
 
   @include respond-to(laptop-to-desktop) {
@@ -121,9 +130,44 @@
     }
   }
 
-  @include respond-to(desktop-and-above) {
-    #bottom-nav {
-      padding-top: 10px;
+  #top-nav{
+    .link-list{
+      .first{
+        display: none;
+        @include respond-to(laptop-and-above){
+          display: inline-block;
+        }
+      }
+      @include respond-to(below-laptop){
+        flex: 1;
+      }
+      .last{
+        @include respond-to(below-laptop){
+          display: block;
+          text-align: right;
+        }
+      }
+    }
+  }
+
+  #bottom-nav{
+    padding-top: 15px;
+    .link{
+      @include respond-to(below-laptop){
+        text-align: right;
+        margin: 0;
+        a{
+          font-size: 0;
+        }
+       
+        &::before{
+          content: url("../../../public/hamburger-icon.svg");
+          display: inline-block;
+        }
+      }
+    }
+    .image {
+      padding-bottom: 10px;
     }
   }
 }

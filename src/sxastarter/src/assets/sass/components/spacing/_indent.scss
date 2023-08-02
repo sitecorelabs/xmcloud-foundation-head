@@ -1,13 +1,35 @@
-@import '@sass/abstracts/vars';
+@import "@sass/abstracts/vars";
 .indent {
   margin: 0 $extralarge-margin;
-  &.col-xxl-12, &.col-xl-12, &.col-lg-12, &.col-md-12, &.col-12 {
+  &.col-xxl-12,
+  &.col-xl-12,
+  &.col-lg-12,
+  &.col-md-12,
+  &.col-12 {
     width: calc(100% - ($extralarge-margin * 2));
   }
 }
 .indent-top {
-  margin-top: $middle-margin;
+  margin-top: $middle-margin !important;
 }
 .indent-bottom {
-  margin-bottom: $middle-margin;
+  margin-bottom: $middle-margin !important;
+}
+
+.no-space-mobile {
+  @include respond-to(mobile-to-tablet) {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .no-space-desktop {
+    @include respond-to(tablet-and-above) {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  .no-space {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
 }
