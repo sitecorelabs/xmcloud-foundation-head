@@ -38,7 +38,7 @@ Languages:
               p:after="r[@uid='{DF3B4A81-0825-4713-B83B-FA73376E9C05}']"
               s:ds="{C1C17032-DFB6-4BA4-98C1-4015E61F8154}"
               s:id="{4956263D-1195-4D6E-931B-800EA625FF6F}"
-              s:par="FieldNames=%7b434FF603-0530-4427-B490-E564F4FFF103%7d&amp;CacheClearingBehavior=Clear+on+publish&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b9B4A68D5-57DC-4137-B953-621B38EECC68%7d&amp;DynamicPlaceholderId=12"
+              s:par="FieldNames=%7B434FF603-0530-4427-B490-E564F4FFF103%7D&amp;CacheClearingBehavior=Clear%20on%20publish&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D%7C%7B9B4A68D5-57DC-4137-B953-621B38EECC68%7D&amp;DynamicPlaceholderId=12"
               s:ph="/headless-footer/container-1/container-14" />
             <r
               uid="{35946BDC-0D7A-406E-BA71-B718D68E280F}"
@@ -88,7 +88,7 @@ Languages:
               p:after="r[@uid='{EDE8A501-1E30-4A7C-90FD-DF842078012B}']"
               s:ds=""
               s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles=%7B144A2CA0-0C10-4D24-8B6D-1C68ED6D4549%7D&amp;RenderingIdentifier=footer-top-section&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles=%7BA17733DD-6CB7-4FBE-8D40-203352670296%7D%7C%7B144A2CA0-0C10-4D24-8B6D-1C68ED6D4549%7D&amp;RenderingIdentifier=footer-top-section&amp;CSSStyles&amp;DynamicPlaceholderId=2"
               s:ph="/headless-footer/container-1"
               s:ccb="Clear on publish" />
             <r
@@ -96,7 +96,7 @@ Languages:
               p:after="r[@uid='{6C359E9D-8837-4A09-B95F-DC76AD3ECD6D}']"
               s:ds=""
               s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=contact-section&amp;CSSStyles&amp;DynamicPlaceholderId=15"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles=%7BA17733DD-6CB7-4FBE-8D40-203352670296%7D&amp;RenderingIdentifier=contact-section&amp;CSSStyles&amp;DynamicPlaceholderId=15"
               s:ph="/headless-footer/container-1"
               s:ccb="Clear on publish" />
             <r
@@ -104,7 +104,7 @@ Languages:
               p:after="r[@uid='{4FFABAB2-FE89-4B19-B92E-EAA2EB563184}']"
               s:ds=""
               s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles&amp;RenderingIdentifier=social-media-section&amp;CSSStyles&amp;DynamicPlaceholderId=14"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BB3ED63B0-BEDB-4698-9B29-C68D728BEDC5%7D&amp;BackgroundImage&amp;Styles=%7BA17733DD-6CB7-4FBE-8D40-203352670296%7D&amp;RenderingIdentifier=social-media-section&amp;CSSStyles&amp;DynamicPlaceholderId=14"
               s:ph="/headless-footer/container-1"
               s:ccb="Clear on publish" />
             <r
@@ -128,11 +128,11 @@ Languages:
         sitecore\raman.gupta@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "529bc199-3a24-4a09-a21b-394b4af5da61"
+      Value: "592a5d11-4db5-4e5c-98b1-d330f3a291f8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\b6hiKrOdCH
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230724T093107Z
+      Value: 20230802T074214Z

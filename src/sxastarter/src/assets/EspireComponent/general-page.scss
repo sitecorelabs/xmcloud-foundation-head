@@ -1,18 +1,22 @@
 #general-page {
   #general-page-content-section {
-    padding: 6rem 0;
+    padding: 6rem 3rem;
   }
   #general-page-content {
     background-color: $light-grey;
     border-radius: 20px;
     padding: 6rem 17rem 5rem 17rem;
+    @include respond-to(below-laptop) {
+      text-align: center;
+      padding: 3rem;
+    }
   }
-  hr{
+  hr {
     border: 0.5px solid $primary-color;
     margin: 6rem 0;
     opacity: 1;
   }
-  h3{
+  h3 {
     margin-top: 3rem;
   }
 }
