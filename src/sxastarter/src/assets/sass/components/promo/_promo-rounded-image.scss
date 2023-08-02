@@ -38,6 +38,9 @@
         padding-left: 3rem !important;
       }
     }
+    .text-section {
+      padding-right: 3rem;
+    }
   }
 
   .card-wrapper {
@@ -51,8 +54,15 @@
   .section-inner-space {
     padding: 0;
   }
+}
 
-  .text-section {
-    padding-right: 3rem;
+.editing-mode {
+  .rounded-image {
+    .image-section {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 }

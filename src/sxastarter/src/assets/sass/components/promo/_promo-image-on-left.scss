@@ -2,13 +2,7 @@
 
   .card-wrapper {
     flex-direction: row-reverse;
-  }
-  @include respond-to(mobile-to-tablet) {
-    .card-wrapper {
-      flex-direction: column-reverse;
-    }
-  }
-  
+  }  
   &.rounded-image {
     @include respond-to(tablet-and-above){
     .image-section {
