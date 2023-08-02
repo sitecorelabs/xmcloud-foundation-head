@@ -148,6 +148,12 @@
         }
       }
     }
+    &.container{
+      @include respond-to(below-laptop){
+      padding-left: 0;
+      padding-right: 0;
+      }
+    }
   }
 
   #bottom-nav{
@@ -168,6 +174,12 @@
     }
     .image {
       padding-bottom: 10px;
+    }
+    &.container{
+      @include respond-to(below-laptop){
+      padding-left: 0;
+      padding-right: 0;
+      }
     }
   }
 }
