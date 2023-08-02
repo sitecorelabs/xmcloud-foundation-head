@@ -9,9 +9,11 @@
     > .component-content {
       li {
         display: inline-block;
+
         @include respond-to(below-laptop) {
           display: block;
         }
+
         a {
           color: $white;
           font-size: 1.6rem;
@@ -37,6 +39,7 @@
       @include respond-to(laptop-and-above) {
         padding: 2.8rem 1rem 3rem 1rem;
       }
+
       border-radius: 10px 10px 0 0;
 
       @include respond-to(laptop-to-desktop) {
@@ -51,6 +54,7 @@
     .btn {
       border: 0;
       font-size: 1.8rem;
+
       @include respond-to(below-laptop) {
         flex: 1;
       }
@@ -61,6 +65,7 @@
         float: right;
       }
     }
+
     @include respond-to(below-laptop) {
       text-align: center;
     }
@@ -69,10 +74,12 @@
   #contact-section {
     @include respond-to(below-laptop) {
       text-align: center;
+
       .plain-text-reusable + .plain-text-reusable {
         margin-top: 2.5rem;
       }
     }
+
     padding: 5rem 0 2rem 0;
     border-bottom: solid 1px #ffcc00;
     margin-bottom: 1rem;
@@ -82,15 +89,23 @@
     @include respond-to(below-laptop) {
       text-align: center;
     }
+
     .link-list {
       &:nth-child(2) {
         ul {
           float: right;
+
           @include respond-to(below-laptop) {
             float: inherit;
-            li{
-                display: inline-block;
-                padding: 2rem 0 0;
+
+            li {
+              display: inline-block;
+              padding: 2rem 0 0;
+              a {
+                @include respond-to(mobile-to-tablet) {
+                  font-size: 1.4rem;
+                }
+              }
             }
           }
         }
@@ -99,6 +114,7 @@
       &:first-child {
         li {
           display: block;
+
           a {
             padding-left: 0;
           }
