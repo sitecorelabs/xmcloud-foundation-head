@@ -1,0 +1,12 @@
+.listing {
+    .list {
+      margin: 20px;
+      padding: 20px;
+      font-family: "myriad_prolight";
+      border: 1px solid;
+    }
+    .button{
+       @include primary-btn();
+       margin: 20px;
+    }
+  }
