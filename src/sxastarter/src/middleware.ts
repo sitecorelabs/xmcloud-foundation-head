@@ -1,9 +1,10 @@
 import type { NextRequest, NextFetchEvent } from 'next/server';
 import middleware from 'lib/middleware';
+import { smallcaseurl } from 'lib/middleware/smallcase-url';
 
 // eslint-disable-next-line
 export default async function (req: NextRequest, ev: NextFetchEvent) {
-  return middleware(req, ev);
+  return middleware(req, ev), smallcaseurl(req);
 }
 
 export const config = {
