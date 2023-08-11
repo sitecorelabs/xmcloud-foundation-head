@@ -1,6 +1,5 @@
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
-import { GetServerSideProps } from 'next';
 
 export function smallcaseurl(req: NextRequest): NextResponse {
   const { pathname, origin } = req.nextUrl;
