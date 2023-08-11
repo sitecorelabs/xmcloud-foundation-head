@@ -1,8 +1,8 @@
 ﻿---
 ID: "1c478027-cb10-4d08-b628-c0130a25dbc2"
-Parent: "4d0f7876-38e7-4458-bbd7-b6918ff74179"
+Parent: "79cc6238-5e21-4b99-9bf5-3cd5aa0f17e8"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/EspireDemo/Listing/Location
+Path: /sitecore/templates/Feature/EspireDemo/Location/Location
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

@@ -1,18 +1,15 @@
 ﻿---
-ID: "2c0a86b5-e867-4421-9b05-9d1e349b156b"
+ID: "ffbdd171-3145-4e41-85d3-e8c14c2d5bb7"
 Parent: "6d3d1e4c-a726-40b4-9e3a-8514bae9e0be"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/EspireDemo/Listing/Location/Location/Area
+Path: /sitecore/templates/Feature/EspireDemo/Location/Location/Location/button
 SharedFields:
-- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
-  Hint: Source
-  Value: "query:$xaRichTextProfile"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -20,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230731T075943Z
+      Value: 20230731T112314Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,7 +28,7 @@ Languages:
         sitecore\b6hiKrOdCH
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3f36d9e-4314-467a-89e4-310197ffee79"
+      Value: "30959f7f-8bb6-4147-87a9-807bd3b3e9d6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
