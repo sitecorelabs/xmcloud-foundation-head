@@ -23,7 +23,7 @@ export const Listing = (props: ListingProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const scope = props?.params?.Scope;
   const language = sitecoreContext?.language;
-  const count = props?.params?.['Display Count'];
+  const count = props?.params?.['Display Count'] ? props?.params?.['Display Count'] : 5;
 
   const GetList = async (): Promise<unknown> => {
     const { data } = await apolloClient.query({
