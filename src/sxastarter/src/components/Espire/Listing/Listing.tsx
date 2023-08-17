@@ -45,7 +45,6 @@ export const Listing = (props: ListingProps): JSX.Element => {
     async function startFetching() {
       setData(undefined);
       const result = await GetList();
-      console.log(result, 'Result');
       if (!ignore) {
         SetCount(props?.params?.['Display Count'] as unknown as number);
         setData(
@@ -80,7 +79,6 @@ export const Listing = (props: ListingProps): JSX.Element => {
 
     isHasNext();
   }, [result, data]);
-  console.log(data, 'ootside');
   const LoadMore = async () => {
     let finalData = [data]?.flat();
     const result = await GetList();
