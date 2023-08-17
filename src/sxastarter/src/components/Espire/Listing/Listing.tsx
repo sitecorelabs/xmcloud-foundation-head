@@ -14,6 +14,7 @@ import { useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 export const Listing = (props: ListingProps): JSX.Element => {
   const [data, setData] = useState<ListingProps>();
   const [loadMore, SetLoadMore] = useState('');
+  const [count, SetCount] = useState(5);
   const [result, Setresult] = useState<ListingProps>();
   const [hasnext, SetHasNext] = useState<ListingProps>();
   const [items, setItems] = useState([]);
@@ -23,7 +24,6 @@ export const Listing = (props: ListingProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const scope = props?.params?.Scope;
   const language = sitecoreContext?.language;
-  const count = props?.params?.['Display Count'] ? props?.params?.['Display Count'] : 5;
 
   const GetList = async (): Promise<unknown> => {
     const { data } = await apolloClient.query({
@@ -31,7 +31,7 @@ export const Listing = (props: ListingProps): JSX.Element => {
       variables: {
         contextItem: scope,
         language: language,
-        first: count,
+        first: count as number,
         after: loadMore,
       },
     });
@@ -46,6 +46,7 @@ export const Listing = (props: ListingProps): JSX.Element => {
       setData(undefined);
       const result = await GetList();
       if (!ignore) {
+        SetCount(props?.params?.['Display Count'] as unknown as number);
         setData(
           (result as ListingProps)?.ListingData?.children?.results as unknown as ListingProps
         );
@@ -78,7 +79,6 @@ export const Listing = (props: ListingProps): JSX.Element => {
 
     isHasNext();
   }, [result, data]);
-
   const LoadMore = async () => {
     let finalData = [data]?.flat();
     const result = await GetList();
