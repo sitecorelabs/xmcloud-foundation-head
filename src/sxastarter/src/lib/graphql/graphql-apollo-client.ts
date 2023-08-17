@@ -1,12 +1,12 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
-import config from 'temp/config';
-
 export const apolloClient = new ApolloClient({
-  uri: `${config.sitecoreApiHost}/sitecore/api/graph/edge`,
+  uri: `https://edge.sitecorecloud.io/api/graphql/v1`,
   cache: new InMemoryCache({}),
   headers: {
     'Content-Type': 'application/json',
-    Authorization: config.sitecoreApiKey,
-    sc_apikey: config.sitecoreApiKey,
+    Authorization:
+      'dXBvekgxNmJPL1JsWGg2S2RkV1Z2bnA0MnZNcHR6QTlIZ09oa0g4cDlhUT18ZXNwaXJlaW5mb2wzOTkzLWVzcGlyZXN0YXJ0ZWYwNi1kZXYtNjJhYQ==',
+    sc_apikey:
+      'dXBvekgxNmJPL1JsWGg2S2RkV1Z2bnA0MnZNcHR6QTlIZ09oa0g4cDlhUT18ZXNwaXJlaW5mb2wzOTkzLWVzcGlyZXN0YXJ0ZWYwNi1kZXYtNjJhYQ==',
   },
 });

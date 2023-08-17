@@ -3,7 +3,6 @@ import { NextResponse } from 'next/server';
 
 export function smallcaseurl(req: NextRequest): NextResponse {
   const { pathname, origin } = req.nextUrl;
-  console.log(req, 'Rehmo');
   if (pathname === pathname.toLowerCase()) {
     return NextResponse.next();
   }
