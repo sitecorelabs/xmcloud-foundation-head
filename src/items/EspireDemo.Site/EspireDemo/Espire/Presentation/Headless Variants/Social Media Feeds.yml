@@ -1,38 +1,39 @@
 ﻿---
-ID: "35449fd3-f1ee-4ee1-b027-79bb66829223"
-Parent: "4d0f7876-38e7-4458-bbd7-b6918ff74179"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/EspireDemo/Listing/PostedBy
+ID: "29d307b6-9bcf-4add-97a4-8590c9354eb2"
+Parent: "43eb97a7-dbfc-41bc-806c-4619c2c23f1a"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Headless Variants/Social Media Feeds
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: /~/icon/apps/32x32/Badge.png
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+  Value: /~/icon/office/32x32/rss.png
 Languages:
 - Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
   Versions:
   - Version: 1
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230731T083104Z
+      Value: 20230817T101808Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\b6hiKrOdCH
+        sitecore\manoj.chopkar@espire.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\b6hiKrOdCH
+        sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "96c028ee-f6eb-4498-bb3a-ece02bbe4a99"
+      Value: "b3f24fa5-d8ac-4035-9a20-dc4d31740d35"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\b6hiKrOdCH
+        sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230731T083146Z
+      Value: 20230818T070731Z
