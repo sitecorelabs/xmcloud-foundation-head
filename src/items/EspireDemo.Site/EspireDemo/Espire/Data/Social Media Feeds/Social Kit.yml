@@ -1,0 +1,23 @@
+﻿---
+ID: "e8275951-7343-4ed5-9811-e8af854f822c"
+Parent: "5f12e9b3-2f56-478d-96c7-39c0b2138990"
+Template: "6e963693-a285-4aa6-9fe0-860782843627"
+Path: /sitecore/content/EspireDemo/Espire/Data/Social Media Feeds/Social Kit
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230817T104318Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39f87d4c-e7c1-4092-85ca-164e34f90375"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230817T104318Z

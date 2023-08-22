@@ -1,24 +1,24 @@
 ﻿---
-ID: "7ee1469c-dbdb-47d7-95ca-85ccb597fae5"
+ID: "b8d0da1b-20d4-41cc-81f1-94a5c868bf62"
 Parent: "5dbf5d75-2915-427f-aa88-72e557858fa0"
 Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
-Path: /sitecore/layout/Renderings/Project/Espire Components/Social Media Feeds
+Path: /sitecore/layout/Renderings/Project/Espire Components/Social Media Share
 SharedFields:
 - ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
   Hint: componentName
-  Value: SocialMediaFeeds
+  Value: SocialMediaShare
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
-  Value: /~/icon/office/32x32/rss.png
+  Value: /~/icon/applicationsv2/32x32/flash_red.png
 - ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
   Hint: Datasource Template
-  Value: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds/Social Media Feeds
+  Value: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Share/Social Media Share
 - ID: "a77e8568-1ab3-44f1-a664-b7c37ec7810d"
   Hint: Parameters Template
-  Value: "{D1352C21-FBBD-44CB-AC52-C5735989DEE1}"
+  Value: "{C181F37D-2F9C-4CB2-869B-9E9232B8F0AD}"
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/EspireDemo/Espire/Data/Social Media Feeds
+  Value: /sitecore/content/EspireDemo/Espire/Data/Social Media Share
 Languages:
 - Language: en
   Versions:
@@ -26,7 +26,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230817T101543Z
+      Value: 20230821T055401Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -37,11 +37,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "050b7f19-c4f2-4ade-9c45-a4e1e901ff38"
+      Value: "51ddc599-3648-456b-a12d-d80652bc8a1d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230821T053339Z
+      Value: 20230821T063049Z

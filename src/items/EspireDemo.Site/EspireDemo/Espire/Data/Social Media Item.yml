@@ -1,0 +1,27 @@
+﻿---
+ID: "8940bb97-e38a-41a3-a145-277d9e35b9bb"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "b815b680-a50c-43f3-9da4-d2631cca7a02"
+Path: /sitecore/content/EspireDemo/Espire/Data/Social Media Item
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/apps/32x32/social.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230821T063659Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea103e83-0a84-4129-9c83-3008ff33c6ae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230821T063711Z

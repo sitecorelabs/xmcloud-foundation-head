@@ -1,8 +1,8 @@
 ﻿---
-ID: "9c296968-0117-4a95-8e4f-e4b6725a9afa"
-Parent: "951c9dcd-2a81-4f51-a378-503165352a6e"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds
+ID: "ffa0b514-e365-4035-a44a-d319710852db"
+Parent: "8940bb97-e38a-41a3-a145-277d9e35b9bb"
+Template: "91826226-4f91-4791-9b14-e201b1d9cb2c"
+Path: /sitecore/content/EspireDemo/Espire/Data/Social Media Item/LinkedIn
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,10 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230821T053204Z
+      Value: 20230821T064153Z
+    - ID: "440ca255-d3ae-47f1-91d6-0627c87e5435"
+      Hint: Social Media Name
+      Value: LinkedIn
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +24,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88702183-681b-4a5d-ae8f-0964705ac730"
+      Value: "9d0690a3-603d-47e8-b5d0-7b95f04185aa"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230821T053336Z
+      Value: 20230821T071956Z

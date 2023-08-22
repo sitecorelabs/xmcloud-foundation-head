@@ -1,8 +1,8 @@
 ﻿---
 ID: "e3fea923-7e2b-4e4a-ad85-928df4c85a7d"
-Parent: "951c9dcd-2a81-4f51-a378-503165352a6e"
+Parent: "9c296968-0117-4a95-8e4f-e4b6725a9afa"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds Folder
+Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds/Social Media Feeds Folder
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
@@ -31,11 +31,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a8c4755-4c7f-4d46-8e4f-4504175d6b56"
+      Value: "f457e01b-5f13-4c25-889f-f7132112ce8b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230818T065118Z
+      Value: 20230821T053220Z

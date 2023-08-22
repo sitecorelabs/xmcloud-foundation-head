@@ -1,15 +1,14 @@
 ﻿---
-ID: "b2ef7ef8-7174-403a-a2e4-566de189df8a"
-Parent: "5b0893b3-701f-4bb5-a43f-b81af997a97f"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds/Details/ClassName
+ID: "aa48dc20-61b6-43b6-a956-616c6405533d"
+Parent: "e3fea923-7e2b-4e4a-ad85-928df4c85a7d"
+Template: "e3fea923-7e2b-4e4a-ad85-928df4c85a7d"
+Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds/Social Media Feeds Folder/__Standard Values
 SharedFields:
-- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
-  Hint: Type
-  Value: "Single-Line Text"
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 200
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {6E963693-A285-4AA6-9FE0-860782843627}
+    {E3FEA923-7E2B-4E4A-AD85-928DF4C85A7D}
 Languages:
 - Language: en
   Versions:
@@ -17,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230817T101229Z
+      Value: 20230817T101337Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +27,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cdb2e7e2-b1aa-4281-915f-9f2aaf5865e8"
+      Value: "3aba6d52-9c53-42a9-870d-d3ede210e3f7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230817T102342Z
+      Value: 20230817T101401Z
