@@ -1,11 +1,5 @@
 import React from 'react';
-import { RichTextReusableTemplateProps } from 'lib/component-props/EspireTemplateProps/PageContent/RichTextReusableTemplateProps';
-import {
-  Field,
-  RichText,
-  useSitecoreContext,
-  withDatasourceCheck,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, useSitecoreContext, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import {
   LinkedinShareButton,
