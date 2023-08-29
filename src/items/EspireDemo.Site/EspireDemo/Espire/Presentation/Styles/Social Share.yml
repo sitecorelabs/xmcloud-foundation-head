@@ -1,8 +1,8 @@
 ﻿---
-ID: "9c296968-0117-4a95-8e4f-e4b6725a9afa"
-Parent: "951c9dcd-2a81-4f51-a378-503165352a6e"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/EspireDemo/Social Sharing/Component/Social Media Feeds
+ID: "2679f70a-51e7-4fff-9ef8-2716fcf8a06f"
+Parent: "3c093657-8397-4707-a7b2-31b5fd0ff7a4"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/EspireDemo/Espire/Presentation/Styles/Social Share
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230821T053204Z
+      Value: 20230821T154633Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\manoj.chopkar@espire.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88702183-681b-4a5d-ae8f-0964705ac730"
+      Value: "2163fcf2-01e7-4f0e-a02a-e82b0f24d243"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230821T053336Z
+      Value: 20230821T154633Z

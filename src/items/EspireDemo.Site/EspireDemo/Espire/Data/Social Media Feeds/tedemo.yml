@@ -1,0 +1,35 @@
+﻿---
+ID: "7acab944-89c8-4234-b7ad-4865bf2e034a"
+Parent: "5f12e9b3-2f56-478d-96c7-39c0b2138990"
+Template: "6e963693-a285-4aa6-9fe0-860782843627"
+Path: /sitecore/content/EspireDemo/Espire/Data/Social Media Feeds/tedemo
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230817T123123Z
+    - ID: "42feb59d-49c2-4eeb-b79f-2fa33d20d785"
+      Hint: ID
+      Value: 181318
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7ad82a2-88c0-40c7-9e1f-6ae6c40b267a"
+    - ID: "92ce3fbf-f5d7-4c8d-a6a8-86e3b3fdbf59"
+      Hint: URL
+      Value: "https://widgets.sociablekit.com/twitter-list/widget.js"
+    - ID: "b2ef7ef8-7174-403a-a2e4-566de189df8a"
+      Hint: ClassName
+      Value: "sk-ww-twitter-list"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230817T123145Z

@@ -1,0 +1,15 @@
+.social-media-share {
+    &.horizontal {
+        ul{
+            display: inline-block;
+            li{
+                display: inline-block;
+                padding:  0 15px;
+                &:first-child{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+
+}

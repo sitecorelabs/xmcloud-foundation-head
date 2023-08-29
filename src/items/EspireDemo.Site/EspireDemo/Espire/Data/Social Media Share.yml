@@ -1,0 +1,27 @@
+﻿---
+ID: "fbab6a68-34b5-4614-82d3-d138d1af145b"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "091f4abd-2c04-493e-8444-0dbb31c9fe1e"
+Path: /sitecore/content/EspireDemo/Espire/Data/Social Media Share
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/applicationsv2/32x32/flash_red.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230821T055637Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bfc8efda-68b9-4e9d-96d7-92f82cd04007"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230821T055712Z
