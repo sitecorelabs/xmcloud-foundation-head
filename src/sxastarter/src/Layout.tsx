@@ -8,6 +8,7 @@ import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Scripts from 'src/Scripts';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
+import Cookie from 'components/Espire/Header/Cookie';
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
 // If you're not supporting the Experience Editor, you can remove this.
 const publicUrl = getPublicUrl();
@@ -75,21 +76,25 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         </footer>
       </div>
 
+      {/* This is Civic UK */}
       <Script
         src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"
         strategy={'beforeInteractive'}
       ></Script>
-      <Script
-        id="Cookiebot"
-        src="https://consent.cookiebot.com/uc.js"
-        data-cbid="c0371d7c-31e2-4caf-92a3-173569d47c4a"
-        strategy={'beforeInteractive'}
-      ></Script>
-      <Script
-        id="CookieDeclaration"
-        src="https://consent.cookiebot.com/c0371d7c-31e2-4caf-92a3-173569d47c4a/cd.js"
-        strategy={'beforeInteractive'}
-      ></Script>
+      <Cookie />
+
+      {/* Uncomment this and change URL's for Cookiebot */}
+      {/* <Script
+         id="Cookiebot"
+         src="https://consent.cookiebot.com/uc.js"
+         data-cbid="c0371d7c-31e2-4caf-92a3-173569d47c4a"
+         strategy={'beforeInteractive'}
+       ></Script>
+       <Script
+         id="CookieDeclaration"
+         src="https://consent.cookiebot.com/c0371d7c-31e2-4caf-92a3-173569d47c4a/cd.js"
+         strategy={'beforeInteractive'}
+       ></Script> */}
     </>
   );
 };
