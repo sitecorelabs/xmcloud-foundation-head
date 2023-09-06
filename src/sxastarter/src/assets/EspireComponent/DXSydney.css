@@ -108,8 +108,11 @@ header{
 
 @media only screen and (min-width: 320px) and (max-width: 767.98px) {
   .banner .banner-default img{
-    max-height: 294px;
-    width: 679px;
+    width: 340PX !important;
+    height: 200px;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
   }
   
   #Section1 .component-content{
@@ -156,7 +159,7 @@ header{
   
   #Section2 .link.col-12 {
     margin-top: 26px;
-    margin-left: 62px;
+    margin-left: 28%;
     margin-bottom: 41px;
   }
   
@@ -184,5 +187,12 @@ header{
   
   #bb4ee513e52b56ab89f43fd5347c22d9{
       margin-top: 20px;
+  }
+  
+  .banner .banner-default p{
+    padding-left: 0%;
+    margin-top: -17px;
+    width: 436px;
+	font-size: 10px !important;
   }
 }  
