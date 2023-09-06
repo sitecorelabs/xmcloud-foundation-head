@@ -1,10 +1,26 @@
 header{
     display: none;
 }
+
+.banner .banner-default:before{
+   background: none !important;
+}
+
+.banner .banner-default .container{
+    top: 83px !important;
+}
+
+#DxSydney > .component-content > .row {
+    margin-right: 0 !important;
+}
  
 #Section1 {
 	padding: 0 90px;
 	margin-top: -13%;
+}
+
+.banner .banner-default .banner-content {
+    max-width: 100%;
 }
 
 #Section1 .component.promo{
@@ -49,6 +65,28 @@ header{
     box-shadow: black 1px 1px 1px 1px;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 3px;
-    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+#Section4{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#Section4 a{
+	background: rgba(0,132,234,1);
+    color: #fff;
+    padding: 13px;
+    border-radius: 38px;
+    border: 5px solid white;
+    box-shadow: black 1px 1px 1px 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    font-size: 14px;
+    width: 270px;
+    display: grid;
+	margin: 0 auto;
 }
