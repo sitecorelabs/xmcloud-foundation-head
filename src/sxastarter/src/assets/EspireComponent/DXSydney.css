@@ -1,0 +1,54 @@
+header{
+    display: none;
+}
+ 
+#Section1 {
+	padding: 0 90px;
+	margin-top: -13%;
+}
+
+#Section1 .component.promo{
+    background: none !important;
+}
+
+#Section1 .promo>.component-content{
+    border: 0 !important;
+	position: relative;
+    text-align: center;
+}
+
+#Section1 .promo .field-promoicon img{
+    width: 317.196px;
+    height: 317.196px;
+}
+
+#Section1 .field-promoicon{
+     box-shadow: -4px 5px 24px -4px #dee2e6;
+    border-radius: 13px;
+	background: #fff;
+}
+
+#Section2 .rich-text .component-content div {
+	margin: 10px 36px;
+	background: rgba(0,132,234,1);
+	color: white;
+	padding: 13px 27px;
+	text-align: center;
+}	
+
+#Section2 .link.col-12 {
+	margin-top: 26px;
+}
+
+#Section2 a {	
+	background: rgba(0,132,234,1);
+    color: #fff;
+    padding: 13px;
+    border-radius: 38px;
+    border: 5px solid white;
+    box-shadow: black 1px 1px 1px 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 23px;
+}
