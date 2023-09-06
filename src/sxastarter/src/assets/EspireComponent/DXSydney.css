@@ -115,6 +115,11 @@ header{
     -ms-transform: none !important;
   }
   
+  #Section1 {
+    padding: 0 90px;
+    margin-top: 0;
+  }
+
   #Section1 .component-content{
      width: 400px;
      margin-left: -52px;
@@ -124,17 +129,19 @@ header{
     padding: 5px;
     font-size: 15px;
     margin-top: 16px;
+	border-radius: 0;
+	box-shadow: none;
   }
   
   #Section1 .promo .field-promoicon img {
     width: 269px;
     height: 250px;
-    margin-left: 44px;
+    margin-left: 0;
     vertical-align: middle;
   }
   
   #Section1 .field-promotext{
-     padding-left: 51px;
+     padding-left: 0;
   }
   
   #Section2 a{
@@ -185,14 +192,14 @@ header{
     font-size: 14px;
   }
   
-  #bb4ee513e52b56ab89f43fd5347c22d9{
-      margin-top: 20px;
+  #Section3 .component.promo{
+    margin-bottom: 22px;
   }
   
   .banner .banner-default p{
     padding-left: 0;
     margin-top: -27px;
     width: 436px;
-    font-size: 13px!important;
+    font-size: 11px!important;
   }
 }  
