@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/** common css start **/
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
 header{
     display: none;
 }
 
 .banner .banner-default:before{
    background: none !important;
+}
+
+.banner .banner-default p{
+    padding-left: 15%;
+    margin-top: 0;
+    width: 800px;
 }
 
 .banner .banner-default .container{
@@ -90,3 +105,84 @@ header{
     display: grid;
 	margin: 0 auto;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767.98px) {
+  .banner .banner-default img{
+    max-height: 294px;
+    width: 679px;
+  }
+  
+  #Section1 .component-content{
+     width: 317px;
+     margin-left: -52px;
+  }
+  
+  #Section1 .promo>.component-content>div {
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 16px;
+  }
+  
+  #Section1 .promo .field-promoicon img {
+    width: 269px;
+    height: 250px;
+    margin-left: 44px;
+    vertical-align: middle;
+  }
+  
+  #Section1 .field-promotext{
+     padding-left: 51px;
+  }
+  
+  #Section2 a{
+    font-size: 12px;
+  }
+  
+  #Section2 .rich-text {
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  #Section2 .row.column-splitter>div {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 500px;
+  }
+  
+  #Section2 .rich-text .component-content div{
+	margin: 0;
+    width: 600px;
+  }
+  
+  #Section2 .link.col-12 {
+    margin-top: 26px;
+    margin-left: 62px;
+    margin-bottom: 41px;
+  }
+  
+  #Section3 .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  #Section4 a{
+	margin-bottom: 16px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 11px;
+  }
+  
+  #Section4 .col-6{
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  
+  #Section3 .promo>.component-content>div {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  #bb4ee513e52b56ab89f43fd5347c22d9{
+      margin-top: 20px;
+  }
+}  
