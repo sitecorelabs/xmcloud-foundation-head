@@ -123,7 +123,8 @@ header{
     font-size: 14px;
     width: 270px;
     display: grid;
-	margin: 0 auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
