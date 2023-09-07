@@ -144,6 +144,11 @@ header{
      padding-left: 0;
   }
   
+  #Section2{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   #Section2 a{
     font-size: 12px;
   }
@@ -161,7 +166,6 @@ header{
   
   #Section2 .rich-text .component-content div{
 	margin: 0;
-    width: 600px;
   }
   
   #Section2 .link.col-12 {
@@ -173,6 +177,23 @@ header{
   #Section3 .col-6 {
     flex: 0 0 auto;
     width: 100%;
+  }
+  
+  #Section3 .component.rich-text.col-12.col-lg-6{
+    background: rgba(214,246,243,1);
+    text-align: center;
+    font-family: inherit;
+    padding: 18px 7px;
+  }
+  
+  #Section3 .component.rich-text.col-12.col-lg-6 img{
+    height: 200px !important;
+    width: 200px !important;
+  }
+  
+  #Section3 .component.rich-text.col-12.col-lg-6 p{
+    padding: 0 33px;
+    line-height: 1;
   }
   
   #Section4 a{
@@ -198,8 +219,16 @@ header{
   
   .banner .banner-default p{
     padding-left: 0;
-    margin-top: -27px;
-    width: 436px;
-    font-size: 11px!important;
+    margin-top: 4px;
+    width: 100%;
+    font-size: 13px!important;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .banner .banner-default .container p {
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: bold;
   }
 }  
