@@ -144,8 +144,15 @@ header{
 
   #Section1 .component-content{
      width: 400px;
-     margin-left: -52px;
   }
+  
+  #Section1 .richtext-reusable.col-12{
+	margin-left: -49px; 
+  } 
+  
+  #Section1 .richtext-reusable.col-12 p{
+	text-align: center !important; 
+  } 
   
   #Section1 .promo>.component-content>div {
     padding: 5px;
@@ -190,6 +197,10 @@ header{
     padding: 0;
     font-size: 14px;
   }
+  
+	#Section2 .col-6 .row{
+		background: #0084ea;
+	}
   
   #Section2 .content ul li, .rich-text ul li{
 	text-align: left;
