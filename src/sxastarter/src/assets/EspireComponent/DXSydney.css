@@ -31,7 +31,6 @@ header{
  
 #Section1 {
 	padding: 0 90px;
-	margin-top: -13%;
 }
 
 .banner .banner-default .banner-content {
@@ -161,6 +160,7 @@ header{
     height: 250px;
     margin-left: 0;
     vertical-align: middle;
+	border-radius: 27px;
   }
   
   #Section1 .field-promotext{
@@ -172,6 +172,15 @@ header{
     padding-right: 0;
   }
   
+  #Section2 strong {
+    color: white;
+	font-size: 13px;
+  }
+  
+  #Section2 .col-6 {
+    padding: 0 !important;
+  }
+  
   #Section2 a{
     font-size: 12px;
 	margin-left: -56px;
@@ -180,6 +189,11 @@ header{
   #Section2 .rich-text {
     padding: 0;
     font-size: 14px;
+  }
+  
+  #Section2 .content ul li, .rich-text ul li{
+	text-align: left;
+    line-height: 3px;  
   }
   
   #Section2 .row.column-splitter>div {
