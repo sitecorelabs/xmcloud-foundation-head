@@ -1,0 +1,41 @@
+﻿---
+ID: "1ad27165-8b4d-4ed5-938d-d00de3aa4a85"
+Parent: "429afa14-9810-4a67-a65e-752099d3833b"
+Template: "98138431-97e1-4e69-a298-e43a31cb185a"
+Path: /sitecore/content/EspireDemo/Espire/Home/Components/C1
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4271F03A-DF93-4E13-972E-CD1033333006}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02bafb11-c9a9-49c7-a935-2ae623161ef3"
+      Hint: Title
+      Value: C1
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230927T040352Z
+    - ID: "4c9c4859-7257-4eca-8eb6-acf5fb7e7ed8"
+      Hint: Content
+      Value: This is C1 Content
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: C1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "622bacbb-6d4b-4295-a003-fcb76bd4ea16"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "c959e7ac-a62a-4cb4-a72b-4a3ebc00e8c0"
+      Hint: Image
+      Value: |
+        <image mediaid="{A0C1DCFD-3D90-478F-864F-D448D9467ABB}" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230927T102921Z

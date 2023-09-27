@@ -4,9 +4,14 @@ export const Listing_Query = gql`
     ListingData: item(path: $contextItem, language: $language) {
       children(first: $first, after: $after) {
         results {
+          url {
+            path
+            siteName
+            url
+          }
           fields {
             name
-            value
+            jsonValue
           }
         }
         pageInfo {
