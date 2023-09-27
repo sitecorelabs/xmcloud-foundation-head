@@ -274,7 +274,7 @@ export const ListCard = (props: ListingProps): JSX.Element => {
   });
 
   return (
-    <div className={`${props?.params?.styles} default-listing`}>
+    <div className={`${props?.params?.styles} listing card-listing`}>
       {props?.params?.['Show More'] ? (
         <>
           <div className="container">
@@ -285,11 +285,7 @@ export const ListCard = (props: ListingProps): JSX.Element => {
                     return (
                       <div className="col" key={index}>
                         <div className="img-title">
-                          <img
-                            src={item?.Image?.value?.src}
-                            alt={item?.Image?.value?.alt}
-                            className="rounded-4"
-                          />
+                          <img src={item?.Image?.value?.src} alt={item?.Image?.value?.alt} />
                           <div className="rounded-bottom-4 blog-info">
                             <div className="blog-title">{item?.Title?.value}</div>
                             <p>{item?.Content?.Value}</p>

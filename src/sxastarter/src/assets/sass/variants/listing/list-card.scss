@@ -1,0 +1,52 @@
+@import "../../abstracts/_mixins.scss";
+.blogs {
+  margin-top: $md-space;
+  position: relative;
+
+  .primary-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .img-title-section {
+    background-color: transparent;
+  }
+
+  .col {
+    position: relative;
+
+    .blog-info {
+      @include imgTitle();
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 2rem 2.5rem;
+      left: 0;
+
+      .blog-title {
+        font-size: $md-font-secondary;
+      }
+
+      p {
+        color: $white;
+        font-size: $sm-font;
+        margin: 1rem 0;
+      }
+
+      .secondary-btn {
+        border-color: $white;
+        color: $white;
+
+        &:hover {
+          border-color: $brand-color;
+        }
+      }
+    }
+    .img-title {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+  }
+}
