@@ -17,16 +17,33 @@ export type list = {
   fields: {
     [key: string]: result[];
   };
+  url: urlData;
 };
 
 export type result = {
-  [key: string]: {
-    [key: string]: {
-      [key: string]: string | LinkField | ImageField | RichTextField;
-    };
+  value: unknown;
+  __typename: string;
+  name: string;
+  jsonValue: {
+    value: valueObject;
   };
 };
 
-export type State = {
-  finalData: [];
+type valueObject = (string | LinkField | ImageField | RichTextField) & {
+  src: string;
+  alt: string;
+};
+
+export type urlData = {
+  path: string;
+  siteName: string;
+  url: string;
+};
+
+export type ActualData = {
+  [key: string]: {
+    [key: string]: string & {
+      [key: string]: string;
+    };
+  };
 };
