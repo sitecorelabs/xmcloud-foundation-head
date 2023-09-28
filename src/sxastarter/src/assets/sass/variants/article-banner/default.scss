@@ -1,0 +1,53 @@
+@import "../../abstracts/espire-mixin";
+.banner-third-version {
+  position: relative;
+  border-radius: $lg-border-radius $lg-border-radius 0 0;
+
+  > img {
+    width: 100%;
+    border-radius: $lg-border-radius $lg-border-radius 0 0;
+  }
+
+  .banner-content {
+    color: $white;
+    position: absolute;
+    height: auto;
+    top: 50%;
+    left: 0;
+    margin: auto;
+    z-index: 2;
+    background-color: rgba($brand-color, 0.7);
+    top: 50%;
+    @include transformContainer(translateY(-50%));
+    padding: 7rem 9rem 3rem 5rem;
+    min-width: 70rem;
+    border-radius: 0 $lg-border-radius $lg-border-radius 0;
+    width: 100%;
+
+    h1 {
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-family: $myriad-light-font;
+        font-weight: 300;
+        font-size: $md-font;
+        margin-bottom: 2rem;
+        color: $white;
+        line-height: 37px;
+      }
+
+      a {
+        color: $white;
+        text-decoration: none;
+        font-size: $sm-font;
+        font-family: $myriad-bold-font;
+        font-weight: $bold;
+        line-height: 150%;
+        letter-spacing: -1.1%;
+      }
+    }
+  }
+}
+
