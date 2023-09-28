@@ -1,6 +1,7 @@
 import {
   ComponentParams,
   ComponentRendering,
+  Field,
   SitecoreContextValue,
   useSitecoreContext,
 } from '@sitecore-jss/sitecore-jss-nextjs';
@@ -26,4 +27,14 @@ export type ComponentWithContextProps = ComponentProps & {
 export const EditMode = () => {
   const { sitecoreContext } = useSitecoreContext();
   return sitecoreContext?.pageEditing;
+};
+
+export type DropLinkField = ComponentProps & {
+  id: string;
+  url: string;
+  name: string;
+  displayName: string;
+  fields: {
+    Text: Field<string>;
+  };
 };

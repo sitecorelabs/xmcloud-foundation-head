@@ -1,0 +1,50 @@
+﻿---
+ID: "548f4fbe-4f8f-4c91-b253-d173deadf076"
+Parent: "dd97b10b-625a-45a2-be80-07af40efded9"
+Template: "f20a5ade-599c-4d89-8f60-c47a40753697"
+Path: /sitecore/content/EspireDemo/Espire/Home/Articles/Article 3
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{3A643011-81DF-4EB8-9F4F-54C5A0456547}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02bafb11-c9a9-49c7-a935-2ae623161ef3"
+      Hint: Title
+      Value: Article 3
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230928T071827Z
+    - ID: "4c9c4859-7257-4eca-8eb6-acf5fb7e7ed8"
+      Hint: Content
+      Value: <h1>This is Article 3 Content&nbsp;</h1>
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Article 3
+    - ID: "711b4111-fd9b-4102-a362-d4fb4dc7be9d"
+      Hint: ArticleType
+      Value: "{F7D15E90-0761-4624-969E-75080B2749DB}"
+    - ID: "85cfae6b-2b04-46ec-9bba-794c85e0d2ea"
+      Hint: PublishDate
+      Value: 20230927T000000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5ad1ece-799e-4894-b366-b496d956c7d6"
+    - ID: "9250ae3b-7331-4397-9bc7-7510771e246b"
+      Hint: Image
+      Value: |
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d4b5cfab-d078-4711-8a6a-3bc91550ab14"
+      Hint: Author
+      Value: "{286F5632-0E88-4A6C-8B27-2659242F78DC}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230928T120650Z

@@ -1,14 +1,8 @@
 ﻿---
-ID: "98138431-97e1-4e69-a298-e43a31cb185a"
-Parent: "be9829c8-0eaa-434a-bd35-640c7c76813f"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/EspireDemo/Component Details
-SharedFields:
-- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
-  Hint: __Base template
-  Value: |
-    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
-    {3E3501A0-6929-40E9-BCBD-81E042AEA7C1}
+ID: "480e45dc-b4b7-47f4-a196-959bfc8a9652"
+Parent: "8a9c91c5-fc53-4a6c-b38a-c21912af1bce"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/EspireDemo/Espire/Data/Article Type/News
 Languages:
 - Language: en
   Versions:
@@ -16,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230927T035521Z
+      Value: 20230928T065917Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,13 +19,16 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\manoj.chopkar@espire.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: News
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9ab0482d-60e2-482c-a21f-52b4116bb355"
+      Value: "0cf9d335-e8e0-4d82-9e60-67d95cbeab77"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\manoj.chopkar@espire.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230927T035553Z
+      Value: 20230928T115225Z
