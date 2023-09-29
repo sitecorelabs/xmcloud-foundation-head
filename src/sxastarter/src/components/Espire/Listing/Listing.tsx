@@ -24,7 +24,7 @@ const Listing = (props: ListingProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const scope = props?.params?.Scope;
   const language = sitecoreContext?.language;
-  const count = props?.params?.['Display Count'];
+  const count = parseInt(props?.params?.['Display Count']);
 
   const GetList = async (): Promise<unknown> => {
     const { data } = await apolloClient.query({
@@ -179,7 +179,7 @@ export const ListCard = (props: ListingProps): JSX.Element => {
   const { sitecoreContext } = useSitecoreContext();
   const scope = props?.params?.Scope;
   const language = sitecoreContext?.language;
-  const count = props?.params?.['Display Count'];
+  const count = parseInt(props?.params?.['Display Count']);
 
   const GetList = async (): Promise<unknown> => {
     const { data } = await apolloClient.query({
