@@ -1,7 +1,7 @@
 const jssConfig = require('./src/temp/config');
 const { getPublicUrl } = require('@sitecore-jss/sitecore-jss-nextjs/utils');
 const plugins = require('./src/temp/next-config-plugins') || {};
-
+const headerConfig =  require('./project-configs/header');
 const publicUrl = getPublicUrl();
 
 /**
@@ -56,6 +56,8 @@ const nextConfig = {
       }, 
     ];
   },
+
+ ...headerConfig,
 };
 
 module.exports = () => {
