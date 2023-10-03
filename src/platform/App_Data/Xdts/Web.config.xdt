@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="
+http://schemas.microsoft.com/XML-Document-Transform">
+
+<location path="sitecore">
+<system.webServer>
+<httpProtocol>
+<customHeaders>
+<!--DO NOT USE THIS CONTENT SECURITY POLICY EXAMPLE IN YOUR SOLUTION-->
+<add name="Content-Security-Policy" value="default-src 'self' 'unsafe-inline' 'unsafe-eval'
+https://apps.sitecore.net;
+img-src 'self' data:
+https://espirechdemo.sitecoresandbox.cloud/
+https://s.gravatar.com
+https://*.wp.com/cdn.auth0.com/avatars;
+style-src 'self' 'unsafe-inline'
+https://fonts.googleapis.com;
+font-src 'self' 'unsafe-inline'
+https://fonts.gstatic.com;
+block-all-mixed-content; child-src 'self'
+https://espirechdemo.sitecoresandbox.cloud/;
+connect-src 'self'
+https://espirechdemo.sitecoresandbox.cloud/;
+media-src
+https://espirechdemo.sitecoresandbox.cloud/"
+xdt:Transform="Replace" xdt:Locator="Match(name)"/> 
+</customHeaders>
+</httpProtocol>
+</system.webServer>
+</location>
+</configuration>
