@@ -287,7 +287,7 @@ export const ListCard = (props: ListingProps): JSX.Element => {
                           <div className="rounded-bottom-4 blog-info">
                             <div className="blog-title">{item?.Title?.value}</div>
                             <p>{item?.Content?.Value}</p>
-                            <a href={item?.urlData?.url} className="secondary-btn">
+                            <a href={item?.urlData?.path} className="secondary-btn">
                               Read more
                             </a>
                           </div>
