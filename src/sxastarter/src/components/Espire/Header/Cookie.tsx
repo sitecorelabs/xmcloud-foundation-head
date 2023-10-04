@@ -24,7 +24,7 @@ declare global {
 }
 const Cookie = () => {
   const config: Config = {
-    apiKey: '3a0578b34b8e13d5aa9fb91166af07c105fb2e0d',
+    apiKey: '1b61fa3d5212eb369497b28bb5372d02f23597b0',
     product: 'community',
     optionalCookies: [
       {
