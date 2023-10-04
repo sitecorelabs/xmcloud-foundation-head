@@ -44,7 +44,7 @@ const ArticleBanner = (props: ArticleBannerProps): JSX.Element => {
   const formattedDate = formatDate(inputDate);
 
   return (
-    <div className={`${props?.params?.styles} separator`}>
+    <div className={`${props?.params?.styles} article-banner`}>
       <div className="banner-third-version">
         <img
           src={props?.fields?.Image?.value?.src}
