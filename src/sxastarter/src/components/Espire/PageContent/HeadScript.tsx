@@ -18,7 +18,7 @@ export const HeadScript = (props: HeadScriptTemplateProps): JSX.Element => {
       {isEdit ? (
         <div>Add Script here</div>
       ) : (
-        <Script id="abc" src={props?.fields?.script?.value}>
+        <Script id="scripts" src={props?.fields?.script?.value}>
           {props?.fields?.function?.value}
         </Script>
       )}
