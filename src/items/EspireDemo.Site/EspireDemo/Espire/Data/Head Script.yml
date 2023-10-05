@@ -1,0 +1,27 @@
+﻿---
+ID: "1e852621-1be0-4358-9afb-a798396f1422"
+Parent: "50b61e13-9847-4f8f-aaad-0d1f042504fc"
+Template: "8cd05019-a4d8-4157-86bd-46096028c908"
+Path: /sitecore/content/EspireDemo/Espire/Data/Head Script
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: /~/icon/software/32x32/text_code_javascript.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231003T122314Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4623c49-e5b0-4ba8-90e8-bc2e3edca0f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231003T122403Z
