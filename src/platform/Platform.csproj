@@ -66,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Xdts\Web.config.xdt" />
-    <Content Include="App_Config\Include\XmCloud.CustomSMTP.config" />
+    <Content Include="App_Config\Include\zz.Overrrides\XmCloud.CustomSMTP.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
