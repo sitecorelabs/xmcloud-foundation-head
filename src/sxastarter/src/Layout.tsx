@@ -31,6 +31,8 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
   const isPageEditing = layoutData.sitecore.context.pageEditing;
   const mainClassPageEditing = isPageEditing ? 'editing-mode' : 'prod-mode';
   const { asPath } = useRouter();
+  const sitecoreSend = `if(!window.mootrack){ !function(t,n,e,o,a){function d(t){var n=~~(Date.now()/3e5),o=document.createElement(e);o.async=!0,o.src=t+"?ts="+n;var a=document.getElementsByTagName(e)[0];a.parentNode.insertBefore(o,a)}t.MooTrackerObject=a,t[a]=t[a]||function(){return t[a].q?void t[a].q.push(arguments):void(t[a].q=[arguments])},window.attachEvent?window.attachEvent("onload",d.bind(this,o)):window.addEventListener("load",d.bind(this,o),!1)}(window,document,"script","https://cdn.stat-track.com/statics/moosend-tracking.min.js","mootrack"); } mootrack('loadForm', '0f36551a0e2a4791b1efcc3e54a0be83');`;
+
   return (
     <>
       <Scripts />
@@ -62,7 +64,6 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         ))}
         <link rel="icon" href={`${publicUrl}/spriteuse.svg`} />
       </Head>
-
       {/* root placeholder for the app, which we add components to using route data */}
       <div className={mainClassPageEditing}>
         <header>
@@ -75,14 +76,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
           <div id="footer">{route && <Placeholder name="headless-footer" rendering={route} />}</div>
         </footer>
       </div>
-
       {/* This is Civic UK */}
       <Script
         src="https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js"
         strategy={'beforeInteractive'}
       ></Script>
       <Cookie />
-
       {/* Uncomment this and change URL's for Cookiebot */}
       {/* <Script
          id="Cookiebot"
@@ -95,6 +94,12 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
          src="https://consent.cookiebot.com/c0371d7c-31e2-4caf-92a3-173569d47c4a/cd.js"
          strategy={'beforeInteractive'}
        ></Script> */}
+
+      <Script
+        id="sitecore-send"
+        strategy={'beforeInteractive'}
+        dangerouslySetInnerHTML={{ __html: sitecoreSend }}
+      ></Script>
     </>
   );
 };
