@@ -69,7 +69,7 @@
       .rel-level1 {
         &:hover {
           .rel-level2 {
-            background: white;
+            background: $white;
             .navigation-title {
               span {
                 color: black;
@@ -77,11 +77,11 @@
             }
           }
         }
-        &.last {
-          a {
-            padding-right: 0;
-          }
-        }
+        // &.last {
+        //   a {
+        //     padding-right: 0;
+        //   }
+        // }
         > .navigation-title {
           a {
             &:hover {

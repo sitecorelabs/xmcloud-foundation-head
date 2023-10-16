@@ -15,6 +15,7 @@ $borderSize: 2px;
   }
   .rel-level1 {
       float: left;
+      
       &.active {
           >.navigation-title>a {
               border-color: $nav-border-root;
@@ -23,14 +24,24 @@ $borderSize: 2px;
       >.navigation-title>a {
           border-width: 2px 0 0 0;
           border-color: transparent;
+          padding:0.8rem 1.2rem 2.1rem 1.2rem;
           &:hover {
               border-color: $nav-border-root;
+              
           }
       }
       &.submenu {
+        &:hover a{
+            background-color:$white;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            span{
+                color: $text-basic;
+            }
+          }
           >.navigation-title a {
               position: relative;
-              padding-right: 15px;
+              
               &:after {
                   @include fa-icon();
                   font-size: 10px;
@@ -49,12 +60,12 @@ $borderSize: 2px;
           z-index: 10;
           position: absolute;
           top: 100%;
-          background: $nav-bg-submenu;
+          background: $white;
           margin-left: 0;
-          margin-top: -$borderSize;
-          border-top: $borderSize solid $nav-border-submenu;
-          border-left: 1px solid $nav-submenu-item-border;
-          border-bottom: 1px solid $nav-submenu-item-border;
+          margin-top: -8px;
+        //   border-top: $borderSize solid $nav-border-submenu;
+        //   border-left: 1px solid $nav-submenu-item-border;
+        //   border-bottom: 1px solid $nav-submenu-item-border;
       }
       &:active, &:hover {
           >a {
@@ -83,14 +94,18 @@ $borderSize: 2px;
   }
   .rel-level2 {
       &:hover, &:focus {
-          transition: background .2s ease-in;
+        //   transition: $background .2s ease-in;
           background: $nav-bg-submenu-active;
+          a{
+            text-decoration: underline;
+          }
       }
       div>a {
           display: block;
           font-weight: normal;
           font-size: $navigation-font-basic-submenu;
-          text-align: center;
+          text-align: left;
+          padding-left: 2rem;
           &:hover, &:focus {
               color: $nav-color-submenu;
           }
@@ -127,14 +142,15 @@ $borderSize: 2px;
               width: 100%;
               clear: both;
               left: 0;
+              border-radius: 5px;
           }
       }
       .rel-level2 {
-          float: left;
+        //   float: left;
           padding: 10px;
-          @include border-basic(right, $nav-submenu-item-border, 1px);
-          flex-grow: 1;
-          flex-basis: 23%;
+        //   @include border-basic(right, $nav-submenu-item-border, 1px);
+          flex-grow: 0;
+          flex-basis: 25%;
       }
   }
   // Additional styles fot drop down vertical navigation 
