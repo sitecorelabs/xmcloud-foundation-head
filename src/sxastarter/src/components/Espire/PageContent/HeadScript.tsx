@@ -14,15 +14,18 @@ export type HeadScriptTemplateProps = ComponentProps & {
 export const HeadScript = (props: HeadScriptTemplateProps): JSX.Element => {
   const isEdit = EditMode();
   return (
-    <div className={`head-script ${props.params.styles}`}>
+    <>
       {isEdit ? (
         <div>Add Script here</div>
       ) : (
-        <Script id="scripts" src={props?.fields?.script?.value}>
-          {props?.fields?.function?.value}
-        </Script>
+        <Script
+          id="scripts"
+          src={props?.fields?.script?.value}
+          dangerouslySetInnerHTML={{ __html: props?.fields?.function?.value }}
+          strategy={'beforeInteractive'}
+        ></Script>
       )}
-    </div>
+    </>
   );
 };
 
