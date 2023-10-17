@@ -96,7 +96,7 @@ export const BasicCard = (props: PromoProps): JSX.Element => {
         <section className="section-inner-space">
           <div className="row  row-cols-1 row-cols-md-2 gx-5 text-center text-md-start card-wrapper ">
             <div className="col text-section">
-              <RichText  field={props?.fields?.PromoText} tag="h2" />
+              <RichText field={props?.fields?.PromoText} tag="h2" />
               <RichText
                 className="text-align-justify card-details"
                 field={props?.fields?.PromoText2}
