@@ -11,7 +11,7 @@ body {
   position: relative;
   overflow: auto;
   color: $text-basic;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   background: $page-bg;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -31,6 +31,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  font-weight: 600;
 }
 
 p {
@@ -38,12 +39,13 @@ p {
   font-weight: $regular;
   font-size: $sm-font;
   color: $brand-color;
+  line-height: 1.5;
 }
 
 
 
 h1 {
-  font-weight: $regular;
+  // font-weight: $regular;
   font-size: $xl-font;
   font-family: $secondary-font;
 }
@@ -51,7 +53,7 @@ h1 {
 h2 {
   font-size: $lg-font;
   font-family: $secondary-font;
-  font-weight: $regular;
+  // font-weight: $regular;
   color: $brand-color;
   margin-bottom: 3rem;
   filter: contrast(1);
@@ -60,7 +62,7 @@ h2 {
 h3 {
   font-size: $md-font-tertiary;
   font-family: $secondary-font;
-  font-weight: $regular;
+  // font-weight: $regular;
   margin-bottom: 1.5rem;
   color: $brand-color;
 }
@@ -70,6 +72,7 @@ h4 {
   color: $brand-color;
   font-family: $myriad-regular-font;
   font-weight: $semi-bold;
+  margin-bottom: 1.3rem;
 }
 
 ul,
@@ -147,7 +150,7 @@ a{
 
 
 .section-inner-space {
-  padding-top: $lg-space;
+  // padding-top: $lg-space;
   padding-bottom: $lg-space;
 }
 

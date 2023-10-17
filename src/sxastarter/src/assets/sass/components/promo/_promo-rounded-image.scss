@@ -1,4 +1,7 @@
 .rounded-image {
+  .row{
+    align-items: center !important;
+  }
   .image-section {
     border-radius: 50%;
     border: 0.5px solid $primary-color;
@@ -13,6 +16,7 @@
     margin-left: 3rem;
     img {
       border-radius: 50%;
+      max-height: none;
       object-fit: unset;
     }
     @include respond-to(mobile-to-tablet) {

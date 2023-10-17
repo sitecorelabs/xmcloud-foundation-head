@@ -34,11 +34,16 @@
       }
 
       .secondary-btn {
-        border-color: $white;
+        border:1px solid $white;
         color: $white;
+        display: inline-block;
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: $font-normal;
 
         &:hover {
-          border-color: $brand-color;
+          background-color: $white;
+          color: $text-basic;
         }
       }
     }
