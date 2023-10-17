@@ -14,7 +14,7 @@ const SearchBox = (props: ComponentProps): JSX.Element => {
           <Form.Control
             aria-label="search bar"
             aria-describedby="seacrh-bar"
-            placeholder="Search by case and more"
+            placeholder="Search"
           />
         </InputGroup>
       </div>
