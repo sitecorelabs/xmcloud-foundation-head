@@ -7,7 +7,7 @@ const SearchBox = (props: ComponentProps): JSX.Element => {
   return (
     <div className={`search-bar-default ${props.params.styles}`}>
       <div className="search-bar">
-        <InputGroup className="mb-3">
+        <InputGroup>
           <Button variant="outline-secondary" id="search-btn">
             <i className="fa fa-search"></i>
           </Button>

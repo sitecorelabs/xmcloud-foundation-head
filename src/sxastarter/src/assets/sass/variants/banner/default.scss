@@ -1,6 +1,7 @@
 @import "../../abstracts/espire-mixin";
 .banner {
   position: relative;
+  margin-bottom: 3rem;
   @include respond-to(mobile-to-tablet) {
     overflow: hidden;
   }
@@ -32,6 +33,9 @@
       height: 100%;
       top: 0;
       left: 0;
+      .container &{
+        left: 5rem;
+      }
       right: 0;
       margin: auto;
       display: flex;
