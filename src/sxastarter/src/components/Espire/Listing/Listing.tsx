@@ -281,7 +281,7 @@ export const ListCard = (props: ListingProps): JSX.Element => {
                 <div className="row row-cols-1 row-cols-md-3 gx-5 gy-5">
                   {actualData?.map((item: ActualData, index: number) => {
                     return (
-                      <div className="col" key={index}>
+                      <div className="col mb-3 mb-lg-0" key={index}>
                         <div className="img-title">
                           <img src={item?.Image?.value?.src} alt={item?.Image?.value?.alt} />
                           <div className="rounded-bottom-4 blog-info">

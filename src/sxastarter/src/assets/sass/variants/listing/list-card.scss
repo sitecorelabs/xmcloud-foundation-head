@@ -1,4 +1,5 @@
 @import "../../abstracts/_mixins.scss";
+@import "../../abstracts/_espire-mixin";
 .blogs {
   margin-top: $md-space;
   position: relative;
@@ -34,10 +35,11 @@
       }
 
       .secondary-btn {
+        @include secondary-btn();
         border:1px solid $white;
         color: $white;
         display: inline-block;
-        padding: 5px;
+        // padding: 5px;
         border-radius: 5px;
         font-weight: $font-normal;
 

@@ -37,12 +37,10 @@ h6 {
 p {
   font-family: $myriad-regular-font;
   font-weight: $regular;
-  font-size: $sm-font;
-  color: $brand-color;
+  font-size: $font-medium;
+  color: #000;
   line-height: 1.5;
 }
-
-
 
 h1 {
   // font-weight: $regular;
@@ -81,35 +79,32 @@ li {
   font-weight: $medium;
 }
 
-
-@include respond-to(mobile-to-tablet){
-    h1 {
-        font-size: $md-font-tertiary;
-      }
-      p {
-        font-size: $sm-font;
-      }
-      .container-default {
-        &.container {
-          padding-left: 3rem;
-          padding-right: 3rem;
-        }
-      }
-      .section-inner-space {
-        padding-top: $md-space;
-        padding-bottom: $md-space;
-      }
-    
-    
+@include respond-to(mobile-to-tablet) {
+  h1 {
+    font-size: $md-font-tertiary;
+  }
+  p {
+    font-size: $sm-font;
+  }
+  .container-default {
+    &.container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+  .section-inner-space {
+    padding-top: $md-space;
+    padding-bottom: $md-space;
+  }
 }
 
-@include respond-to(tablet-to-laptop){
-    h1 {
-        font-size: $lg-font;
-      }  
+@include respond-to(tablet-to-laptop) {
+  h1 {
+    font-size: $lg-font;
+  }
 }
 
-@include respond-to(laptop-to-desktop){
+@include respond-to(laptop-to-desktop) {
   h1 {
     font-size: $xl-font;
   }
@@ -120,11 +115,14 @@ li {
   }
 }
 
-@include respond-to(desktop-and-above){
+@include respond-to(desktop-and-above) {
   .container-default {
     &.container {
       max-width: 1230px;
     }
+  }
+  .container {
+    max-width: 1230px;
   }
 
   h1 {
@@ -136,36 +134,32 @@ li {
   }
 }
 
-
 h1 {
   font-weight: $regular;
   font-family: $secondary-font;
 }
 
-
-a{
+a {
   text-decoration: none;
   font-size: 1.6rem;
 }
-
 
 .section-inner-space {
   // padding-top: $lg-space;
   padding-bottom: $lg-space;
 }
 
-.section-marigin-top-space{
+.section-marigin-top-space {
   margin-top: $lg-space;
 }
 
-.section-padding-top-space{
+.section-padding-top-space {
   padding-top: $lg-space;
 }
 
 .section-content-padding {
   padding-right: 20rem;
 }
-
 
 .tertiary-btn {
   background-color: rgba($brand-color, 0.7);
