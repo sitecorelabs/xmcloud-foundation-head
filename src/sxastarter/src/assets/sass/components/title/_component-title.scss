@@ -2,24 +2,18 @@
 @import '@sass/abstracts/mixins';
 
 .title {
-  background: $title-bg;
+  background:none;
   h1,
   .field-title {
     >a, >span {
-      @include border-basic(bottom, $border-basic-color);
-      font-size: $font-extrabig;
-      margin-top: $small-margin;
-      margin-bottom: $small-margin;
-      color: $white;
-      line-height: normal;
-      padding-bottom: 10px;
+     
+      @extend .h1;
+
       display: block;
       text-decoration: none;
-      cursor: pointer;
-      &:hover {
-        // color: $title-color-active;
-        text-decoration: underline;
-      }
+      cursor: default;
+      line-height: 1.2;
+      color:$text-black;
   }
 }
   @import '@sass/variants/title';
