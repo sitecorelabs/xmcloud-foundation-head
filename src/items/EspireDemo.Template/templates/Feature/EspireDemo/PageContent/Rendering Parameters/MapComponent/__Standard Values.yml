@@ -1,0 +1,31 @@
+﻿---
+ID: "76f7b67f-51a5-46ba-8d1b-a5e38f5b42ee"
+Parent: "694700ff-bce3-4f13-8ea5-a9bb365749f8"
+Template: "694700ff-bce3-4f13-8ea5-a9bb365749f8"
+Path: /sitecore/templates/Feature/EspireDemo/PageContent/Rendering Parameters/MapComponent/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231103T065522Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4947ad4-3080-4399-879d-877877e8e365"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\manoj.chopkar@espire.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231103T065522Z
