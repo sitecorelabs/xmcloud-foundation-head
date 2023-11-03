@@ -6,7 +6,7 @@ const LanguageSelector = (props: ComponentProps): JSX.Element => {
   return (
     <div className={`${props.params.styles}`}>
       <div className="language-selector">
-        <GoogleTranslate />
+        <GoogleTranslate pageLanguage="en" languageList="en,ms,ta,zh-CN,fr,hi" />
         {/* <Form.Select aria-label="Default select example">
           <option>Select Language</option>
           <option value="1">English</option>

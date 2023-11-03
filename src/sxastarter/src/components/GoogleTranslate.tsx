@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 
-function GoogleTranslate() {
+function GoogleTranslate(props) {
   const googleTranslateElementInit = () => {
     new google.translate.TranslateElement(
       {
-        pageLanguage: 'en',
-        includedLanguages: 'en,ms,ta,zh-CN,fr,hi',
+        pageLanguage: props.pageLanguage,
+        includedLanguages: props.languageList,
         layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
         autoDisplay: false,
       },
