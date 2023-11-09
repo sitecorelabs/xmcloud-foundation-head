@@ -10,7 +10,7 @@ This an early access starter kit for XMCloud and JSS 21.6.0. It's aimed to provi
 - Sitecore Forms
 - Sitecore Edge Context
 - Switch to CloudSDK for Peronalization functionality
-- And also some general improvements in JSS such as client-side BYOC components and more. Check the [JSS changelog](https://github.com/Sitecore/jss/blob/dev/CHANGELOG.md) for the list of upcoming changes
+- And also some general improvements in JSS such as client-side BYOC components and more. Check the [JSS changelog](https://github.com/Sitecore/jss/blob/release/beta/CHANGELOG.md#2160) for the list of upcoming changes
 
 ## QUICK START
 
