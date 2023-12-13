@@ -9,7 +9,7 @@ const NotFound = (): JSX.Element => (
       <title>404: NotFound</title>
     </Head>
     <div style={{ padding: 10 }}>
-      <h1>Page not found</h1>
+      <h1>Page not found  1111 </h1>
       <p>This page does not exist.</p>
       <a href="/">Go to the Home page</a>
     </div>
