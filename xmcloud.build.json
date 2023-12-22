@@ -2,7 +2,7 @@
     "renderingHosts": {
       "xmcloudpreview": {
         "path": "./src/sxastarter",
-        "nodeVersion": "16.15.1",
+        "nodeVersion": "20.10.0",
         "jssDeploymentSecret": "110F1C44A496B45478640DD36F80C18C9",
         "enabled": true,
         "type": "sxa",
