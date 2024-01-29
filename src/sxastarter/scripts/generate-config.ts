@@ -2,22 +2,26 @@ import 'dotenv/config';
 import fs from 'fs';
 import path from 'path';
 import { constantCase } from 'constant-case';
-import { JssConfig, jssConfigFactory } from './config';
+import { JssConfig } from 'lib/config';
+import { jssConfigFactory } from './config';
 
 /*
   CONFIG GENERATION
   Generates the /src/temp/config.js file which contains runtime configuration
   that the app can import and use.
 */
-
+// JSS_APP_NAME env variable has been deprecated since v.21.6, SITECORE_SITE_NAME should be used instead
 const defaultConfig: JssConfig = {
   sitecoreApiKey: process.env[`${constantCase('sitecoreApiKey')}`],
   sitecoreApiHost: process.env[`${constantCase('sitecoreApiHost')}`],
-  jssAppName: process.env[`${constantCase('jssAppName')}`],
+  sitecoreSiteName:
+    process.env[`${constantCase('sitecoreSiteName')}`] ||
+    process.env[`${constantCase('jssAppName')}`],
   graphQLEndpointPath: process.env[`${constantCase('graphQLEndpointPath')}`],
   defaultLanguage: process.env[`${constantCase('defaultLanguage')}`],
   graphQLEndpoint: process.env[`${constantCase('graphQLEndpoint')}`],
   layoutServiceConfigurationName: process.env[`${constantCase('layoutServiceConfigurationName')}`],
+  publicUrl: process.env[`${constantCase('publicUrl')}`],
 };
 
 generateConfig(defaultConfig);
@@ -54,6 +58,7 @@ const config = {};\n`;
   Object.keys(config).forEach((prop) => {
     configText += `config.${prop} = process.env.${constantCase(prop)} || '${config[prop]}',\n`;
   });
+
   configText += `module.exports = config;`;
 
   const configPath = path.resolve('src/temp/config.js');

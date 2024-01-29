@@ -1,7 +1,7 @@
 {
   "name": "sxastarter",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
-  "version": "21.5.3",
+  "version": "21.6.0",
   "private": true,
   "config": {
     "appName": "sxastarter",
@@ -13,14 +13,10 @@
     "language": "en",
     "templates": [
       "nextjs",
+      "nextjs-xmcloud",
       "nextjs-sxa",
-      "nextjs-personalize",
       "nextjs-multisite"
     ]
-  },
-  "engines": {
-    "node": ">=12",
-    "npm": ">=6"
   },
   "author": {
     "name": "Sitecore Corporation",
@@ -35,9 +31,10 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@sitecore-feaas/clientside": "^0.5.5",
-    "@sitecore-jss/sitecore-jss-nextjs": "~21.5.3",
-    "@sitecore/engage": "^1.4.1",
+    "@sitecore-cloudsdk/events": "^0.1.3",
+    "@sitecore-feaas/clientside": "^0.5.12",
+    "@sitecore-jss/sitecore-jss-nextjs": "~21.6.0",
+    "@sitecore/components": "^1.1.6",
     "bootstrap": "^5.1.3",
     "font-awesome": "^4.7.0",
     "graphql": "~15.8.0",
@@ -58,10 +55,10 @@
     "@graphql-codegen/typescript-operations": "^2.5.12",
     "@graphql-codegen/typescript-resolvers": "^2.7.12",
     "@graphql-typed-document-node/core": "^3.1.1",
-    "@sitecore-jss/sitecore-jss-cli": "~21.5.3",
-    "@sitecore-jss/sitecore-jss-dev-tools": "~21.5.3",
+    "@sitecore-jss/sitecore-jss-cli": "~21.6.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "~21.6.0",
     "@types/node": "^18.11.18",
-    "@types/react": "^18.0.12",
+    "@types/react": "^18.2.22",
     "@types/react-dom": "^18.0.5",
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "@typescript-eslint/parser": "^5.49.0",
