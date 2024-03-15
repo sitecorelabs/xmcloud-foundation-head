@@ -8,7 +8,7 @@
     "Sitecore.DevEx.Extensibility.Publishing@5.2.113",
     "Sitecore.DevEx.Extensibility.Indexing@5.2.113",
     "Sitecore.DevEx.Extensibility.ResourcePackage@5.2.113",
-    "Sitecore.DevEx.Extensibility.XMCloud@1.1.30"
+    "Sitecore.DevEx.Extensibility.XMCloud@1.1.73"
   ],
   "serialization": {
     "defaultMaxRelativeItemPathLength": 100,

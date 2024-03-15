@@ -10,6 +10,7 @@ $sitecoreDockerRegistry = $envContent | Where-Object { $_ -imatch "^SITECORE_DOC
 $sitecoreVersion = $envContent | Where-Object { $_ -imatch "^SITECORE_VERSION=.+" }
 $ClientCredentialsLogin = $envContent | Where-Object { $_ -imatch "^SITECORE_FedAuth_dot_Auth0_dot_ClientCredentialsLogin=.+" }
 $sitecoreApiKey = ($envContent | Where-Object { $_ -imatch "^SITECORE_API_KEY_xmcloudpreview=.+" }).Split("=")[1]
+$xmcloudDockerToolsImage = ($envContent | Where-Object { $_ -imatch "^TOOLS_IMAGE=.+" }).Split("=")[1]
 
 $xmCloudHost = $xmCloudHost.Split("=")[1]
 $sitecoreDockerRegistry = $sitecoreDockerRegistry.Split("=")[1]
@@ -42,6 +43,9 @@ if (-not $envCheck) {
 
 Write-Host "Keeping XM Cloud base image up to date" -ForegroundColor Green
 docker pull "$($sitecoreDockerRegistry)sitecore-xmcloud-cm:$($sitecoreVersion)"
+
+Write-Host "Keeping XM Cloud Tools image up to date" -ForegroundColor Green
+docker pull "$($xmcloudDockerToolsImage):$($sitecoreVersion)"
 
 # Build all containers in the Sitecore instance, forcing a pull of latest base containers
 Write-Host "Building containers..." -ForegroundColor Green

@@ -68,7 +68,7 @@ services:
       context: ./docker/build/cm
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-cm:${SITECORE_VERSION}
-        TOOLS_IMAGE: ${TOOLS_IMAGE}
+        TOOLS_IMAGE: ${TOOLS_IMAGE}:${SITECORE_VERSION}
     volumes:
       - ${LOCAL_DEPLOY_PATH}\platform:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
@@ -85,4 +85,4 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
-    entrypoint: powershell -Command "& C:/tools/entrypoints/iis/Development.ps1"
+    entrypoint: powershell -Command "& C:/tools/entrypoints/iis/XmCloudDevelopment.ps1"
