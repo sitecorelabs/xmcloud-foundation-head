@@ -10,6 +10,9 @@ SharedFields:
 - ID: "fc76919b-0d7c-4732-865d-2af795fb38a4"
   Hint: ServerSideRenderingEngineEndpointUrl
   Value: "http://rendering:3000/api/editing/render"
+- ID: "94470b31-e282-4d8d-bc54-85689efb294c"
+  Hint: ServerSideRenderingEngineConfigUrl
+  Value: "http://rendering:3000/api/editing/config"
 Languages:
 - Language: en
   Versions:
