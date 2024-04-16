@@ -1,7 +1,7 @@
 {
   "name": "sxastarter",
   "description": "Application utilizing Sitecore JavaScript Services and Next.js",
-  "version": "21.6.3",
+  "version": "21.6.0",
   "private": true,
   "config": {
     "appName": "sxastarter",
@@ -33,7 +33,7 @@
   "dependencies": {
     "@sitecore-cloudsdk/events": "^0.1.3",
     "@sitecore-feaas/clientside": "^0.5.12",
-    "@sitecore-jss/sitecore-jss-nextjs": "~21.6.3",
+    "@sitecore-jss/sitecore-jss-nextjs": "~21.6.0",
     "@sitecore/components": "^1.1.6",
     "bootstrap": "^5.1.3",
     "font-awesome": "^4.7.0",
@@ -55,8 +55,8 @@
     "@graphql-codegen/typescript-operations": "^2.5.12",
     "@graphql-codegen/typescript-resolvers": "^2.7.12",
     "@graphql-typed-document-node/core": "^3.1.1",
-    "@sitecore-jss/sitecore-jss-cli": "~21.6.3",
-    "@sitecore-jss/sitecore-jss-dev-tools": "~21.6.3",
+    "@sitecore-jss/sitecore-jss-cli": "~21.6.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "~21.6.0",
     "@types/node": "^18.11.18",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.0.5",
