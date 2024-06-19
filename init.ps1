@@ -108,6 +108,7 @@ Add-HostsEntry "www.sxastarter.localhost"
 # Generate scjssconfig
 ###############################
 
+$xmCloudBuild = Get-Content "xmcloud.build.json" | ConvertFrom-Json
 Set-EnvFileVariable "JSS_DEPLOYMENT_SECRET_xmcloudpreview" -Value $xmCloudBuild.renderingHosts.xmcloudpreview.jssDeploymentSecret
 
 ################################
