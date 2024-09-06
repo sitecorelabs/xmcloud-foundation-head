@@ -2,6 +2,7 @@ services:
   traefik:
     isolation: ${TRAEFIK_ISOLATION}
     image: ${TRAEFIK_IMAGE}
+    hostname: traefik
     command:
       - "--ping"
       - "--api.insecure=true"
@@ -26,10 +27,12 @@ services:
   mssql:
     isolation: ${ISOLATION}
     image: ${SITECORE_NONPRODUCTION_DOCKER_REGISTRY}nonproduction/mssql-developer:2017-${EXTERNAL_IMAGE_TAG_SUFFIX}
+    hostname: mssql
     environment:
       SA_PASSWORD: ${SQL_SA_PASSWORD}
       SITECORE_ADMIN_PASSWORD: ${SITECORE_ADMIN_PASSWORD}
       ACCEPT_EULA: "Y"
+      NO_PROXY: localhost, 127.0.0.1, .local, solr, mssql, traefik, mssql-init, solr-init, cm
     ports:
       - "14330:1433"
     volumes:
@@ -39,6 +42,7 @@ services:
   mssql-init:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-mssql-init:${SITECORE_VERSION}
+    hostname: mssql-init
     environment:
       SQL_SERVER: ${SQL_SERVER}
       SQL_ADMIN_LOGIN: ${SQL_SA_LOGIN}
@@ -46,6 +50,7 @@ services:
       SQL_DATABASE_PREFIX: ${SQL_DATABASE_PREFIX}
       SITECORE_ADMIN_PASSWORD: ${SITECORE_ADMIN_PASSWORD}
       POST_DEPLOYMENT_WAIT_PERIOD: 300
+      NO_PROXY: localhost, 127.0.0.1, .local, solr, mssql, traefik, mssql-init, solr-init, cm
     healthcheck:
       test: ["CMD", "powershell", "-command", "if ([System.Environment]::GetEnvironmentVariable('DatabasesDeploymentStatus', 'Machine') -eq 'Complete') { exit 0 } else { exit 1}"]
       start_period: 300s
@@ -56,6 +61,7 @@ services:
   solr:
     isolation: ${ISOLATION}
     image: ${SITECORE_NONPRODUCTION_DOCKER_REGISTRY}nonproduction/solr:8.11.2-${EXTERNAL_IMAGE_TAG_SUFFIX}
+    hostname: solr
     ports:
       - "8984:8983"
     volumes:
@@ -64,11 +70,13 @@ services:
         target: c:\data
     environment:
       SOLR_MODE: solrcloud
+      NO_PROXY: localhost, 127.0.0.1, .local, solr, mssql, traefik, mssql-init, solr-init, cm
     healthcheck:
       test: ["CMD", "powershell", "-command", "try { $$statusCode = (iwr http://solr:8983/solr/admin/cores?action=STATUS -UseBasicParsing).StatusCode; if ($$statusCode -eq 200) { exit 0 } else { exit 1} } catch { exit 1 }"]
   solr-init:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-solr-init:${SITECORE_VERSION}
+    hostname: solr-init
     environment:
       SITECORE_SOLR_CONNECTION_STRING: http://solr:8983/solr
       SOLR_CORE_PREFIX_NAME: ${SOLR_CORE_PREFIX_NAME}
@@ -78,6 +86,7 @@ services:
   cm:
     isolation: ${ISOLATION}
     image: ${SITECORE_DOCKER_REGISTRY}sitecore-xmcloud-cm:${SITECORE_VERSION}
+    hostname: cm
     depends_on:
       mssql:
         condition: service_healthy
@@ -112,6 +121,7 @@ services:
       SITECORE_FedAuth_dot_Auth0_dot_Domain: ${SITECORE_FedAuth_dot_Auth0_dot_Domain}
       SITECORE_FedAuth_dot_Auth0_dot_Audience: ${SITECORE_FedAuth_dot_Auth0_dot_Audience}
       SITECORE_FedAuth_dot_Auth0_dot_LogoutRedirect: ${SITECORE_FedAuth_dot_Auth0_dot_LogoutRedirect}
+      NO_PROXY: localhost, 127.0.0.1, .local, solr, mssql, traefik, mssql-init, solr-init, cm
     healthcheck:
       test: ["CMD", "powershell", "-command", "C:/Healthchecks/Healthcheck.ps1"]
       timeout: 300s
