@@ -7,8 +7,8 @@ param (
 
 $ErrorActionPreference = "Stop"
 
-$XmCloudDeployApi = (Get-Content "$PSScriptRoot\.sitecore\user.json" | ConvertFrom-Json).endpoints.xmCloud.host
-$XmCloudDeployAccessToken = (Get-Content "$PSScriptRoot\.sitecore\user.json" | ConvertFrom-Json).endpoints.xmCloud.accessToken
+$XmCloudDeployApi = (Get-Content "$PSScriptRoot\..\..\.sitecore\user.json" | ConvertFrom-Json).endpoints.xmCloud.host
+$XmCloudDeployAccessToken = (Get-Content "$PSScriptRoot\..\..\.sitecore\user.json" | ConvertFrom-Json).endpoints.xmCloud.accessToken
 
 $Headers = @{"Authorization" = "Bearer $XmCloudDeployAccessToken" }
 $URL = @(
@@ -19,7 +19,7 @@ $URL = @(
 
 $Response = Invoke-RestMethod ($URL -join '/') -Method 'GET' -Headers $Headers -Verbose
 $AccessToken = $Response.apiKey
-$EdgeUrl = "$($Response.edgeUrl)/api/graphql/ide"
+$EdgeUrl = "$($Response.edgeUrl)api/graphql/ide"
 Write-Host "Launching Edge GraphQL IDE"
 Write-Host "Add { ""X-GQL-Token"" : ""$AccessToken"" } to the HTTP HEADERS tab at the bottom-left of the screen to write queries against your content"
 Start-Process $EdgeUrl
