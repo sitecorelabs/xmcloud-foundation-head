@@ -36,6 +36,16 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
         {headLinks.map((headLink) => (
           <link rel={headLink.rel} key={headLink.href} href={headLink.href} />
         ))}
+
+        {/* OG Data */}
+        {/* <meta name="title" property="og:title" content={fields?.OgTitle?.value?.toString()} />
+        <meta
+          name="description"
+          property="og:description"
+          content={fields?.OgDescription?.value?.toString()}
+        />
+        <meta name="image" property="og:image" content={fields?.OgImage?.value?.src?.toString()} />
+        <meta name="type" property="og:type" content={route?.templateName} /> */}
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
