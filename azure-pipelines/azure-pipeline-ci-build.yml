@@ -1,0 +1,39 @@
+steps:
+- task: NuGetToolInstaller@1
+  displayName: 'Perform Installing Nuget Tool'
+
+- task: NuGetCommand@2
+  displayName: 'Preparing NuGet Restore'
+  inputs:
+    restoreSolution: 'DIFCXmCloud.sln'
+    feedsToUse: config
+    nugetConfigPath: '$(Build.SourcesDirectory)\nuget.config'
+
+- task: VSBuild@1
+  displayName: 'Preparing Build Solution'
+  inputs:
+    solution: 'DIFCXmCloud.sln'
+    configuration: Release
+    platform: 'Any CPU'
+
+- task: VSBuild@1
+  displayName: 'Build Visual Studio Solution'
+  inputs:
+    solution: '$(Build.SourcesDirectory)\src\Project\DIFCWebsite\code\DIFC.Project.Platform.csproj'
+    configuration: Release
+    platform: 'AnyCPU'
+
+- task: NodeTool@0
+  displayName: 'Install Node'
+  inputs:
+    versionSpec: 16.15.1
+
+- task: PowerShell@2
+  displayName: 'Build Front End'
+  inputs:
+    targetType: 'inline'
+    script: |
+     $env:NODE_OPTIONS = "--max-old-space-size=8192"
+     npm install
+     npm run build
+    workingDirectory: $(System.DefaultWorkingDirectory)\src\difc

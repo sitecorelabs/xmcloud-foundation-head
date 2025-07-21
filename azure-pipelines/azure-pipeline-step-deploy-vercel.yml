@@ -1,0 +1,30 @@
+steps:
+- task: NodeTool@0
+  displayName: 'Install Node'
+  inputs:
+    versionSpec: 18.x
+
+- powershell: |
+    npm i -g vercel
+  workingDirectory: $(System.DefaultWorkingDirectory)
+  displayName: 'Install Vercel CLI'
+
+- powershell: |
+    npm install
+  workingDirectory: $(System.DefaultWorkingDirectory)/src/difc
+  displayName: 'Run NPM install'
+
+# Build & Deploy frontend Code - Vercel
+- powershell: |
+    $deployUrl = vercel --prod --scope $(VERCEL_SCOPE) --token $(VERCEL_DEPLOY_TOKEN)
+    echo "$deployUrl"
+    echo "##vso[task.setvariable variable=deployUrl]$deployUrl"
+  workingDirectory: $(System.DefaultWorkingDirectory)/src/difc
+  displayName: 'Deploy to Vercel'
+
+# Perform Health Check - frontend
+- task: PowerShell@2
+  displayName: 'Perform HealthCheck on Vercel App'
+  inputs:
+    filePath: '$(System.DefaultWorkingDirectory)/azure-pipelines/health-check.ps1'
+    arguments: '-Url $(VercelAppUrl)'

@@ -1,0 +1,10 @@
+trigger: none
+
+pool:
+  vmImage: 'windows-latest'
+  
+variables:
+- group: 'Build Pipeline Variables'
+
+steps:
+- template: azure-pipeline-ci-build.yml

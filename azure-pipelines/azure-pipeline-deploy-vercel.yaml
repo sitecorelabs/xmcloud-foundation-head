@@ -1,0 +1,157 @@
+trigger: none
+
+resources:
+  repositories:
+  - repository: difc-web-dev
+    type: git
+    name: difc-web
+    ref: 'refs/heads/development'
+  - repository: difc-web-preprod
+    type: git
+    name: difc-web
+    ref: 'refs/heads/pre-prod'
+  - repository: difc-web-production
+    type: git
+    name: difc-web
+    ref: 'refs/heads/production'
+
+stages:
+- stage: DeployToDevelopment
+  jobs:
+  - deployment: DeployToDevelopment
+    displayName: "Deploy to Development - Vercel"
+    environment: 'Development'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: development
+    - group: 'Release Pipeline Variables - Dev'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-dev'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'
+
+- stage: DeployToPreProd
+  dependsOn: DeployToDevelopment
+  jobs:
+  - deployment: DeployToPreProd
+    displayName: "Deploy to Pre-Prod - Vercel"
+    environment: 'Pre-Prod'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: preprod
+    - group: 'Release Pipeline Variables - PreProd'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-preprod'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'
+
+- stage: DeployToProduction
+  dependsOn:
+  - DeployToDevelopment
+  - DeployToPreProd
+  jobs:
+  - deployment: DeployToProduction
+    displayName: "Deploy to Production - Vercel"
+    environment: 'Production'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: production
+    - group: 'Release Pipeline Variables - Production'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-production'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'
+
+- stage: DeployToInnovationHubDevelopment
+  jobs:
+  - deployment: DeployToInnovationHubDevelopment
+    displayName: "Deploy to InnovationHub Development - Vercel"
+    environment: 'Development'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: development
+    - group: 'Release Pipeline Variables - Dev'
+    - name: VERCEL_PROJECT_ID
+      value: prj_5OtsE5FIj75OYDBfbJaUx8H3npqc
+    - name: VercelAppUrl
+      value: https://difc-innovationhub-dev.vercel.app
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-dev'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'
+
+- stage: DeployToInnovationHubPreProd
+  dependsOn: DeployToInnovationHubDevelopment
+  jobs:
+  - deployment: DeployToInnovationHubPreProd
+    displayName: "Deploy to InnovationHub PreProd - Vercel"
+    environment: 'Pre-Prod'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: preprod
+    - group: 'Release Pipeline Variables - PreProd'
+    - name: VERCEL_PROJECT_ID
+      value: prj_JD3obpcm8HuldkBNVJpednnH5emN
+    - name: VercelAppUrl
+      value: https://difc-innovationhub-preprod.vercel.app
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-preprod'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'
+
+- stage: DeployToInnovationHubProduction
+  dependsOn:
+  - DeployToInnovationHubDevelopment
+  - DeployToInnovationHubPreProd
+  jobs:
+  - deployment: DeployToInnovationHubProduction
+    displayName: "Deploy to InnovationHub Production - Vercel"
+    environment: 'Production'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: production
+    - group: 'Release Pipeline Variables - Production'
+    - name: VERCEL_PROJECT_ID
+      value: prj_nIaQn7Wav2TomphK6W3CtIVVQUII
+    - name: VercelAppUrl
+      value: https://difc-innovationhub-prod.vercel.app
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-production'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'

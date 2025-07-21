@@ -1,0 +1,42 @@
+steps:
+#Restore Sitecore CLI
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      dotnet tool restore
+  displayName: 'Restore Sitecore CLI'
+
+#Login To XMCloud
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      dotnet sitecore cloud login --client-credentials --client-id $(client-id) --client-secret $(client-secret) --verbose
+  displayName: 'Login To XMCloud'
+
+#Perform Deployment to XMCloud
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Write-Host "Deployment Started!!"
+      $deployment = dotnet sitecore cloud deployment create --environment-id $(environment-id) --upload --trace --verbose
+      $deployment
+      if($deployment -match "Your deployment is complete and the Sitecore CM instance is available") {
+        Write-Host "Your Deployment is Successful!!"
+        exit 0
+      }
+      elseif($deployment -match "The deployment creation failed.") {
+        Write-Host "Your Deployment Failed!!!"
+        exit 1
+      }
+      elseif($deployment -match "The deployment creation has timed out.") {
+        Write-Host "The deployment creation has timed out!!!"
+        exit 1
+      }
+      else {
+        Write-Host "Unable to determine the status!! Please check the logs and correct the script with appropriate condition!!"
+        exit 1
+      }
+  displayName: 'Perform Deployment to XMCloud'

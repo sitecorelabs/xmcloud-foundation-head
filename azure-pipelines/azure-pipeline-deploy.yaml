@@ -1,0 +1,77 @@
+trigger: none
+
+resources:
+  repositories:
+  - repository: difc-web-dev
+    type: git
+    name: difc-web
+    ref: 'refs/heads/development'
+  - repository: difc-web-preprod
+    type: git
+    name: difc-web
+    ref: 'refs/heads/pre-prod'
+  - repository: difc-web-production
+    type: git
+    name: difc-web
+    ref: 'refs/heads/production'
+
+stages:
+- stage: DeployToDevelopment
+  jobs:
+  - deployment: DeployToDevelopment
+    displayName: "Deploy to Development - XMCloud"
+    environment: 'Development'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: development
+    - group: 'Release Pipeline Variables - Dev'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-dev'
+          - template: 'azure-pipeline-step-deploy-xmcloud.yml'
+
+- stage: DeployToPreProd
+  jobs:
+  - deployment: DeployToPreProd
+    displayName: "Deploy to Pre-Prod - XMCloud"
+    environment: 'Pre-Prod'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: preprod
+    - group: 'Release Pipeline Variables - PreProd'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-preprod'
+          - template: 'azure-pipeline-step-deploy-xmcloud.yml'
+
+- stage: DeployToProduction
+  jobs:
+  - deployment: DeployToProduction
+    displayName: "Deploy to Production - XMCloud"
+    environment: 'Production'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: production
+    - group: 'Release Pipeline Variables - Production'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'difc-web-production'
+          - template: 'azure-pipeline-step-deploy-xmcloud.yml'
