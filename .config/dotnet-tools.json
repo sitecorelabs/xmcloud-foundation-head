@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "sitecore.cli": {
-      "version": "5.2.113",
+      "version": "6.0.23",
       "commands": [
         "sitecore"
       ]
