@@ -38,6 +38,12 @@ const Custom500 = (props: SitecorePageProps): JSX.Element => {
     <SitecoreContext
       componentFactory={componentBuilder.getComponentFactory()}
       layoutData={props.layoutData}
+      api={{
+        edge: {
+          contextId: config.sitecoreEdgeContextId,
+          edgeUrl: config.sitecoreEdgeUrl,
+        },
+      }}
     >
       <Layout layoutData={props.layoutData} headLinks={props.headLinks} />
     </SitecoreContext>
