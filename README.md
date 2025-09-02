@@ -1,3 +1,19 @@
+# 🚨 Deprecation Notice
+
+> **This repository is no longer actively maintained.**
+As XM Cloud continues to evolve, we’ve introduced a new starter kit built on the **Content SDK**, which is the strategic foundation for all future XM Cloud development.
+
+🔗 **New Starter Kit Repository**  
+👉 [XM Cloud Starter Kit (Content SDK)](https://github.com/Sitecore/xmcloud-starter-js/) 
+
+The Content SDK enables a modern, scalable, and composable architecture that aligns with Sitecore’s long-term vision. It simplifies integration, improves performance, and unlocks the full potential of XM Cloud’s capabilities.
+
+This repository will remain available for reference, but we strongly encourage developers to adopt the new starter kit for all current and future XM Cloud projects.
+
+Thank you to everyone who contributed to Foundation.Head and helped shape the early journey of XM Cloud!
+
+---
+
 # XM Cloud Front End Application Starter Kits
 
 This repository contains the Next.js Starter Kit, and the SPA Starters monorepo (which includes a Node Proxy Application and and SPA starter apps) for Sitecore XM Cloud Development. It is intended to get developers up and running quickly with a new front end project that is integrated with Sitecore XM Cloud.
